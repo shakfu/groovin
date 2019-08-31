@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3650061975,
+	"modificationdate" : 3650120115,
 	"viewrect" : [ 54.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -48,14 +48,6 @@
 			}
 
 		}
-,
-		"other" : 		{
-			"readme.md" : 			{
-				"kind" : "file",
-				"local" : 1
-			}
-
-		}
 
 	}
 ,
@@ -67,7 +59,7 @@
 
 	}
 ,
-	"detailsvisible" : 0,
+	"detailsvisible" : 1,
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
