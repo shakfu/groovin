@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3650130779,
+	"modificationdate" : 3650209293,
 	"viewrect" : [ 54.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -39,23 +39,6 @@
 		}
 ,
 		"media" : 		{
-			"groovin.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-
-		}
-,
-		"code" : 		{
-			"sa.gin.setup.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"sa.gin.app.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
 
 		}
 ,
