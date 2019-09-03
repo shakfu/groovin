@@ -15,6 +15,9 @@ This project uses
 
 - the karma object (see cycling 74 packages)
 
+- spindrift~ granular object (
+
+
 ## Design
 
 - [x] convert to project
@@ -28,7 +31,8 @@ This project uses
 - [x] add playhead
 - [x] add karma~
 - [x] refactor refactor refactor
-- [ ] add spindrift~
+- [x] add spindrift~
+    - [ ] add waveform scanning functionality
 - [ ] add stereo mixer
 - [ ] add modulation
 - [ ] polybuffer~ to load samples from folder?
