@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3650368211,
+	"modificationdate" : 3650385022,
 	"viewrect" : [ 54.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -32,21 +32,6 @@
 			}
 ,
 			"groovin_ksampler_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_xymixer_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_xymixer2_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"xydemo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

@@ -1,4 +1,4 @@
-# Groovin v0.1
+# Groovin v0.1 (karma branch)
 
 ## Overview
 
@@ -9,9 +9,11 @@ This was really an experiment (my first patch really) and incorporates mono vers
 
 ## Externals
 
-This project uses V. Boehm's 64-bit version (seehttps://github.com/v7b1/gigaverb and https://vboehm.net) of the original gigaverb~ external from by Olaf Matthes for maxmsp. GVerb implementation by Juhana Sadeharju kouhia@nic.funet.fi. 
+This project uses 
 
+- V. Boehm's 64-bit version (seehttps://github.com/v7b1/gigaverb and https://vboehm.net) of the original gigaverb~ external from by Olaf Matthes for maxmsp. GVerb implementation by Juhana Sadeharju kouhia@nic.funet.fi. 
 
+- the karma object (see cycling 74 packages)
 
 ## Design
 
@@ -24,8 +26,9 @@ This project uses V. Boehm's 64-bit version (seehttps://github.com/v7b1/gigaverb
 - [x] add reverb
 - [x] use umenu autopopulate
 - [x] add playhead
-- [ ] refactor refactor refactor
-
+- [x] add karma~
+- [x] refactor refactor refactor
+- [ ] add spindrift~
 - [ ] add stereo mixer
 - [ ] add modulation
 - [ ] polybuffer~ to load samples from folder?
