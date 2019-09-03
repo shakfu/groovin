@@ -2,11 +2,11 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3650209293,
+	"modificationdate" : 3650368211,
 	"viewrect" : [ 54.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
-	"showdependencies" : 1,
+	"showdependencies" : 0,
 	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
@@ -31,19 +31,35 @@
 				"local" : 1
 			}
 ,
-			"groovin_test.maxpat" : 			{
+			"groovin_ksampler_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"groovin_xymixer_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"groovin_xymixer2_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"xydemo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 
 		}
 ,
-		"media" : 		{
-
-		}
-,
 		"externals" : 		{
 			"gigaverb~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"karma~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}

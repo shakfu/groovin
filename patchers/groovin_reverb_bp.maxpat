@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 615.0, 193.0, 703.0, 668.0 ],
+		"rect" : [ 615.0, 193.0, 387.0, 668.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 343.5, 436.5, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 481.5, 29.0, 51.0, 22.0 ],
+					"presentation_rect" : [ 59.0, 169.0, 64.0, 22.0 ],
 					"text" : "bypass",
 					"texton" : "bypass"
 				}
@@ -87,7 +87,7 @@
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 46.0, 575.0, 17.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.75, 29.0, 68.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 168.0, 55.0, 23.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-60", "number", "float", -11.0, 5, "obj-39", "number", "float", 0.48, 5, "obj-38", "number", "float", 5.0, 5, "obj-37", "number", "float", 0.62, 5, "obj-34", "number", "float", 0.6, 5, "obj-17", "number", "float", -13.0, 5, "obj-14", "number", "float", -6.0, 5, "<invalid>", "toggle", "int", 0 ]
@@ -151,22 +151,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 13.0,
-					"id" : "obj-21",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.5, 76.0, 157.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 7.75, 6.0, 67.0, 21.0 ],
-					"text" : "REVERB",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
@@ -174,7 +158,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.5, 280.0, 151.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 423.5, 6.0, 54.5, 20.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 54.5, 20.0 ],
 					"text" : "dry",
 					"textjustification" : 1
 				}
@@ -189,7 +173,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.5, 252.0, 156.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 6.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 145.0, 55.0, 20.0 ],
 					"text" : "tail",
 					"textjustification" : 1
 				}
@@ -204,7 +188,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.5, 222.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 310.0, 6.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 121.0, 55.0, 20.0 ],
 					"text" : "early",
 					"textjustification" : 1
 				}
@@ -219,7 +203,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.5, 192.0, 148.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 250.0, 6.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 97.0, 55.0, 20.0 ],
 					"text" : "bwidth",
 					"textjustification" : 1
 				}
@@ -234,7 +218,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.5, 164.0, 149.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.0, 6.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 73.0, 55.0, 20.0 ],
 					"text" : "revtime",
 					"textjustification" : 1
 				}
@@ -249,7 +233,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.5, 133.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 136.0, 6.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 49.0, 55.0, 20.0 ],
 					"text" : "damp",
 					"textjustification" : 1
 				}
@@ -264,7 +248,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.5, 105.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.0, 6.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 25.0, 55.0, 20.0 ],
 					"text" : "room",
 					"textjustification" : 1
 				}
@@ -295,7 +279,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 250.0, 383.0, 52.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 423.0, 29.0, 55.0, 22.0 ],
+					"presentation_rect" : [ 59.0, 2.0, 64.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -325,7 +309,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 250.0, 333.0, 52.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 29.0, 55.0, 22.0 ],
+					"presentation_rect" : [ 59.0, 145.0, 64.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -355,7 +339,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 251.0, 185.0, 55.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.0, 29.0, 55.0, 22.0 ],
+					"presentation_rect" : [ 59.0, 73.0, 64.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -385,7 +369,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 251.0, 133.0, 52.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 136.0, 29.0, 55.0, 22.0 ],
+					"presentation_rect" : [ 59.0, 49.0, 64.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -403,7 +387,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 250.0, 81.0, 55.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.0, 29.0, 55.0, 22.0 ],
+					"presentation_rect" : [ 59.0, 25.0, 64.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -421,7 +405,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 251.0, 235.0, 52.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 250.0, 29.0, 55.0, 22.0 ],
+					"presentation_rect" : [ 59.0, 97.0, 64.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -511,7 +495,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 251.0, 284.0, 52.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 308.0, 29.0, 55.0, 22.0 ],
+					"presentation_rect" : [ 59.0, 121.0, 64.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -686,7 +670,26 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
+						"angle" : 270,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
