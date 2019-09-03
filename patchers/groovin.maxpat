@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 413.0, 79.0, 760.0, 773.0 ],
+		"rect" : [ 413.0, 79.0, 765.0, 778.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 686.0, 691.5, 129.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.5, 722.25, 124.0, 26.0 ],
+					"presentation_rect" : [ 35.5, 728.5, 124.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_shortname" : "live.gain~",
@@ -79,7 +79,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 413.0, 839.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 389.0, 720.25, 92.0, 21.0 ],
+					"presentation_rect" : [ 389.0, 726.5, 92.0, 21.0 ],
 					"text" : "audio settings",
 					"texton" : "audio settings"
 				}
@@ -93,7 +93,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 739.5, 859.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 488.5, 714.75, 29.5, 29.5 ]
+					"presentation_rect" : [ 488.5, 721.0, 29.5, 29.5 ]
 				}
 
 			}
@@ -108,7 +108,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 707.0, 749.5, 45.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.5, 720.25, 45.0, 23.0 ],
+					"presentation_rect" : [ 233.5, 726.5, 45.0, 23.0 ],
 					"text" : "REC",
 					"texton" : "REC",
 					"textoncolor" : [ 0.996078431372549, 0.388235294117647, 0.388235294117647, 1.0 ]
@@ -125,7 +125,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 721.0, 816.0, 76.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.5, 720.25, 76.0, 23.0 ],
+					"presentation_rect" : [ 280.5, 726.5, 76.0, 23.0 ],
 					"text" : "0 0 0 0",
 					"textjustification" : 1
 				}
@@ -142,7 +142,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 765.5, 749.5, 38.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.5, 720.25, 39.0, 23.0 ],
+					"presentation_rect" : [ 192.5, 726.5, 39.0, 23.0 ],
 					"text" : "open"
 				}
 
@@ -159,7 +159,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 39.0, 659.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 711.125, 504.0, 38.625 ],
+					"presentation_rect" : [ 19.5, 717.375, 504.0, 38.625 ],
 					"proportion" : 0.5
 				}
 
@@ -181,7 +181,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 106.0, 703.5, 341.0, 115.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.5, 573.5, 339.0, 108.0 ],
+					"presentation_rect" : [ 19.5, 574.5, 389.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
