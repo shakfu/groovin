@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 446.0, 104.0, 763.0, 778.0 ],
+		"rect" : [ 434.0, 88.0, 763.0, 778.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 27.0, 889.0, 130.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 412.0, 577.5, 196.0, 107.0 ]
+					"presentation_rect" : [ 412.0, 577.5, 188.0, 105.0 ]
 				}
 
 			}
@@ -65,12 +65,12 @@
 					"presentation_rect" : [ 35.5, 728.5, 124.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -216,7 +216,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 534.0, 703.5, 131.0, 195.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 620.0, 563.0, 135.0, 193.0 ],
+					"presentation_rect" : [ 623.0, 563.0, 126.0, 193.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -784,6 +784,13 @@
 			}
 , 			{
 				"name" : "groovin_delay_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "groovin_filter_biquad_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
