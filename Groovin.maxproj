@@ -2,8 +2,8 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3650491448,
-	"viewrect" : [ 54.0, 45.0, 300.0, 500.0 ],
+	"modificationdate" : 3651457947,
+	"viewrect" : [ 44.0, 53.0, 335.0, 586.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -41,22 +41,27 @@
 				"local" : 1
 			}
 ,
-			"sa.random_range.maxpat" : 			{
+			"groovin_oscbank_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"test_random_range.maxpat" : 			{
+			"groovin2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"test_index.maxpat" : 			{
+			"groovin_reverb_h_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"sa.automenu.maxpat" : 			{
+			"groovin_filter_biquad_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"groovin_filter_cascade_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -87,6 +92,14 @@
 	}
 ,
 	"searchpath" : 	{
+		"0" : 		{
+			"bootpath" : "~/Documents/Max 8/Projects/Shaxlib",
+			"projectrelativepath" : "../Shaxlib",
+			"label" : "",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 0
+		}
 
 	}
 ,
@@ -95,6 +108,6 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0,
+	"sortmode" : 1,
 	"viewmode" : 1
 }
