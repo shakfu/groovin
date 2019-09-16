@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 434.0, 88.0, 763.0, 778.0 ],
+		"rect" : [ 122.0, 88.0, 763.0, 778.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -65,12 +65,12 @@
 					"presentation_rect" : [ 35.5, 728.5, 124.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
@@ -519,7 +519,7 @@
 					"patching_rect" : [ 330.0, 839.5, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Macintosh HD:/Users/sa/Music/Max Modules/Groovin/groovin.icns",
+						"appicon_mac" : "Macintosh HD:/Users/sa/Documents/Max 8/Projects/Groovin/media/groovin.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
 						"bundleidentifier" : "me.shax.groovin",
