@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 113.0, 85.0, 759.0, 781.0 ],
+		"rect" : [ 427.0, 85.0, 759.0, 781.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -248,12 +248,12 @@
 					"presentation_rect" : [ 468.333333333333371, 714.5, 239.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -322,7 +322,7 @@
 					"patching_rect" : [ 721.0, 816.0, 76.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 556.500000000000114, 741.5, 99.0, 23.0 ],
-					"text" : "0 0 0 0",
+					"text" : "0 0 5 477",
 					"textjustification" : 1
 				}
 
@@ -804,14 +804,14 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "groovin_sampler_bp.maxpat",
+					"name" : "groovin_granular_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 36.0, 24.0, 779.0, 149.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 41.0, 750.0, 135.0 ],
+					"presentation_rect" : [ 19.0, 47.0, 464.0, 129.0 ],
 					"varname" : "channel1",
 					"viewvisibility" : 1
 				}
@@ -1040,6 +1040,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "groovin_granular_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sl.ui_sample_menu.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Shaxlib/bpatchers",
+				"patcherrelativepath" : "../../Shaxlib/bpatchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "groovin_sampler_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
@@ -1094,6 +1108,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "spindrift~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "gigaverb~.mxo",

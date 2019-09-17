@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3651486497,
+	"modificationdate" : 3651572120,
 	"viewrect" : [ 44.0, 53.0, 343.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -41,11 +41,6 @@
 				"local" : 1
 			}
 ,
-			"groovin_granular_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"groovin_oscbank_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -62,6 +57,16 @@
 			}
 ,
 			"groovin3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"groovin_granular2_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"groovin_granular_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
