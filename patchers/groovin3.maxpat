@@ -735,7 +735,7 @@
 					"id" : "obj-10",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "groovin_granular_bp.maxpat",
+					"name" : "groovin_sampler_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -758,7 +758,7 @@
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "groovin_granular_bp.maxpat",
+					"name" : "groovin_sampler_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -811,7 +811,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 36.0, 24.0, 779.0, 149.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 47.0, 746.0, 129.0 ],
+					"presentation_rect" : [ 16.0, 43.0, 746.0, 133.0 ],
 					"varname" : "channel1",
 					"viewvisibility" : 1
 				}
@@ -1075,20 +1075,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "groovin_granular_bp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sl.ui_sample_menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Shaxlib/bpatchers",
-				"patcherrelativepath" : "../../Shaxlib/bpatchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "groovin_reverb_h_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
@@ -1108,10 +1094,6 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "spindrift~.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "gigaverb~.mxo",

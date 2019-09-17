@@ -65,12 +65,12 @@
 					"presentation_rect" : [ 35.5, 728.5, 124.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~"
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -216,7 +216,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 534.0, 703.5, 131.0, 195.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 623.0, 563.0, 126.0, 193.0 ],
+					"presentation_rect" : [ 630.0, 563.0, 126.0, 193.0 ],
 					"viewvisibility" : 1
 				}
 

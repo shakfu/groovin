@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 352.0, 215.0, 943.0, 414.0 ],
+		"rect" : [ 384.0, 180.0, 943.0, 414.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,39 +38,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 173.719365686523588, 438.0, 79.0, 20.0 ],
-					"text" : "biquad filter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-8",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "groovin_filter_biquad_bp.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 87.5, 462.0, 154.219365686523588, 55.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 434.333333333333371, 3.0, 159.666666666666629, 131.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
@@ -2484,9 +2451,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 87.5, 532.5, 149.0, 128.0 ],
+					"patching_rect" : [ 67.25, 482.05126953125, 193.0, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 596.0, 5.0, 152.0, 127.0 ],
+					"presentation_rect" : [ 596.0, 16.5, 152.0, 135.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2527,7 +2494,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.5, 677.77118644067798, 30.0, 30.0 ]
+					"patching_rect" : [ 67.25, 681.771186440677866, 30.0, 30.0 ]
 				}
 
 			}
@@ -3525,17 +3492,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"midpoints" : [ 97.0625, 438.313137248410953, 114.3125, 438.313137248410953, 114.3125, 343.313137248410953, 128.0625, 343.313137248410953 ],
-					"order" : 0,
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-55", 0 ],
+					"midpoints" : [ 97.0625, 438.313137248410953, 114.3125, 438.313137248410953, 114.3125, 343.313137248410953, 128.0625, 343.313137248410953 ],
+					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -3586,6 +3553,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"midpoints" : [ 76.75, 670.207838155455534, 76.75, 670.207838155455534 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -3710,13 +3678,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-124", 1 ],
 					"source" : [ "obj-83", 1 ]
 				}
@@ -3810,13 +3771,6 @@
 			}
 , 			{
 				"name" : "groovin_delay_bp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "groovin_filter_biquad_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
