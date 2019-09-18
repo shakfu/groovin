@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 25.0, 1037.333373999999822, 80.0, 13.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 408.0, 577.5, 39.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-23",
@@ -735,9 +748,9 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 910.0, 116.0, 109.0 ],
+					"patching_rect" : [ 48.0, 910.0, 116.0, 109.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 412.0, 577.5, 188.0, 105.0 ]
+					"presentation_rect" : [ 449.0, 577.5, 158.0, 105.0 ]
 				}
 
 			}
@@ -756,12 +769,12 @@
 					"presentation_rect" : [ 35.5, 728.5, 124.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
@@ -878,14 +891,14 @@
 					"id" : "obj-11",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "groovin_ksampler_bp.maxpat",
+					"name" : "groovin_ksample_min_bp.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 106.0, 703.5, 341.0, 115.0 ],
+					"patching_rect" : [ 48.0, 703.5, 393.0, 113.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.5, 574.5, 389.0, 110.0 ],
+					"presentation_rect" : [ 19.5, 574.5, 392.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1338,6 +1351,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 1,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"order" : 0,
 					"source" : [ "obj-11", 0 ]
@@ -1347,8 +1368,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 115.5, 829.5, 524.5, 829.5, 524.5, 692.5, 543.5, 692.5 ],
-					"order" : 1,
+					"midpoints" : [ 57.5, 829.5, 524.5, 829.5, 524.5, 692.5, 543.5, 692.5 ],
+					"order" : 2,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1594,14 +1615,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "groovin_ksampler_bp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "groovin_filter_cascade_bp.maxpat",
+				"name" : "groovin_ksample_min_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

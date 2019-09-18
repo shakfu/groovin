@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 112.0, 103.0, 867.0, 611.0 ],
+		"rect" : [ 112.0, 103.0, 915.0, 409.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,68 +38,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"logfreq" : 1,
-					"maxclass" : "spectroscope~",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.978058000000033, 512.5, 129.0, 130.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 588.0, 58.125, 147.0, 49.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-9",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "groovin_filter_cascade_bp.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 120.0, 426.5, 161.0, 104.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 429.0, 3.0, 159.0, 104.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 145.0, 330.0, 16.0, 81.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 390.0, 3.0, 36.0, 104.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"automatic" : 1,
-					"id" : "obj-20",
-					"maxclass" : "scope~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 336.0, 512.5, 130.0, 130.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 588.0, 3.0, 146.5, 51.6875 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "textbutton",
@@ -382,7 +320,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 587.0, 30.0, 30.0 ]
+					"patching_rect" : [ 12.0, 366.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -519,8 +457,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -530,14 +467,6 @@
 					"destination" : [ "obj-31", 0 ],
 					"midpoints" : [ 89.5, 236.0, 103.5, 236.0 ],
 					"source" : [ "obj-13", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"order" : 1,
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -618,8 +547,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -628,14 +556,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-31", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"order" : 1,
-					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -706,41 +626,8 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 2,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 129.5, 556.5, 315.5, 556.5, 315.5, 469.5, 345.5, 469.5 ],
-					"order" : 1,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 129.5, 558.5, 316.5, 558.5, 316.5, 470.5, 480.478058000000033, 470.5 ],
-					"order" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "groovin_filter_cascade_bp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "karma~.mxo",
 				"type" : "iLaX"
 			}
