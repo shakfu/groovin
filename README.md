@@ -18,21 +18,9 @@ This project uses
 - spindrift~ granular object (
 
 
-## Design
+## Todo
 
-- [x] convert to project
-- [x] toggle looping
-	  - for reverse looping use info~ to get length and then change start to length?
-- [x] implement info~ 
-- [x] convert groovin.maxpat to subpatcher
-- [x] add delay
-- [x] add reverb
-- [x] use umenu autopopulate
-- [x] add playhead
-- [x] add karma~
-- [x] refactor refactor refactor
-- [x] add spindrift~
-    - [ ] add waveform scanning functionality
+
 - [ ] add stereo mixer
 - [ ] add modulation
 - [ ] polybuffer~ to load samples from folder?

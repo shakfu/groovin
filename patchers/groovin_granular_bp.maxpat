@@ -60,7 +60,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 363.522064, 79.0, 66.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.875, 4.27118644067798, 48.0, 21.864406779661067 ],
+					"presentation_rect" : [ 299.552777777777806, 4.27118644067798, 48.0, 21.864406779661067 ],
 					"text" : "scan",
 					"texton" : "scan"
 				}
@@ -687,7 +687,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 493.594286222222195, 61.5, 66.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 254.084564, 4.27118644067798, 48.0, 21.864406779661067 ],
+					"presentation_rect" : [ 203.875, 4.27118644067798, 48.0, 21.864406779661067 ],
 					"text" : "reset",
 					"texton" : "reset"
 				}
@@ -1008,7 +1008,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 159.75, 152.5, 48.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.240277777777806, 3.635593220339047, 44.0, 22.0 ],
+					"presentation_rect" : [ 253.552777777777806, 4.27118644067798, 44.0, 22.0 ],
 					"text" : "sync",
 					"texton" : "async"
 				}
@@ -1492,7 +1492,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1066.0, 272.0, 50.0, 49.0 ],
-									"text" : "readheadjitter -1."
+									"text" : "readheadjitter 1."
 								}
 
 							}

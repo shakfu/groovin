@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3651634919,
+	"modificationdate" : 3651636815,
 	"viewrect" : [ 44.0, 53.0, 343.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -56,54 +56,9 @@
 				"local" : 1
 			}
 ,
-			"groovin_fsampler_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_zsampler_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"groovin_granular_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
-			}
-,
-			"groovin_granular2_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_filterbank_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_filterbank_mini_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_oscbank_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"demo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_filterbank_mono_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
 			}
 
 		}
