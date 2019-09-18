@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 85.0, 761.0, 781.0 ],
+		"rect" : [ 179.0, 79.0, 924.0, 781.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -195,7 +195,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"items" : [ "sampler", ",", "granular" ],
+					"items" : [ "sampler", ",", "granular", ",", "fsampler" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -248,12 +248,12 @@
 					"presentation_rect" : [ 468.333333333333371, 714.5, 239.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~"
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0
 						}
 
 					}
