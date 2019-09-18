@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 426.0, 83.0, 763.0, 778.0 ],
+		"rect" : [ 253.0, 79.0, 763.0, 778.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,8 +60,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.0, 1054.333374000000049, 133.0, 23.0 ],
-					"text" : "load groovin3.maxpat"
+					"patching_rect" : [ 459.0, 1054.333374000000049, 179.0, 23.0 ],
+					"text" : "load groovin_modular.maxpat"
 				}
 
 			}
@@ -160,41 +160,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"id" : "obj-6",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 249.0, 496.0, 50.0 ],
-									"text" : "The line \"#X end;\" ends the script definition, causing the menus to be constructed. For an example script, double-click on the menubar object in the menubar.help window."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-5",
-									"linecount" : 10,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 85.0, 768.0, 152.0 ],
-									"text" : "#X about <text of About... item>;\r#X file <item number output> <text of item to add to File menu>;\r#X edit <item number output> <text of item to add to Edit menu>;\r#X saveas <item number to output instead of using standard Save and Save As… routines> (item number will be 1 less for \"Save\");\r#X open <item number> and #X newitem <item number>: same idea as \"saveas\" to optionally trap these items in the File menu;\r#X closeitem--if present, a close item is added to file menu (closes any window);\r#X menutitle <menu-number--must be at least 5> <name of menu>;\r#X item <menu-number> <item number output> <text of item>;\rAn menutitle message must always precede any associated item messages;\r#X end;"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
 									"id" : "obj-3",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 16.0, 11.0, 476.0, 65.0 ],
-									"text" : "menubar scripts are written in the edit window you get when double-clicking on the menubar object. They are saved with the patcher containing the menubar object. Each script line begins with #X and ends with a semicolon. The first script message must be \"about\" and the last \"end.\";"
+									"text" : "Docs go here\n\n\nHow to..."
 								}
 
 							}
@@ -216,7 +188,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 616.5, 1116.0, 83.0, 23.0 ],
+					"patching_rect" : [ 662.5, 1116.333374000000049, 83.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -238,7 +210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.5, 1089.0, 55.0, 23.0 ],
+					"patching_rect" : [ 662.5, 1089.333374000000049, 55.0, 23.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -252,7 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.5, 1054.333374000000049, 37.0, 23.0 ],
+					"patching_rect" : [ 662.5, 1054.333374000000049, 37.0, 23.0 ],
 					"text" : "open"
 				}
 
@@ -318,7 +290,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 552.0, 349.0, 336.0, 202.0 ],
+						"rect" : [ 229.0, 463.0, 337.0, 202.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 11.595186999999999,
@@ -348,30 +320,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"hidden" : 1,
-									"id" : "obj-7",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 115.0, 264.0, 27.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 34.0, 116.0, 264.0, 27.0 ],
-									"text" : "Switch to Presentation Mode...",
-									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
 									"fontsize" : 11.595186999999999,
 									"id" : "obj-26",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 344.0, 397.5, 67.0, 20.0 ],
+									"patching_rect" : [ 344.0, 397.5, 67.0, 21.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -386,7 +341,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 344.0, 347.5, 40.0, 20.0 ],
+									"patching_rect" : [ 344.0, 347.5, 40.0, 21.0 ],
 									"text" : "round"
 								}
 
@@ -400,7 +355,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 344.0, 373.5, 210.0, 18.0 ],
+									"patching_rect" : [ 344.0, 373.5, 210.0, 21.0 ],
 									"text" : "window size $1 $2 $3 $4, window exec"
 								}
 
@@ -414,7 +369,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 344.0, 95.5, 158.0, 20.0 ],
+									"patching_rect" : [ 344.0, 95.5, 158.0, 21.0 ],
 									"text" : "b"
 								}
 
@@ -428,7 +383,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 344.0, 321.5, 56.0, 20.0 ],
+									"patching_rect" : [ 344.0, 321.5, 56.0, 21.0 ],
 									"text" : "zl join"
 								}
 
@@ -442,7 +397,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 381.0, 279.5, 158.0, 20.0 ],
+									"patching_rect" : [ 381.0, 279.5, 158.0, 21.0 ],
 									"text" : "vexpr $f1 + $f2"
 								}
 
@@ -456,7 +411,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 344.0, 250.5, 158.0, 20.0 ],
+									"patching_rect" : [ 344.0, 250.5, 158.0, 21.0 ],
 									"text" : "vexpr $f1 - $f2"
 								}
 
@@ -470,7 +425,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 483.0, 177.5, 86.0, 20.0 ],
+									"patching_rect" : [ 483.0, 177.5, 86.0, 21.0 ],
 									"text" : "vexpr $i1 * 0.5"
 								}
 
@@ -484,7 +439,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 344.0, 205.5, 86.0, 20.0 ],
+									"patching_rect" : [ 344.0, 205.5, 86.0, 21.0 ],
 									"text" : "vexpr $i1 * 0.5"
 								}
 
@@ -498,7 +453,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 344.0, 177.5, 56.0, 20.0 ],
+									"patching_rect" : [ 344.0, 177.5, 56.0, 21.0 ],
 									"text" : "zl slice 2"
 								}
 
@@ -512,7 +467,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 483.0, 146.5, 84.0, 20.0 ],
+									"patching_rect" : [ 483.0, 146.5, 84.0, 21.0 ],
 									"text" : "zl reg 336 202"
 								}
 
@@ -526,7 +481,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 344.0, 68.5, 58.0, 20.0 ],
+									"patching_rect" : [ 344.0, 68.5, 58.0, 21.0 ],
 									"text" : "loadbang"
 								}
 
@@ -540,7 +495,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "list", "list" ],
-									"patching_rect" : [ 344.0, 123.5, 67.0, 20.0 ],
+									"patching_rect" : [ 344.0, 123.5, 67.0, 21.0 ],
 									"text" : "screensize"
 								}
 
@@ -564,15 +519,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.595186999999999,
 									"id" : "obj-2",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 66.0, 225.0, 33.0 ],
+									"patching_rect" : [ 46.0, 66.0, 225.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 55.0, 66.0, 225.0, 33.0 ],
-									"text" : "The software that helps you win \"how many M&Ms are in that jar?\" contests"
+									"presentation_rect" : [ 55.0, 66.0, 225.0, 19.0 ],
+									"text" : "Tools for Layering sounds.."
 								}
 
 							}
@@ -581,15 +534,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.595186999999999,
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 25.0, 127.0, 33.0 ],
+									"patching_rect" : [ 46.0, 25.0, 127.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 55.0, 25.0, 127.0, 33.0 ],
-									"text" : "Candy Counter™ version 1.0"
+									"presentation_rect" : [ 55.0, 25.0, 127.0, 19.0 ],
+									"text" : "Groovin™ version 1.0"
 								}
 
 							}
@@ -601,10 +552,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.0, 169.0, 234.0, 20.0 ],
+									"patching_rect" : [ 40.0, 169.0, 234.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 48.0, 169.0, 234.0, 20.0 ],
-									"text" : "M&M is a registered trademark of Mars, Inc."
+									"presentation_rect" : [ 48.0, 169.0, 234.0, 19.0 ],
+									"text" : "v.01 2019 sa"
 								}
 
 							}
@@ -1263,7 +1214,7 @@
 						"appicon_win" : "",
 						"audiosupport" : 1,
 						"bundleidentifier" : "me.shax.groovin",
-						"cantclosetoplevelpatchers" : 1,
+						"cantclosetoplevelpatchers" : 0,
 						"cefsupport" : 0,
 						"copysupport" : 0,
 						"database" : 0,
@@ -1644,6 +1595,13 @@
 			}
 , 			{
 				"name" : "groovin_ksampler_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "groovin_filter_cascade_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
