@@ -2,9 +2,13 @@
 
 ## Overview
 
-A looping sample player based on the groove~ msp object and the karma~, spindrift~ and gigaverb~ externals.
+A Max/Msp looping sample player based on the groove~ msp object and the karma~, spindrift~ and gigaverb~ externals. This means that it is Max OS X only (64-bit).
 
 This was really an experiment (my first patch really) and incorporates mono version of the stereo feedback delay and lovely sounding gigaverb~ reverb object. See below.
+
+
+Note that it assumes that you have a samples files (wave or aif) in `~/Music/samples` 
+
 
 
 ## Externals
