@@ -1,4 +1,4 @@
-# Groovin v0.2 (karma/spindrift branch)
+# Groovin v0.4
 
 ## Overview
 
@@ -24,12 +24,13 @@ primary
 
 - more standalone polish
 - better docs
-- apply hints to all ui objects
 
 secondary
 
 - [ ] add stereo mixer
 - [ ] add modulation
 - [ ] polybuffer~ to load samples from folder?
+- [ ] use poly~ ?
+- [ ] add a keyboard sampler module with midi input
 
 
