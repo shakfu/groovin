@@ -205,12 +205,12 @@
 					"presentation_rect" : [ 468.333333333333371, 714.5, 239.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
@@ -312,7 +312,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 358.0, 841.0, 291.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 462.666666666666742, 711.375, 291.333333333333258, 57.625 ],
+					"presentation_rect" : [ 460.91666666666697, 711.375, 293.08333333333303, 57.625 ],
 					"proportion" : 0.5
 				}
 
@@ -1010,6 +1010,13 @@
 			}
 , 			{
 				"name" : "groovin_filter_cascade_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "groovin_karma_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

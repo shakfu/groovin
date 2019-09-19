@@ -891,7 +891,7 @@
 					"id" : "obj-11",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "groovin_ksample_min_bp.maxpat",
+					"name" : "groovin_karma_bp.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1615,7 +1615,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "groovin_ksample_min_bp.maxpat",
+				"name" : "groovin_karma_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

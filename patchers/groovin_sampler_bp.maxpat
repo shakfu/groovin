@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 352.0, 215.0, 943.0, 414.0 ],
+		"rect" : [ 352.0, 215.0, 402.0, 414.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2243,7 +2243,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-83",
-					"items" : [ "s00.wav", ",", "s01.wav", ",", "s02.wav", ",", "s03.wav", ",", "s04.wav", ",", "s05.wav", ",", "s06.wav", ",", "s07.wav", ",", "s08.wav", ",", "s09.wav", ",", "s10.wav", ",", "s11.wav", ",", "s12.wav", ",", "s13.wav", ",", "s14.wav", ",", "s15.wav", ",", "s16.wav", ",", "s17.wav", ",", "s18.wav", ",", "s19.wav" ],
+					"items" : [ "s00.wav", ",", "s01.wav", ",", "s02.wav", ",", "s03.wav", ",", "s04.wav", ",", "s05.wav", ",", "s06.wav", ",", "s07.wav", ",", "s08.wav", ",", "s09.wav", ",", "s10.wav", ",", "s11.wav", ",", "s12.wav", ",", "s13.wav", ",", "s14.wav", ",", "s15.wav", ",", "s16.wav", ",", "s17.wav", ",", "s18.wav", ",", "s19.wav", ",", "s20.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2421,6 +2421,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "set loop",
 					"id" : "obj-98",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -2438,6 +2439,7 @@
 , 			{
 				"box" : 				{
 					"format" : 6,
+					"hint" : "loop end",
 					"id" : "obj-70",
 					"maxclass" : "flonum",
 					"maximum" : 1.0,
@@ -2455,6 +2457,7 @@
 , 			{
 				"box" : 				{
 					"format" : 6,
+					"hint" : "loop start",
 					"id" : "obj-71",
 					"maxclass" : "flonum",
 					"maximum" : 1.0,
@@ -2533,6 +2536,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "reset selection",
 					"id" : "obj-43",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -2549,6 +2553,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "re(play)",
 					"id" : "obj-29",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -3258,6 +3263,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "pause",
 					"id" : "obj-6",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -3274,6 +3280,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "play direction",
 					"id" : "obj-16",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -3319,6 +3326,7 @@
 , 			{
 				"box" : 				{
 					"format" : 6,
+					"hint" : "playhead speed",
 					"id" : "obj-15",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
