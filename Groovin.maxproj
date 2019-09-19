@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3651750699,
+	"modificationdate" : 3651756373,
 	"viewrect" : [ 44.0, 53.0, 343.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -10,60 +10,65 @@
 	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
+			"grv_fx_delay_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_submod_karma_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"groovin.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_sampler_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_delay_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_filter_biquad_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_reverb_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_ksampler_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_filter_cascade_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_modular.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
-			"groovin_reverb_h_bp.maxpat" : 			{
+			"grv_mod_looper_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"groovin_granular_bp.maxpat" : 			{
+			"grv_fx_reverb_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"groovin_karma_bp.maxpat" : 			{
+			"grv_mod_ksampler.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"grv_mod_granulator_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"grv_filter_cascade_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"grv_filter_biquad_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 
 		}
@@ -73,12 +78,12 @@
 		}
 ,
 		"externals" : 		{
-			"gigaverb~.mxo" : 			{
+			"karma~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
-			"karma~.mxo" : 			{
+			"gigaverb~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -109,5 +114,5 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 1,
-	"viewmode" : 1
+	"viewmode" : 0
 }
