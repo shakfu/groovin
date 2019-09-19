@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 532.0, 86.0, 771.0, 780.0 ],
+		"rect" : [ 430.0, 86.0, 771.0, 780.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,38 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 334.0, 893.5, 67.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"appicon_mac" : "Macintosh HD:/Users/sa/Documents/Max 8/Projects/Groovin/media/groovin.icns",
+						"appicon_win" : "",
+						"audiosupport" : 1,
+						"bundleidentifier" : "me.shax.groovin",
+						"cantclosetoplevelpatchers" : 0,
+						"cefsupport" : 0,
+						"copysupport" : 0,
+						"database" : 0,
+						"extensions" : 1,
+						"gensupport" : 0,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 1,
+						"overdrive" : 0,
+						"preffilename" : "Max 8 Preferences",
+						"searchformissingfiles" : 0,
+						"statusvisible" : 0,
+						"usesearchpath" : 0
+					}
+,
+					"text" : "standalone"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
@@ -95,19 +127,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 863.0, 124.0, 345.0, 22.0 ],
 					"text" : "sprintf script sendbox channel1 replace groovin_%s_bp.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 928.0, 440.0, 35.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 365.833333333333371, 13.0, 27.0, 20.0 ],
-					"text" : "=>"
 				}
 
 			}

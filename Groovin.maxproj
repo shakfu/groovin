@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3651642813,
+	"modificationdate" : 3651688227,
 	"viewrect" : [ 44.0, 53.0, 343.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -12,8 +12,7 @@
 		"patchers" : 		{
 			"groovin.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"groovin_sampler_bp.maxpat" : 			{
@@ -36,6 +35,11 @@
 				"local" : 1
 			}
 ,
+			"groovin_ksample_min_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"groovin_ksampler_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -48,7 +52,8 @@
 ,
 			"groovin_modular.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"groovin_reverb_h_bp.maxpat" : 			{
@@ -57,11 +62,6 @@
 			}
 ,
 			"groovin_granular_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"groovin_ksample_min_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
