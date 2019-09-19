@@ -119,7 +119,7 @@
 					"patching_rect" : [ 566.050232000000051, 300.523101999999994, 69.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.792572000000064, 55.58776899999998, 69.0, 20.0 ],
-					"text" : "Feedback",
+					"text" : "feedback",
 					"textjustification" : 2
 				}
 
@@ -172,7 +172,7 @@
 					"patching_rect" : [ 416.707427999999936, 4.0, 74.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.792572000000064, 30.064666999999986, 69.5, 20.0 ],
-					"text" : "Delay Time",
+					"text" : "delay time",
 					"textjustification" : 2
 				}
 
@@ -413,7 +413,7 @@
 					"patching_rect" : [ 41.0, 114.0, 59.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.292572000000064, 5.064666999999986, 68.0, 20.0 ],
-					"text" : "Wet / Dry",
+					"text" : "wet / dry",
 					"textjustification" : 2
 				}
 
@@ -531,7 +531,7 @@
 					"patching_rect" : [ 424.945404000000053, 441.815246999999999, 77.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -3.207427999999936, 81.879913999999985, 77.0, 20.0 ],
-					"text" : "Output Level",
+					"text" : "output level",
 					"textjustification" : 2
 				}
 
