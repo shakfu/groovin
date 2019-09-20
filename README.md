@@ -14,11 +14,11 @@ Please note that it assumes that you have a set of samples files (wave or aif) i
 
 This project uses 
 
-- V. Boehm's 64-bit version (see https://github.com/v7b1/gigaverb and https://vboehm.net) of the original gigaverb~ external from by Olaf Matthes for maxmsp. GVerb implementation by Juhana Sadeharju kouhia@nic.funet.fi. 
+- gigaverb~, or more precisely, V. Boehm's [64-bit version](https://github.com/v7b1/gigaverb) of the original, for reverb.
 
-- the karma object (see cycling 74 packages)
+- [karma~](https://cycling74.com/tools/karma-samplerlooper-external): for variabile speed overdubbing and looping.
 
-- spindrift~ granular object
+- [spindrift~](http://www.michaelnorris.info/software/spindrift): for granular synthesis experimentation. 
 
 
 ## Design
@@ -29,13 +29,12 @@ As of v0.4, the design is pretty simple:
 ![overview](media/groovin.svg)
 
 
-    sum((mi => ai => fi => di) for i in range(4)) => (k1 => f1 => r1) => dac
+	sum(mi => ai => fi => di | i in 1 .. 4) => (k1 => f1 => r1) => dac
 
 
 A single page path with 4 gain-controlled channels each consisting of a module which can be either a (groove~) looper  or a (spindrift~) granulator, a single pole filter and a mono delay, mixing into a (karma~) recorder/looper which in turn feeds into n-pole multi-filter and (gigaverb~) reverb feeding into the dac~.
 
 The key feature is that you can on a per-channel basis, via 4 dropdown menus at the top, pick whether a module is a looper or a granulator. This modularilty allow for future extension, of course, and I have I'd like to build other 'modules' in the future, such as a midi or sequencer controlled sampler and include vst-support for example. 
-
 
 Next priorities are to add stereo support and further modulation options. 
 
