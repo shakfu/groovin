@@ -26,7 +26,7 @@ This project uses
 As of v0.4, the design is pretty simple:
 
 
-![overview](https://github.com/shakfu/groovin/media/groovin.svg)
+![overview](https://raw.githubusercontent.com/shakfu/groovin/master/media/groovin.svg)
 
 
     sum((mi => ai => fi => di) for i in range(4)) => (k1 => f1 => r1) => dac
