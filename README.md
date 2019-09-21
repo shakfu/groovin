@@ -6,8 +6,9 @@ A Max/Msp looping sample player based on groove~ msp object and the karma~, spin
 
 This project is/was an iterative product of my attempts over a summer to learn max/msp.
 
-
 Please note that it assumes that you have a set of samples files (wave or aif) in `~/Music/samples`. These can be of pretty much of any length within the constraints of the max/msp engine and your computer.
+
+A partial demo of the features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
 
 
 ## Externals
