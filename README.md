@@ -43,15 +43,20 @@ Next priorities are to add stereo support and further modulation options.
 
 primary
 
-- more standalone polish
-- better docs
+- [ ] code naming improvement: `chan` (for channel) is composite and `mod` (for module)
+- [ ] more standalone polish
+- [ ] better docs
+- [ ] add switchable input to karma module (either interal channels or adc~)
+- [ ] clickless delays (see [ej.vdb~] or m4l.vdelay~ see [here](https://cycling74.com/forums/interpolating-delay/))
+- [ ] vst support
+- [ ] add modulation
+- [ ] add a keyboard sampler module with midi input
 
 secondary
 
 - [ ] add stereo mixer
-- [ ] add modulation
 - [ ] polybuffer~ to load samples from folder?
 - [ ] use poly~ ?
-- [ ] add a keyboard sampler module with midi input
+- [ ] ableton link support
 
 
