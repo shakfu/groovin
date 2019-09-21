@@ -10,9 +10,7 @@ Please note that it assumes that you have a set of samples files (wave or aif) i
 
 A partial demo of the features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=sKZO_4qYpj0
-" target="_blank" style="display: flex; justify-content: center;"><img src="media/groovin_v04_screenshot.png" 
-alt="groovin v0.4" /></a>
+[![groovin v0.4](media/groovin_v04_screenshot.png)](http://www.youtube.com/watch?v=sKZO_4qYpj0)
 
 
 
