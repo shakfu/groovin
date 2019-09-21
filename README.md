@@ -10,6 +10,11 @@ Please note that it assumes that you have a set of samples files (wave or aif) i
 
 A partial demo of the features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=sKZO_4qYpj0
+" target="_blank"><img src="http://img.youtube.com/vi/sKZO_4qYpj0/0.jpg" 
+alt="groovin v0.4" width="240" height="180" border="0" /></a>
+
+
 
 ## Externals
 
