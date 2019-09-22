@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3652023447,
+	"modificationdate" : 3652028120,
 	"viewrect" : [ 44.0, 53.0, 343.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -31,6 +31,11 @@
 				"local" : 1
 			}
 ,
+			"grv_mod_looper_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"grv_fx_reverb_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -46,12 +51,12 @@
 				"local" : 1
 			}
 ,
-			"grv_chan_granulator_bp.maxpat" : 			{
+			"grv_mod_ksampler_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"sl.ui_sample_menu.maxpat" : 			{
+			"grv_chan_granulator_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -61,17 +66,7 @@
 				"local" : 1
 			}
 ,
-			"grv_mod_ksampler_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
-			}
-,
-			"grv_mod_looper_bp.maxpat" : 			{
+			"sl.ui_sample_menu.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -83,12 +78,12 @@
 		}
 ,
 		"externals" : 		{
-			"karma~.mxo" : 			{
+			"gigaverb~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
-			"gigaverb~.mxo" : 			{
+			"karma~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}

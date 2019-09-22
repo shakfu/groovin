@@ -50,19 +50,20 @@ The modularity in the design allows for straitforward Future extension, such as 
 
 ## Todo
 
-primary
+**primary**
 
-- [ ] code naming improvement: `chan` (for channel) is composite and `mod` (for module)
+- [x] code naming improvement: `chan` (for channel) is composite and `mod` (for module)
+- [x] clickless delays (see [ej.vdb~] or m4l.vdelay~ see [here](https://cycling74.com/forums/interpolating-delay/))
+- [ ] add switchable input to karma module (either internal channels or adc~)
+- [ ] send/return for reverb per channel
+- [ ] add a keyboard sampler module with midi input
+- [ ] add modulation
+- [ ] vst support
 - [ ] more standalone polish
 - [ ] better docs
-- [ ] add switchable input to karma module (either interal channels or adc~)
-- [ ] clickless delays (see [ej.vdb~] or m4l.vdelay~ see [here](https://cycling74.com/forums/interpolating-delay/))
-- [ ] vst support
-- [ ] add modulation
-- [ ] add a keyboard sampler module with midi input
-- [ ] send/return for reverb per channel
 
-secondary
+
+**secondary**
 
 - [ ] global timing support
 	- [ ] clock division
