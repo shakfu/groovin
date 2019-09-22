@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 438.0, 92.0, 772.0, 607.0 ],
+		"rect" : [ 844.0, 140.0, 772.0, 607.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 9.0625, 4.0, 400.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.4375, 3.135593220339047, 397.0, 133.0 ],
+					"presentation_rect" : [ 4.4375, 3.135593220339047, 395.0, 133.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -112,7 +112,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 32.5625, 223.0, 96.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 417.125, 28.5, 15.0, 83.0 ]
+					"presentation_rect" : [ 418.125, 28.5, 14.0, 84.0 ]
 				}
 
 			}
@@ -127,7 +127,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.0625, 162.0, 20.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.4375, 28.5, 15.0, 83.0 ]
+					"presentation_rect" : [ 400.4375, 28.5, 15.0, 84.0 ]
 				}
 
 			}
@@ -193,6 +193,12 @@
 				"name" : "grv_fx_delay_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.vdelay~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}
