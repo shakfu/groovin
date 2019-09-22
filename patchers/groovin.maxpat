@@ -793,8 +793,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 390.0, 353.0, 22.0 ],
-					"text" : "sprintf script sendbox channel4 replace grv_mod_%s_bp.maxpat"
+					"patching_rect" : [ 863.0, 390.0, 355.0, 22.0 ],
+					"text" : "sprintf script sendbox channel4 replace grv_chan_%s_bp.maxpat"
 				}
 
 			}
@@ -805,8 +805,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 293.0, 353.0, 22.0 ],
-					"text" : "sprintf script sendbox channel3 replace grv_mod_%s_bp.maxpat"
+					"patching_rect" : [ 863.0, 293.0, 355.0, 22.0 ],
+					"text" : "sprintf script sendbox channel3 replace grv_chan_%s_bp.maxpat"
 				}
 
 			}
@@ -817,8 +817,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 204.0, 353.0, 22.0 ],
-					"text" : "sprintf script sendbox channel2 replace grv_mod_%s_bp.maxpat"
+					"patching_rect" : [ 863.0, 204.0, 355.0, 22.0 ],
+					"text" : "sprintf script sendbox channel2 replace grv_chan_%s_bp.maxpat"
 				}
 
 			}
@@ -829,8 +829,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 124.0, 365.0, 22.0 ],
-					"text" : "sprintf script sendbox channel1 replace grv_mod_%s_bp.maxpat"
+					"patching_rect" : [ 863.0, 124.0, 355.0, 22.0 ],
+					"text" : "sprintf script sendbox channel1 replace grv_chan_%s_bp.maxpat"
 				}
 
 			}
@@ -909,12 +909,12 @@
 					"presentation_rect" : [ 468.333333333333371, 714.5, 239.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~"
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -1031,7 +1031,7 @@
 					"id" : "obj-11",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_mod_ksampler.maxpat",
+					"name" : "grv_chan_ksampler_bp.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1364,7 +1364,7 @@
 					"id" : "obj-10",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_mod_looper_bp.maxpat",
+					"name" : "grv_chan_looper_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1387,7 +1387,7 @@
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_mod_looper_bp.maxpat",
+					"name" : "grv_chan_looper_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1410,7 +1410,7 @@
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_mod_looper_bp.maxpat",
+					"name" : "grv_chan_looper_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1433,7 +1433,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "grv_mod_looper_bp.maxpat",
+					"name" : "grv_chan_looper_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1731,6 +1731,27 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "grv_chan_looper_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grv_fx_delay_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grv_filter_biquad_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "grv_mod_looper_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
@@ -1752,20 +1773,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_fx_delay_bp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grv_filter_biquad_bp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "grv_fx_reverb_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
@@ -1773,7 +1780,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_mod_ksampler.maxpat",
+				"name" : "grv_chan_ksampler_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1787,7 +1794,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_submod_karma_bp.maxpat",
+				"name" : "grv_mod_ksampler_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

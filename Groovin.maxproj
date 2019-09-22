@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3651756373,
+	"modificationdate" : 3652023447,
 	"viewrect" : [ 44.0, 53.0, 343.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -15,18 +15,18 @@
 				"local" : 1
 			}
 ,
-			"grv_submod_karma_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"groovin.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
-			"grv_mod_looper_bp.maxpat" : 			{
+			"grv_chan_looper_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_filter_biquad_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -36,22 +36,32 @@
 				"local" : 1
 			}
 ,
-			"grv_mod_ksampler.maxpat" : 			{
+			"grv_chan_ksampler_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_filter_cascade_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_chan_granulator_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sl.ui_sample_menu.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"grv_mod_granulator_bp.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 ,
-			"grv_filter_cascade_bp.maxpat" : 			{
+			"grv_mod_ksampler_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
@@ -61,14 +71,9 @@
 
 			}
 ,
-			"grv_filter_biquad_bp.maxpat" : 			{
+			"grv_mod_looper_bp.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 
 		}
@@ -114,5 +119,5 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 1,
-	"viewmode" : 0
+	"viewmode" : 1
 }

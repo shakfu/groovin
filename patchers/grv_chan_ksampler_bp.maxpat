@@ -60,7 +60,7 @@
 					"id" : "obj-23",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_submod_karma_bp.maxpat",
+					"name" : "grv_mod_ksampler_bp.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -205,7 +205,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_submod_karma_bp.maxpat",
+				"name" : "grv_mod_ksampler_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
