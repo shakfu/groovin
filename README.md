@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Max/Msp looping sample player based on groove~ msp object and the karma~, spindrift~ and gigaverb~ externals. It was developed on Max 8 and is Max OS X only (64-bit).
+A Max/Msp 4-track looper with overdubbing based on groove~ msp object and the karma~, spindrift~ and gigaverb~ externals. It was developed on Max 8 and is OS X only (64-bit).
 
 This project is/was an iterative product of my attempts over a summer to learn max/msp.
 
@@ -18,11 +18,11 @@ A partial demo of the features is available on [youtube](https://youtu.be/sKZO_4
 
 This project uses 
 
-- gigaverb~, or more precisely, V. Boehm's [64-bit version](https://github.com/v7b1/gigaverb) of the original, for reverb.
-
 - [karma~](https://cycling74.com/tools/karma-samplerlooper-external): for variabile speed overdubbing and looping.
 
 - [spindrift~](http://www.michaelnorris.info/software/spindrift): for granular synthesis experimentation. 
+
+- gigaverb~, or more precisely, V. Boehm's [64-bit version](https://github.com/v7b1/gigaverb) of the original, for reverb.
 
 
 ## Design
@@ -36,11 +36,16 @@ As of v0.4, the design is pretty simple:
 	sum(mi => ai => fi => di | i in 1 .. 4) => (k1 => f1 => r1) => dac
 
 
-A single page path with 4 gain-controlled channels each consisting of a module which can be either a (groove~) looper  or a (spindrift~) granulator, a single pole filter and a mono delay, mixing into a (karma~) recorder/looper which in turn feeds into n-pole multi-filter and (gigaverb~) reverb feeding into the dac~.
+A single page path with 4 gain-controlled channels each consisting of a module which can be either a (groove~) looper  or a (spindrift~) granulator, a single pole filter and a mono delay, mixing into a (karma~) overdubber/looper which in turn feeds into an n-pole multi-filter and (gigaverb~) reverb feeding into the dac~.
 
-The key feature is that you can on a per-channel basis, via 4 dropdown menus at the top, pick whether a module is a looper or a granulator. This modularilty allow for future extension, of course, and I have I'd like to build other 'modules' in the future, such as a midi or sequencer controlled sampler and include vst-support for example. 
+The design allows for:
 
-Next priorities are to add stereo support and further modulation options. 
+1. Channel modularity: pick whether a channel is a looper or a granulator via 4 dropdown menus at the top.
+
+2. Overdubbing into a 5th channel: the karma~ overdubber/looper records the mix of the 4 channels and then can be used as a seperate 5th channel thereafter.
+
+
+The modularity in the design allows for straitforward Future extension, such as a midi or sequencer controlled sampler and including vst-support for example.
 
 
 ## Todo
@@ -55,12 +60,14 @@ primary
 - [ ] vst support
 - [ ] add modulation
 - [ ] add a keyboard sampler module with midi input
+- [ ] send/return for reverb per channel
 
 secondary
 
+- [ ] global timing support
+	- [ ] clock division
+	- [ ] ableton link support
 - [ ] add stereo mixer
 - [ ] polybuffer~ to load samples from folder?
 - [ ] use poly~ ?
-- [ ] ableton link support
-
 
