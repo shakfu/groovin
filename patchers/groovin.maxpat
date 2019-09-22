@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 119.0, 79.0, 765.0, 780.0 ],
+		"rect" : [ 322.0, 79.0, 765.0, 780.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 107.0, 876.5, 66.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 452.500000000000114, 7.5, 41.0, 31.0 ],
+					"presentation_rect" : [ 708.833333333333371, 12.0, 41.0, 31.0 ],
 					"rows" : 3
 				}
 
@@ -97,7 +97,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 426.0, 18.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 690.750000000000114, 12.0, 63.25, 20.0 ],
+					"presentation_rect" : [ 544.500000000000114, 12.0, 63.25, 20.0 ],
 					"text" : "v.041",
 					"textjustification" : 2
 				}
@@ -1463,7 +1463,7 @@
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_chan_looper_bp.maxpat",
+					"name" : "grv_chan_granulator_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1486,7 +1486,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "grv_chan_looper_bp.maxpat",
+					"name" : "grv_chan_granulator_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -1835,7 +1835,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "grv_chan_looper_bp.maxpat",
+				"name" : "grv_chan_granulator_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grv_filter_biquad_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1855,7 +1862,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_filter_biquad_bp.maxpat",
+				"name" : "grv_mod_granulator_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sl.ui_sample_menu.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grv_chan_looper_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1880,13 +1901,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sl.ui_sample_menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -1916,6 +1930,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "spindrift~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "gigaverb~.mxo",
