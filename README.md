@@ -53,8 +53,7 @@ The design allows for:
 
 - [x] code naming improvement: `chan` (for channel) is composite and `mod` (for module)
 - [x] clickless delays (see [ej.vdb~] or m4l.vdelay~ see [here](https://cycling74.com/forums/interpolating-delay/))
-- [ ] add switchable input to karma module (either internal channels or adc~)
-- [ ] send/return for reverb per channel
+- [x] add switchable matrix input from channels to karma module, reverb, audio out)
 - [ ] add a keyboard sampler module with midi input
 - [ ] add modulation
 - [ ] vst support
