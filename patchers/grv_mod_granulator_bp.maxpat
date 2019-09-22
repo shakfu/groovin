@@ -97,8 +97,8 @@
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -158,44 +158,6 @@
 									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 									"patching_rect" : [ 353.0, 52.0, 104.0, 22.0 ],
 									"text" : "info~ #0_gsample"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 49.0, 188.0, 29.5, 22.0 ],
-									"text" : "+ 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 49.0, 142.0, 68.0, 22.0 ],
-									"text" : "random 16"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-5",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 62.0, 358.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -370,7 +332,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-45",
-									"index" : 2,
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -495,13 +457,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"midpoints" : [ 149.5, 120.0, 149.5, 120.0 ],
 									"order" : 2,
@@ -524,21 +479,6 @@
 									"midpoints" : [ 149.5, 120.0, 243.5, 120.0 ],
 									"order" : 1,
 									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"order" : 3,
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -976,7 +916,7 @@
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 124.0, 283.0, 79.25, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.459564, 108.72881355932202, 110.977936, 20.0 ],
+					"presentation_rect" : [ 280.459564, 108.72881355932202, 111.977936, 20.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "<invalid>", "live.gain~", "float", -3.386184692382812, 5, "obj-118", "flonum", "float", 50.0, 5, "obj-117", "flonum", "float", 0.0, 5, "obj-116", "flonum", "float", 1.0, 5, "obj-115", "flonum", "float", 1.0, 5, "obj-114", "flonum", "float", 0.0, 5, "obj-113", "flonum", "float", 0.0, 5, "obj-112", "flonum", "float", 0.0, 5, "obj-111", "flonum", "float", 0.0, 5, "obj-110", "flonum", "float", 100.0, 5, "obj-109", "flonum", "float", 0.0, 5, "obj-100", "flonum", "float", 5.0, 5, "obj-99", "flonum", "float", 1.0, 5, "obj-14", "textbutton", "mode", 1, 5, "obj-14", "textbutton", "int", 0 ]
@@ -1120,7 +1060,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 108.0625, 113.0, 38.125, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.647064, 108.72881355932202, 38.125, 20.0 ]
+					"presentation_rect" : [ 40.647064, 108.72881355932202, 38.125, 20.0 ]
 				}
 
 			}
@@ -1158,7 +1098,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 108.0625, 92.0, 38.125, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.334564, 108.72881355932202, 38.125, 20.0 ]
+					"presentation_rect" : [ 200.334564, 108.72881355932202, 38.125, 20.0 ]
 				}
 
 			}
@@ -1177,7 +1117,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 66.9375, 92.0, 38.125, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.209564, 108.72881355932202, 38.125, 20.0 ]
+					"presentation_rect" : [ 160.209564, 108.72881355932202, 38.125, 20.0 ]
 				}
 
 			}
@@ -1196,7 +1136,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 108.0625, 71.0, 38.125, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.8125, 108.72881355932202, 38.125, 20.0 ]
+					"presentation_rect" : [ 119.8125, 108.72881355932202, 38.125, 20.0 ]
 				}
 
 			}
@@ -1215,7 +1155,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 66.9375, 71.0, 38.125, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.6875, 108.72881355932202, 38.125, 20.0 ]
+					"presentation_rect" : [ 80.6875, 108.72881355932202, 38.125, 20.0 ]
 				}
 
 			}
@@ -1234,7 +1174,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 108.0625, 50.0, 38.125, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.459564, 108.72881355932202, 38.125, 20.0 ]
+					"presentation_rect" : [ 240.459564, 108.72881355932202, 38.125, 20.0 ]
 				}
 
 			}
@@ -1251,7 +1191,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 66.9375, 50.0, 42.0, 22.0 ],
+					"patching_rect" : [ 66.75, 51.0, 38.3125, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 300.949841777777806, 2.27118644067798, 42.0, 22.0 ]
 				}
@@ -2404,15 +2344,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 2 ],
-					"source" : [ "obj-24", 1 ]
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -2558,8 +2491,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sl.ui_sample_menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Shaxlib/bpatchers",
-				"patcherrelativepath" : "../../Shaxlib/bpatchers",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
