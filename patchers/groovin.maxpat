@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 86.0, 765.0, 780.0 ],
+		"rect" : [ 427.0, 86.0, 979.0, 780.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -98,7 +98,7 @@
 					"patching_rect" : [ 426.0, 18.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 544.500000000000114, 12.0, 63.25, 20.0 ],
-					"text" : "v.041",
+					"text" : "v0.41",
 					"textjustification" : 2
 				}
 
@@ -890,7 +890,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-24",
-					"items" : [ "looper", ",", "granulator" ],
+					"items" : [ "looper", ",", "granulator", ",", "vst" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -905,7 +905,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"items" : [ "looper", ",", "granulator" ],
+					"items" : [ "looper", ",", "granulator", ",", "vst" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -920,7 +920,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"items" : [ "looper", ",", "granulator" ],
+					"items" : [ "looper", ",", "granulator", ",", "vst" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -935,7 +935,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"items" : [ "looper", ",", "granulator" ],
+					"items" : [ "looper", ",", "granulator", ",", "vst" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
