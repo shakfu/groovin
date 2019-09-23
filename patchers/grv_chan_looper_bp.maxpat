@@ -87,7 +87,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7.4375, 376.0, 155.219365686523588, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 434.0, 4.0, 159.666666666666629, 129.0 ],
+					"presentation_rect" : [ 435.0, 4.0, 159.666666666666629, 129.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -123,7 +123,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 40.0, 270.974365234375, 14.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 416.333333333333371, 30.0, 14.0, 79.0 ]
+					"presentation_rect" : [ 417.333333333333371, 30.0, 14.0, 79.0 ]
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 11.5, 270.974365234375, 15.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 398.0, 30.0, 15.0, 79.0 ]
+					"presentation_rect" : [ 399.0, 30.0, 15.0, 79.0 ]
 				}
 
 			}

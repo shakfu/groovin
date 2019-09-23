@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3652048744,
+	"modificationdate" : 3652067678,
 	"viewrect" : [ 44.0, 53.0, 343.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -97,14 +97,6 @@
 	}
 ,
 	"searchpath" : 	{
-		"0" : 		{
-			"bootpath" : "~/Documents/Max 8/Projects/Shaxlib",
-			"projectrelativepath" : "../Shaxlib",
-			"label" : "",
-			"recursive" : 1,
-			"enabled" : 1,
-			"includeincollective" : 0
-		}
 
 	}
 ,

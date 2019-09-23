@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 438.0, 92.0, 850.0, 721.0 ],
+		"rect" : [ 451.0, 376.0, 850.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -84,7 +84,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 363.522064, 79.0, 66.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 250.949841777777806, 2.27118644067798, 48.0, 21.864406779661067 ],
+					"presentation_rect" : [ 249.949841777777806, 2.27118644067798, 48.0, 21.864406779661067 ],
 					"text" : "scan",
 					"texton" : "scan"
 				}
@@ -515,7 +515,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 34.0625, 323.0, 48.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 344.552777777777806, 2.135593220339047, 47.0, 22.0 ],
+					"presentation_rect" : [ 343.552777777777806, 2.135593220339047, 47.0, 22.0 ],
 					"text" : ">",
 					"texton" : ">"
 				}
@@ -579,7 +579,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 493.594286222222195, 61.5, 66.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 155.272064, 2.27118644067798, 48.0, 21.864406779661067 ],
+					"presentation_rect" : [ 154.272064, 2.27118644067798, 48.0, 21.864406779661067 ],
 					"text" : "reset",
 					"texton" : "reset"
 				}
@@ -732,7 +732,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -873,7 +872,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 372.522064, 164.0, 333.144444444444275, 79.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.647064, 24.5, 350.790436, 83.0 ],
+					"presentation_rect" : [ 40.647064, 24.5, 349.790436, 83.0 ],
 					"setmode" : 1
 				}
 
@@ -901,7 +900,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 159.75, 152.5, 48.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.949841777777806, 2.27118644067798, 44.0, 22.0 ],
+					"presentation_rect" : [ 203.949841777777806, 2.27118644067798, 44.0, 22.0 ],
 					"text" : "sync",
 					"texton" : "async"
 				}
@@ -916,7 +915,7 @@
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 124.0, 283.0, 79.25, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.459564, 108.72881355932202, 111.977936, 20.0 ],
+					"presentation_rect" : [ 280.459564, 108.72881355932202, 110.977936, 20.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "<invalid>", "live.gain~", "float", -3.386184692382812, 5, "obj-118", "flonum", "float", 50.0, 5, "obj-117", "flonum", "float", 0.0, 5, "obj-116", "flonum", "float", 1.0, 5, "obj-115", "flonum", "float", 1.0, 5, "obj-114", "flonum", "float", 0.0, 5, "obj-113", "flonum", "float", 0.0, 5, "obj-112", "flonum", "float", 0.0, 5, "obj-111", "flonum", "float", 0.0, 5, "obj-110", "flonum", "float", 100.0, 5, "obj-109", "flonum", "float", 0.0, 5, "obj-100", "flonum", "float", 5.0, 5, "obj-99", "flonum", "float", 1.0, 5, "obj-14", "textbutton", "mode", 1, 5, "obj-14", "textbutton", "int", 0 ]
@@ -1193,7 +1192,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 66.75, 51.0, 38.3125, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 300.949841777777806, 2.27118644067798, 42.0, 22.0 ]
+					"presentation_rect" : [ 299.949841777777806, 2.27118644067798, 42.0, 22.0 ]
 				}
 
 			}

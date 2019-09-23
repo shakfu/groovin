@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 473.0, 182.0, 669.0, 522.0 ],
+		"rect" : [ 219.0, 228.0, 669.0, 522.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -160,14 +160,14 @@
 , 			{
 				"box" : 				{
 					"bubbleside" : 3,
-					"fontsize" : 11.0,
+					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 566.050232000000051, 300.523101999999994, 65.0, 19.0 ],
+					"patching_rect" : [ 566.050232000000051, 300.523101999999994, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.792572000000064, 51.58776899999998, 65.0, 19.0 ],
+					"presentation_rect" : [ 3.792572000000064, 51.58776899999998, 70.0, 20.0 ],
 					"text" : "feedback",
 					"textjustification" : 2
 				}
@@ -216,14 +216,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 11.0,
+					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.707427999999936, 4.0, 70.0, 19.0 ],
+					"patching_rect" : [ 416.707427999999936, 4.0, 75.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.292572000000064, 28.064666999999986, 66.0, 19.0 ],
+					"presentation_rect" : [ 5.292572000000064, 28.064666999999986, 71.0, 20.0 ],
 					"text" : "delay time",
 					"textjustification" : 2
 				}
@@ -458,14 +458,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 11.0,
+					"fontsize" : 12.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 114.0, 56.0, 19.0 ],
+					"patching_rect" : [ 41.0, 114.0, 61.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.292572000000064, 4.064666999999986, 64.0, 19.0 ],
+					"presentation_rect" : [ 5.292572000000064, 4.064666999999986, 70.0, 20.0 ],
 					"text" : "wet / dry",
 					"textjustification" : 2
 				}
@@ -577,14 +577,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 11.0,
+					"fontsize" : 12.0,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.945404000000053, 441.815246999999999, 73.0, 19.0 ],
+					"patching_rect" : [ 424.945404000000053, 441.815246999999999, 79.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.792572000000064, 75.879913999999985, 65.0, 19.0 ],
+					"presentation_rect" : [ 3.792572000000064, 75.879913999999985, 70.0, 20.0 ],
 					"text" : "output level",
 					"textjustification" : 2
 				}
