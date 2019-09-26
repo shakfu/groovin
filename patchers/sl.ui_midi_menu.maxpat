@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 324.0, 96.0, 834.0, 739.0 ],
+		"rect" : [ 324.0, 96.0, 416.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -111,16 +111,18 @@
 , 			{
 				"box" : 				{
 					"autopopulate" : 1,
+					"fontsize" : 10.0,
 					"id" : "obj-3",
-					"items" : "<empty>",
+					"items" : [ "Piano_01_Bpm80_KeyCminor.mid", ",", "Piano_01b_Bpm80_KeyCminor.mid", ",", "Piano_01c_Bpm80_KeyCminor.mid", ",", "Piano_02_Bpm90_KeyAminor.mid", ",", "Piano_02b_Bpm90_KeyAminor.mid", ",", "Piano_03_Bpm90_KeyBmajor.mid", ",", "Piano_03b_Bpm90_KeyBmajor.mid", ",", "Piano_04_Bpm100_KeyC#major.mid", ",", "Piano_04b_Bpm100_KeyC#major.mid", ",", "Piano_05_Bpm120_KeyDminor.mid", ",", "Piano_05b_Bpm120_KeyDminor.mid", ",", "Piano_06_Bpm130_KeyFminor.mid", ",", "Piano_06b_Bpm130_KeyFminor.mid", ",", "Piano_06c_Bpm130_KeyFminor.mid", ",", "Piano_07_Bpm125_KeyG#minor.mid", ",", "Piano_07b_Bpm125_KeyG#minor.mid", ",", "Piano_07c_Bpm125_KeyG#minor.mid", ",", "Piano_08_Bpm125_KeyC#major.mid", ",", "Piano_08b_Bpm125_KeyC#major.mid", ",", "Piano_08c_Bpm125_KeyC#major.mid", ",", "Piano_09_Bpm75_KeyF#minor.mid", ",", "Piano_09b_Bpm75_KeyF#minor.mid", ",", "Piano_10_Bpm130_KeyA#minor.mid", ",", "Piano_10b_Bpm130_KeyA#minor.mid", ",", "Piano_10c_Bpm130_KeyA#minor.mid", ",", "Piano_11_Bpm120_KeyFminor.mid", ",", "Piano_11b_Bpm120_KeyFminor.mid", ",", "Piano_11c_Bpm120_KeyFminor.mid", ",", "Piano_12_Bpm120_KeyCmajor.mid", ",", "Piano_12b_Bpm120_KeyCmajor.mid", ",", "Piano_13_Bpm80_KeyG#minor.mid", ",", "Piano_14_Bpm80_KeyA#major.mid", ",", "Piano_14b_Bpm80_KeyA#major.mid", ",", "Piano_14c_Bpm80_KeyA#major.mid", ",", "Piano_15_Bpm125_KeyD#minor.mid", ",", "Piano_15b_Bpm125_KeyD#minor.mid", ",", "Piano_16_Bpm85_KeyBmajor.mid", ",", "Piano_16b_Bpm85_KeyBmajor.mid", ",", "Piano_17_Bpm85_KeyAminor.mid", ",", "Piano_17b_Bpm85_KeyAminor.mid", ",", "Piano_18_Bpm90_KeyF#minor.mid", ",", "Piano_18b_Bpm90_KeyF#minor.mid", ",", "Piano_19_Bpm100_KeyG#minor.mid", ",", "Piano_19b_Bpm100_KeyG#minor.mid", ",", "Piano_20_Bpm125_KeyAminor.mid", ",", "Piano_20b_Bpm125_KeyAminor.mid", ",", "Piano_21_Bpm125_KeyDminor.mid", ",", "Piano_21b_Bpm125_KeyDminor.mid", ",", "Piano_22_Bpm125_KeyF#minor.mid", ",", "Piano_22b_Bpm125_KeyF#minor.mid" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 82.419365895508008, 163.0, 100.0, 22.0 ],
+					"patching_rect" : [ 82.419365895508008, 163.0, 100.0, 20.0 ],
+					"prefix" : "Macintosh HD:/Users/sa/Music/midi/",
 					"presentation" : 1,
-					"presentation_rect" : [ 1.419365895508008, 1.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 1.419365895508008, 1.0, 100.0, 20.0 ]
 				}
 
 			}
