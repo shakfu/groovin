@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 387.0, 94.0, 767.0, 703.0 ],
+		"rect" : [ 427.0, 90.0, 767.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,16 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"handoff" : "",
-					"id" : "obj-76",
-					"maxclass" : "ubutton",
+					"id" : "obj-69",
+					"maxclass" : "textbutton",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 854.0, 505.25, 28.0, 27.75 ],
+					"patching_rect" : [ 871.5, 515.0, 54.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 459.0, 12.0, 22.0, 21.803571428571427 ]
+					"presentation_rect" : [ 453.0, 12.0, 36.0, 22.0 ],
+					"text" : "cfg",
+					"texton" : "cfg"
 				}
 
 			}
@@ -62,20 +63,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 864.5, 351.5, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 854.0, 505.25, 28.0, 26.0 ],
-					"pic" : "Macintosh HD:/Users/sa/Documents/Max 8/Projects/Groovin/media/cog.svg",
-					"presentation" : 1,
-					"presentation_rect" : [ 459.0, 12.0, 22.0, 20.428571428571427 ]
 				}
 
 			}
@@ -2501,6 +2488,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
 					"midpoints" : [ 306.5, 975.25, 352.0, 975.25 ],
 					"source" : [ "obj-7", 0 ]
@@ -2551,13 +2545,6 @@
 					"destination" : [ "obj-78", 0 ],
 					"midpoints" : [ 1045.0, 905.833312999999976, 1003.0, 905.833312999999976 ],
 					"source" : [ "obj-75", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"source" : [ "obj-76", 0 ]
 				}
 
 			}
@@ -2717,13 +2704,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cog.svg",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/media",
-				"patcherrelativepath" : "../media",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
