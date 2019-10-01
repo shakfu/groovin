@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 85.0, 767.0, 780.0 ],
+		"rect" : [ 387.0, 94.0, 767.0, 703.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,48 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"handoff" : "",
+					"id" : "obj-76",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 854.0, 505.25, 28.0, 27.75 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 459.0, 12.0, 22.0, 21.803571428571427 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"clickedimage" : 1,
+					"id" : "obj-68",
+					"maxclass" : "pictctrl",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 864.5, 351.5, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 854.0, 505.25, 28.0, 26.0 ],
+					"pic" : "Macintosh HD:/Users/sa/Documents/Max 8/Projects/Groovin/media/cog.svg",
+					"presentation" : 1,
+					"presentation_rect" : [ 459.0, 12.0, 22.0, 20.428571428571427 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-79",
 					"maxclass" : "newobj",
@@ -160,8 +202,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 177.141666666666652, 978.0, 38.0, 23.25 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 451.0, 12.0, 38.0, 22.0 ],
 					"text" : "<<",
 					"texton" : "<<"
 				}
@@ -254,7 +294,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 839.0, 565.0, 54.0, 22.0 ],
+					"patching_rect" : [ 950.25, 561.0, 54.0, 22.0 ],
 					"text" : "sel 0 1 2"
 				}
 
@@ -320,7 +360,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 1019.0, 734.0, 71.0, 22.0 ],
+					"patching_rect" : [ 1130.25, 730.0, 71.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -393,7 +433,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 929.0, 734.0, 78.0, 22.0 ],
+					"patching_rect" : [ 1040.25, 730.0, 78.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -412,7 +452,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1019.0, 633.0, 35.0, 22.0 ],
+					"patching_rect" : [ 1130.25, 629.0, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -424,7 +464,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1019.0, 688.0, 51.0, 22.0 ],
+					"patching_rect" : [ 1130.25, 684.0, 51.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -436,7 +476,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 929.0, 633.0, 35.0, 22.0 ],
+					"patching_rect" : [ 1040.25, 629.0, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -448,7 +488,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 929.0, 688.0, 51.0, 22.0 ],
+					"patching_rect" : [ 1040.25, 684.0, 51.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -460,7 +500,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 839.0, 633.0, 35.0, 22.0 ],
+					"patching_rect" : [ 950.25, 629.0, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -509,6 +549,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -518,7 +559,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 111.0, 30.0, 30.0 ]
+									"patching_rect" : [ 26.0, 35.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -526,7 +567,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 839.0, 734.0, 80.0, 22.0 ],
+					"patching_rect" : [ 950.25, 730.0, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -545,7 +586,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 839.0, 688.0, 51.0, 22.0 ],
+					"patching_rect" : [ 950.25, 684.0, 51.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -562,7 +603,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 839.0, 519.0, 200.0, 24.0 ],
+					"patching_rect" : [ 950.25, 515.0, 200.0, 24.0 ],
 					"segmented" : 1,
 					"tabcolor" : [ 0.23921568627451, 0.23921568627451, 0.23921568627451, 1.0 ],
 					"tabs" : [ "config", "about", "help" ],
@@ -628,7 +669,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 839.0, 481.0, 150.0, 20.0 ],
+					"patching_rect" : [ 950.25, 440.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 629.500000000000114, 17.5, 63.25, 20.0 ],
 					"text" : "v0.41",
@@ -2515,6 +2556,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"midpoints" : [ 935.5, 1012.7371826171875, 1003.0, 1012.7371826171875 ],
 					"source" : [ "obj-77", 0 ]
@@ -2560,6 +2608,7 @@
  ],
 		"parameters" : 		{
 			"obj-5" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-1::obj-44" : [ "vst~[1]", "vst~[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2668,6 +2717,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cog.svg",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
