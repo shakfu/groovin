@@ -166,7 +166,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 609.999999999999886, 221.5, 44.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.47500000000008, 3.0, 38.96666666666664, 21.0 ],
+					"presentation_rect" : [ 112.47500000000008, 4.0, 38.96666666666664, 20.0 ],
 					"text" : "scan",
 					"texton" : "scan"
 				}
@@ -1418,7 +1418,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.591666666666583, 15.05126953125, 104.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.241666666666902, 99.0, 74.174999999999955, 20.0 ],
+					"presentation_rect" : [ 238.241666666666902, 98.0, 74.174999999999955, 21.0 ],
 					"viewvisibility" : 1
 				}
 
