@@ -119,10 +119,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 82.419365895508008, 163.0, 100.0, 20.0 ],
+					"patching_rect" : [ 82.419365895508008, 168.0, 100.0, 20.0 ],
 					"prefix" : "Macintosh HD:/Users/sa/Music/midi/",
 					"presentation" : 1,
-					"presentation_rect" : [ 1.419365895508008, 1.0, 100.0, 20.0 ]
+					"presentation_rect" : [ 1.419366, 1.0, 104.25, 20.0 ]
 				}
 
 			}

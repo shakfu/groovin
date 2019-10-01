@@ -1,4 +1,4 @@
-# Groovin v0.4
+# Groovin v0.41
 
 ## Overview
 
@@ -59,7 +59,7 @@ The design allows for:
 - [ ] vst support
 - [ ] more standalone polish
 - [ ] better docs
-
+- [ ] check ranges
 
 **secondary**
 
