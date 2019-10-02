@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 696.0, 147.0, 636.0, 670.0 ],
+		"rect" : [ 594.0, 360.0, 636.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1895,7 +1895,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.591666666666583, 15.05126953125, 104.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 230.241666666666902, 88.0, 84.174999999999955, 22.0 ],
+					"presentation_rect" : [ 230.241666666666902, 88.0, 83.174999999999955, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3275,7 +3275,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 31.0, 318.0, 196.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.47500000000008, 26.0, 280.0, 45.0 ],
+					"presentation_rect" : [ 111.47500000000008, 25.0, 280.0, 45.0 ],
 					"style" : "ksliderWhite"
 				}
 

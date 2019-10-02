@@ -39,22 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 871.5, 515.0, 54.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 453.0, 12.0, 36.0, 22.0 ],
-					"text" : "cfg",
-					"texton" : "cfg"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"clickedimage" : 1,
 					"id" : "obj-68",
 					"maxclass" : "pictctrl",
@@ -536,7 +520,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2047,7 +2030,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "grv_chan_plugin_bp.maxpat",
+					"name" : "grv_chan_looper_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -2488,13 +2471,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
 					"midpoints" : [ 306.5, 975.25, 352.0, 975.25 ],
 					"source" : [ "obj-7", 0 ]
@@ -2595,7 +2571,6 @@
  ],
 		"parameters" : 		{
 			"obj-5" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-1::obj-44" : [ "vst~[1]", "vst~[1]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2603,7 +2578,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "grv_chan_plugin_bp.maxpat",
+				"name" : "grv_chan_looper_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -2624,27 +2599,6 @@
 			}
 , 			{
 				"name" : "grv_filter_biquad_bp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grv_mod_plugin_bp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sl.ui_midi_menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grv_chan_looper_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
