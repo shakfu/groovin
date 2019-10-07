@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -169,6 +169,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.792572000000064, 51.58776899999998, 70.0, 20.0 ],
 					"text" : "feedback",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -225,6 +226,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.292572000000064, 28.064666999999986, 71.0, 20.0 ],
 					"text" : "delay time",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -467,6 +469,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.292572000000064, 4.064666999999986, 70.0, 20.0 ],
 					"text" : "wet / dry",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -586,6 +589,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.792572000000064, 75.879913999999985, 70.0, 20.0 ],
 					"text" : "output level",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 2
 				}
 

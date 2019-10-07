@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -160,6 +160,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 2.0, 51.0, 20.0 ],
 					"text" : "dry",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -175,6 +176,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 386.0, 2.0, 51.0, 20.0 ],
 					"text" : "tail",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -190,6 +192,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 333.0, 2.0, 51.0, 20.0 ],
 					"text" : "early",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -205,6 +208,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 280.0, 2.0, 51.0, 20.0 ],
 					"text" : "bwidth",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -220,6 +224,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 227.0, 2.0, 51.0, 20.0 ],
 					"text" : "revtime",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -235,6 +240,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 174.0, 2.0, 51.0, 20.0 ],
 					"text" : "damp",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -250,6 +256,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 121.0, 2.0, 51.0, 20.0 ],
 					"text" : "room",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
 
