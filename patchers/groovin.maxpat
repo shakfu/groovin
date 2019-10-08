@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 443.0, 79.0, 772.0, 782.0 ],
+		"rect" : [ 427.0, 92.0, 768.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -568,7 +568,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -1959,7 +1958,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-24",
-					"items" : [ "looper", ",", "granulator", ",", "plugin", ",", "instrument" ],
+					"items" : [ "looper", ",", "granulator", ",", "instrument" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1974,7 +1973,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"items" : [ "looper", ",", "granulator", ",", "plugin", ",", "instrument" ],
+					"items" : [ "looper", ",", "granulator", ",", "instrument" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1989,7 +1988,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"items" : [ "looper", ",", "granulator", ",", "plugin", ",", "instrument" ],
+					"items" : [ "looper", ",", "granulator", ",", "instrument" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2004,7 +2003,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"items" : [ "looper", ",", "granulator", ",", "plugin", ",", "instrument" ],
+					"items" : [ "looper", ",", "granulator", ",", "instrument" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2577,7 +2576,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 604.0, 128.0, 128.0 ],
+					"patching_rect" : [ 566.0, 850.0, 198.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -4.0, 0.0, 778.0, 783.0 ],
 					"proportion" : 0.5
