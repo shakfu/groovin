@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 92.0, 768.0, 782.0 ],
+		"rect" : [ 437.0, 92.0, 768.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -570,13 +570,121 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-32",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 406.999999999999886, 117.0, 317.0, 40.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 133.999999999999886, 189.0, 317.0, 40.0 ],
+									"text" : "remove the known list and opt-out of the\n scanning (going back to the Max normal behavior)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-13",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 406.999999999999886, 13.0, 293.0, 25.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 133.999999999999886, 69.5, 293.0, 25.0 ],
+									"text" : "enable \"normal\" scan mode and initiate a scan"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-25",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 406.999999999999886, 82.0, 308.0, 25.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 133.999999999999886, 151.0, 308.0, 25.0 ],
+									"text" : "delete the existing known list and do a full rescan"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 25.999999999999886, 122.0, 44.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 70.999999999999886, 198.0, 44.0, 22.0 ],
+									"text" : "scan 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 89.999999999999886, 122.0, 44.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 70.999999999999886, 151.0, 44.0, 22.0 ],
+									"text" : "scan 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 406.999999999999886, 50.0, 295.0, 25.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 133.999999999999886, 111.0, 295.0, 25.0 ],
+									"text" : "un-blacklist any failed plugins and rescan them"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 151.999999999999886, 122.0, 44.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 70.999999999999886, 111.0, 44.0, 22.0 ],
+									"text" : "scan 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 482.0, 150.0, 20.0 ],
+									"patching_rect" : [ 214.999999999999886, 452.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 38.47500000000008, 30.0, 150.0, 20.0 ],
+									"presentation_rect" : [ 69.999999999999886, 30.0, 150.0, 20.0 ],
 									"text" : "Re-scan audio unit plugins"
 								}
 
@@ -590,7 +698,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 381.499999999999886, 56.0, 30.0, 30.0 ]
+									"patching_rect" : [ 265.499999999999886, 9.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -601,7 +709,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 332.999999999999886, 525.0, 69.0, 22.0 ],
+									"patching_rect" : [ 216.999999999999886, 478.0, 69.0, 22.0 ],
 									"text" : "r plugin_list"
 								}
 
@@ -612,7 +720,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.999999999999886, 440.0, 71.0, 22.0 ],
+									"patching_rect" : [ 214.999999999999886, 393.0, 71.0, 22.0 ],
 									"text" : "s plugin_list"
 								}
 
@@ -624,7 +732,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 283.999999999999886, 329.0, 37.0, 22.0 ],
+									"patching_rect" : [ 167.999999999999886, 282.0, 37.0, 22.0 ],
 									"text" : "sel 1."
 								}
 
@@ -637,7 +745,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 497.999999999999886, 245.0, 24.0, 24.0 ]
+									"patching_rect" : [ 381.999999999999886, 198.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -653,9 +761,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 429.5, 281.0, 59.999999999999886, 21.0 ],
+									"patching_rect" : [ 313.5, 234.0, 59.999999999999886, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 236.44166666666672, 30.0, 25.999999999999886, 20.0 ],
+									"presentation_rect" : [ 229.44166666666672, 30.0, 61.999999999999886, 20.0 ],
 									"size" : 1.0
 								}
 
@@ -669,7 +777,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 381.499999999999886, 131.5, 44.0, 22.0 ],
+									"patching_rect" : [ 265.499999999999886, 84.5, 44.0, 22.0 ],
 									"text" : "au",
 									"texton" : "au"
 								}
@@ -684,9 +792,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 330.999999999999886, 131.5, 44.0, 22.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 195.47500000000008, 30.0, 38.96666666666664, 20.0 ],
+									"patching_rect" : [ 25.999999999999886, 84.5, 44.0, 22.0 ],
 									"text" : "scan",
 									"texton" : "scan"
 								}
@@ -696,15 +802,15 @@
 								"box" : 								{
 									"fontsize" : 10.0,
 									"id" : "obj-8",
-									"items" : [ "3-Band EQ", ",", "914 Mk 2", ",", "Aaltoverb", ",", "Alternator", ",", "Array", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixMixer", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMixer", ",", "AUMixer3D", ",", "AUMultibandCompressor", ",", "AUMultiChannelMixer", ",", "AUMultiSplitter", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpatialMixer", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Bidule FX (sidechain)", ",", "Bidule FX", ",", "Bidule MFX", ",", "Bidule MIDI", ",", "Bidule", ",", "Big Goat", ",", "Blend", ",", "Blue Face", ",", "Bluejay", ",", "Captain Chords_MidiEffects", ",", "Captain Chords_Synth", ",", "Captain Deep_MidiEffects", ",", "Captain Deep_Synth", ",", "Captain Melody_MidiEffects", ",", "Captain Melody_Synth", ",", "Captain Play_MidiEffects", ",", "Captain Play_Synth", ",", "Chorus_Effect", ",", "Clonemeld", ",", "Cloud Machine", ",", "Cluster", ",", "Comet", ",", "Corrosion", ",", "Crystallizer", ",", "Curve2", ",", "DAW Cassette", ",", "Decapitator", ",", "Degrader", ",", "Delay", ",", "Deleight", ",", "Devil-Loc Deluxe", ",", "Devil-Loc", ",", "Dipole", ",", "Dispersion", ",", "Distortion 1", ",", "DLSMusicDevice", ",", "Drone Piano", ",", "Droplet", ",", "EchoBoy Jr", ",", "EchoBoy", ",", "Echoes T7E", ",", "EffectRack", ",", "Eidolon", ",", "Emission", ",", "Enso", ",", "Eos 2", ",", "Eternal", ",", "Europa by Reason", ",", "Fathoms", ",", "FilterFreak1", ",", "FilterFreak2", ",", "FilterShaper3", ",", "Filterstation2", ",", "Flow II", ",", "Fog Convolver", ",", "Foomph", ",", "Fraction", ",", "FreeAMP", ",", "FuzzPlus3", ",", "Gain", ",", "Grain Streamer", ",", "GrainSpace", ",", "Grand Finale", ",", "Granule", ",", "Granulizer 2", ",", "HalfTime", ",", "Harmonic Maximizer", ",", "Heavy Pedal", ",", "Hexonator", ",", "Hologram", ",", "HRTFPanner", ",", "Idee Fixer", ",", "Inertia", ",", "Insight 2", ",", "Instinct", ",", "iZotope DDLY Dynamic Delay", ",", "iZotope Mobius Filter", ",", "iZotope Trash 2", ",", "Kleverb", ",", "LDC2 Compander", ",", "Limiter", ",", "Little AlterBoy", ",", "Little MicroShift", ",", "Little Plate", ",", "Little PrimalTap", ",", "Little Radiator", ",", "Low Filter", ",", "Luminance", ",", "Malfunction II", ",", "MicroShift", ",", "Microtonic Multi", ",", "Microtonic", ",", "MidiShaper", ",", "Mimik", ",", "Modley", ",", "Modular FX", ",", "Modular", ",", "Molecule", ",", "Multitude", ",", "Nectar 3 Elements", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Elements", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "Numerology AUMX", ",", "Nuxx", ",", "Octavlord", ",", "Outer Space", ",", "Ozone 8 Dynamic EQ", ",", "Ozone 8 Dynamics", ",", "Ozone 8 Elements", ",", "Ozone 8 Equalizer", ",", "Ozone 8 Exciter", ",", "Ozone 8 Imager", ",", "Ozone 8 Maximizer", ",", "Ozone 8 Spectral Shaper", ",", "Ozone 8 Vintage Compressor", ",", "Ozone 8 Vintage EQ", ",", "Ozone 8 Vintage Limiter", ",", "Ozone 8 Vintage Tape", ",", "Ozone 8", ",", "PanMan", ",", "Pastfabric", ",", "PhaseMistress", ",", "Plectrik", ",", "Polaris", ",", "Portal", ",", "Pre X7", ",", "PrimalTap", ",", "Protoverb", ",", "Quanta", ",", "Radiator", ",", "Re-Function", ",", "Reaktor 6 MFX", ",", "Reaktor 6 MIDIFX", ",", "Reaktor 6", ",", "REAMP", ",", "Relay", ",", "Reshuffle", ",", "Reverb", ",", "Robotizer", ",", "Room Piano v2", ",", "RoughRider2", ",", "RX 7 Breath Control", ",", "RX 7 Connect", ",", "RX 7 De-click", ",", "RX 7 De-clip", ",", "RX 7 De-crackle", ",", "RX 7 De-ess", ",", "RX 7 De-hum", ",", "RX 7 De-plosive", ",", "RX 7 De-reverb", ",", "RX 7 Monitor", ",", "RX 7 Mouth De-click", ",", "RX 7 Spectral De-noise", ",", "RX 7 Voice De-noise", ",", "Sequential", ",", "ShaperBox", ",", "Shift", ",", "Side Filter", ",", "Sie-Q", ",", "Singularity", ",", "SketchCassette", ",", "Snap Heap", ",", "Solveig", ",", "Spectral Averaging", ",", "Spectral Bin Shift", ",", "Spectral Blurring", ",", "Spectral DroneMaker", ",", "Spectral Emergence", ",", "Spectral Filterbank", ",", "Spectral Freezing", ",", "Spectral Gate And Hold", ",", "Spectral Gliding Filters", ",", "Spectral Granulation", ",", "Spectral Harmonizer", ",", "Spectral Partial Glide", ",", "Spectral Pitch Shift", ",", "Spectral Pulsing", ",", "Spectral Shimmer", ",", "Spectral Shuffle", ",", "Spectral Stretch", ",", "Spectral Tracing", ",", "Spectral Weave", ",", "Speektra", ",", "Splitch", ",", "Stereo", ",", "Stream", ",", "Super Filterbank", ",", "Surge", ",", "Svep", ",", "Switch", ",", "SyndtSphere", ",", "Synth1", ",", "SynthMaster 2.9 Effect", ",", "SynthMaster 2.9 Instrument", ",", "SynthMaster One Effect", ",", "SynthMaster One Instrument", ",", "TAL Reverb 4 Plugin", ",", "Texture", ",", "The Abuser", ",", "The Mangle", ",", "Tonal Balance Control", ",", "Torsion", ",", "Tremolator", ",", "TS-1 Transient Shaper", ",", "Tube Modulator", ",", "Turbo", ",", "Unfiltered Audio Dent 2", ",", "Unfiltered Audio Fault", ",", "Unfiltered Audio Indent 2", ",", "Unfiltered Audio Instant Delay", ",", "Unfiltered Audio Sandman Pro", ",", "Unfiltered Audio SpecOps", ",", "Unfiltered Audio Triad", ",", "ValhallaDelay", ",", "ValhallaFreqEcho", ",", "ValhallaPlate", ",", "ValhallaRoom", ",", "ValhallaShimmer", ",", "ValhallaSpaceModulator", ",", "ValhallaUberMod", ",", "ValhallaVintageVerb", ",", "VCV Bridge", ",", "Verv", ",", "VocalSynth 2", ",", "Washout", ",", "Whirl", ",", "XenoVerb", ",", "Zerone" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 332.999999999999886, 566.0, 100.0, 20.0 ],
+									"patching_rect" : [ 216.999999999999886, 519.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 264.441666666666606, 30.0, 117.550000000000011, 20.0 ]
+									"presentation_rect" : [ 309.449999999999875, 30.0, 117.550000000000011, 20.0 ]
 								}
 
 							}
@@ -714,7 +820,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 440.5, 566.0, 123.0, 20.0 ],
+									"patching_rect" : [ 324.5, 519.0, 123.0, 20.0 ],
 									"style" : "helpfile_label",
 									"text" : "example plugin menu"
 								}
@@ -726,7 +832,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 429.5, 307.0, 61.0, 20.0 ],
+									"patching_rect" : [ 313.5, 260.0, 61.0, 20.0 ],
 									"style" : "helpfile_label",
 									"text" : "progress"
 								}
@@ -743,7 +849,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 364.999999999999886, 281.0, 50.0, 22.0 ]
+									"patching_rect" : [ 248.999999999999886, 234.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -754,7 +860,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "float", "", "", "" ],
-									"patching_rect" : [ 364.999999999999886, 245.0, 125.0, 22.0 ],
+									"patching_rect" : [ 248.999999999999886, 198.0, 125.0, 22.0 ],
 									"text" : "unpack 0. s s s"
 								}
 
@@ -765,7 +871,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 413.999999999999886, 223.0, 76.0, 20.0 ],
+									"patching_rect" : [ 297.999999999999886, 176.0, 76.0, 20.0 ],
 									"style" : "helpfile_label",
 									"text" : "Scan status"
 								}
@@ -778,7 +884,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 497.999999999999886, 365.0, 37.0, 22.0 ],
+									"patching_rect" : [ 381.999999999999886, 318.0, 37.0, 22.0 ],
 									"text" : "clear"
 								}
 
@@ -790,7 +896,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.999999999999886, 365.0, 104.0, 22.0 ],
+									"patching_rect" : [ 214.999999999999886, 318.0, 104.0, 22.0 ],
 									"text" : "prepend append"
 								}
 
@@ -802,7 +908,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 381.499999999999886, 169.0, 39.0, 22.0 ],
+									"patching_rect" : [ 265.499999999999886, 122.0, 39.0, 22.0 ],
 									"text" : "listau"
 								}
 
@@ -814,7 +920,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 330.999999999999886, 329.0, 82.0, 22.0 ],
+									"patching_rect" : [ 214.999999999999886, 282.0, 82.0, 22.0 ],
 									"text" : "route plug_au"
 								}
 
@@ -826,7 +932,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.999999999999886, 169.0, 44.0, 22.0 ],
+									"patching_rect" : [ 214.999999999999886, 122.0, 44.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 70.999999999999886, 71.0, 44.0, 22.0 ],
 									"text" : "scan 0"
 								}
 
@@ -838,7 +946,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 330.999999999999886, 214.0, 53.0, 22.0 ],
+									"patching_rect" : [ 214.999999999999886, 167.0, 53.0, 22.0 ],
 									"text" : "vstscan"
 								}
 
@@ -852,7 +960,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 330.999999999999886, 56.0, 30.0, 30.0 ]
+									"patching_rect" : [ 25.999999999999886, 9.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -866,6 +974,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"midpoints" : [ 35.499999999999886, 155.0, 224.499999999999886, 155.0 ],
+									"order" : 1,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-68", 0 ],
+									"midpoints" : [ 35.499999999999886, 154.5, 391.499999999999886, 154.5 ],
+									"order" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"source" : [ "obj-14", 0 ]
 								}
@@ -874,7 +1000,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-64", 0 ],
-									"midpoints" : [ 374.499999999999886, 313.0, 422.75, 313.0, 422.75, 270.0, 439.0, 270.0 ],
+									"midpoints" : [ 258.499999999999886, 266.0, 306.75, 266.0, 306.75, 223.0, 323.0, 223.0 ],
 									"order" : 0,
 									"source" : [ "obj-15", 0 ]
 								}
@@ -883,7 +1009,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"midpoints" : [ 374.499999999999886, 315.5, 293.499999999999886, 315.5 ],
+									"midpoints" : [ 258.499999999999886, 268.5, 177.499999999999886, 268.5 ],
 									"order" : 1,
 									"source" : [ "obj-15", 0 ]
 								}
@@ -899,7 +1025,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
-									"midpoints" : [ 507.499999999999886, 402.5, 340.499999999999886, 402.5 ],
+									"midpoints" : [ 391.499999999999886, 355.5, 224.499999999999886, 355.5 ],
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -927,6 +1053,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"midpoints" : [ 161.499999999999886, 155.0, 224.499999999999886, 155.0 ],
+									"order" : 1,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-68", 0 ],
+									"midpoints" : [ 161.499999999999886, 155.5, 391.499999999999886, 155.5 ],
+									"order" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-43", 0 ]
 								}
@@ -935,7 +1079,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-26", 0 ],
-									"midpoints" : [ 390.999999999999886, 202.0, 340.499999999999886, 202.0 ],
+									"midpoints" : [ 274.999999999999886, 155.0, 224.499999999999886, 155.0 ],
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -958,7 +1102,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-68", 0 ],
-									"midpoints" : [ 340.499999999999886, 202.0, 507.499999999999886, 202.0 ],
+									"midpoints" : [ 224.499999999999886, 154.0, 391.499999999999886, 154.0 ],
 									"order" : 0,
 									"source" : [ "obj-50", 0 ]
 								}
@@ -966,7 +1110,25 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-50", 0 ],
+									"destination" : [ "obj-26", 0 ],
+									"midpoints" : [ 99.499999999999886, 154.0, 224.499999999999886, 154.0 ],
+									"order" : 1,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-68", 0 ],
+									"midpoints" : [ 99.499999999999886, 155.5, 391.499999999999886, 155.5 ],
+									"order" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-61", 0 ]
 								}
 
@@ -982,7 +1144,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-68", 0 ],
-									"midpoints" : [ 390.999999999999886, 162.75, 507.499999999999886, 162.75 ],
+									"midpoints" : [ 274.999999999999886, 115.75, 391.499999999999886, 115.75 ],
 									"order" : 0,
 									"source" : [ "obj-62", 0 ]
 								}
@@ -991,7 +1153,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
-									"midpoints" : [ 507.499999999999886, 361.5, 507.499999999999886, 361.5 ],
+									"midpoints" : [ 391.499999999999886, 314.5, 391.499999999999886, 314.5 ],
 									"source" : [ "obj-68", 0 ]
 								}
 
@@ -999,7 +1161,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 0 ],
-									"midpoints" : [ 293.499999999999886, 363.0, 269.749999999999886, 363.0, 269.749999999999886, 120.5, 390.999999999999886, 120.5 ],
+									"midpoints" : [ 177.499999999999886, 316.0, 15.749999999999886, 316.0, 15.749999999999886, 73.5, 274.999999999999886, 73.5 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -1165,7 +1327,7 @@
 					"patching_rect" : [ 950.25, 440.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 633.500000000000114, 17.5, 63.25, 20.0 ],
-					"text" : "v0.50",
+					"text" : "v0.51",
 					"textcolor" : [ 0.513725490196078, 0.470588235294118, 0.470588235294118, 1.0 ],
 					"textjustification" : 2
 				}
@@ -2030,12 +2192,12 @@
 					"presentation_rect" : [ 468.333333333333371, 713.5, 239.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
