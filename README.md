@@ -2,13 +2,16 @@
 
 ## Overview
 
-A Max/Msp 4-track looper with overdubbing based on groove~ msp object and the karma~, spindrift~ and gigaverb~ externals.
+A Max/Msp 4+1 channel looper with overdubbing based on groove~ msp object and the karma~, spindrift~ and gigaverb~ externals.
 
 Developed on Max 8 and is of now, OS X only (64-bit).
 
 This project is/was an iterative product of my attempts over a summer to learn max/msp.
 
 Please note that it assumes that you have a set of samples files (..wav or .aif) in `~/Music/samples`. These can be of pretty much of variable subject to the constraints of the max/msp engine and your computer.
+
+
+Currently at v0.51 with VST/AU and external MIDI support. 
 
 A partial demo of the v0.4 features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
 
@@ -54,17 +57,17 @@ The design allows for:
 - [x] code naming improvement: `chan` (for channel) is composite and `mod` (for module)
 - [x] clickless delays (see [ej.vdb~] or m4l.vdelay~ see [here](https://cycling74.com/forums/interpolating-delay/))
 - [x] add switchable matrix input from channels to karma module, reverb, audio out)
-- [ ] add a keyboard sampler module with midi input
-- [ ] add modulation
-- [ ] vst support
+- [x] add a keyboard sampler module with midi input
+- [x] audiounit support
 - [ ] more standalone polish
 - [ ] better docs
 - [ ] check ranges
+- [ ] add modulation
 
 **secondary**
 
-- [ ] global timing support
-	- [ ] clock division
+- [x] global timing support
+	- [x] clock division
 	- [ ] ableton link support
 - [ ] add stereo mixer
 - [ ] polybuffer~ to load samples from folder?
