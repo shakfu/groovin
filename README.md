@@ -54,6 +54,7 @@ The design allows for:
 
 **primary**
 
+- [ ] add audio unit support to master channel
 - [x] code naming improvement: `chan` (for channel) is composite and `mod` (for module)
 - [x] clickless delays (see [ej.vdb~] or m4l.vdelay~ see [here](https://cycling74.com/forums/interpolating-delay/))
 - [x] add switchable matrix input from channels to karma module, reverb, audio out)
