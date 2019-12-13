@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 62.0, 196.0, 749.0, 598.0 ],
+		"rect" : [ 239.0, 148.0, 749.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 11.0, 109.0, 401.0, 137.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.0, 393.0, 128.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 393.0, 128.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -87,7 +87,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7.4375, 376.0, 155.219365686523588, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 435.0, 4.0, 159.666666666666629, 129.0 ],
+					"presentation_rect" : [ 432.0, 1.0, 159.666666666666629, 129.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -109,7 +109,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7.4375, 519.5, 149.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 620.0, 11.0, 121.0, 121.0 ],
+					"presentation_rect" : [ 619.0, 8.0, 119.0, 121.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -123,7 +123,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 40.0, 270.974365234375, 14.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 417.333333333333371, 30.0, 14.0, 79.0 ]
+					"presentation_rect" : [ 414.333333333333371, 27.0, 14.0, 79.0 ]
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 11.5, 270.974365234375, 15.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.0, 30.0, 15.0, 79.0 ]
+					"presentation_rect" : [ 396.0, 27.0, 15.0, 79.0 ]
 				}
 
 			}

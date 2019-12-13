@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -54,7 +54,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.4375, 3.0, 403.0, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.5, 0.5, 398.5, 136.5 ],
+					"presentation_rect" : [ 1.0, 1.0, 393.0, 132.0 ],
 					"viewvisibility" : 1
 				}
 

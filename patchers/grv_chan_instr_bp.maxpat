@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 494.0, 122.0, 753.0, 733.0 ],
+		"rect" : [ 60.0, 133.0, 458.0, 733.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 175.656865686523588, 590.364406779661067, 97.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 596.666666666666629, 93.15625, 145.0, 39.0 ]
+					"presentation_rect" : [ 592.666666666666629, 93.15625, 145.0, 39.0 ]
 				}
 
 			}
@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.656865686523588, 590.364406779661067, 97.0, 70.27118644067798 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 596.666666666666629, 52.15625, 144.25, 40.0 ]
+					"presentation_rect" : [ 592.666666666666629, 52.15625, 144.25, 40.0 ]
 				}
 
 			}
@@ -88,7 +88,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 195.4375, 405.0, 67.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 596.666666666666629, 5.0, 45.0, 22.0 ],
+					"presentation_rect" : [ 592.666666666666629, 5.0, 45.0, 22.0 ],
 					"text" : "plugin",
 					"texton" : "plugin"
 				}
@@ -106,7 +106,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 280.0, 405.5, 47.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 693.291666666666742, 5.0, 47.925000000000068, 22.0 ],
+					"presentation_rect" : [ 689.291666666666742, 5.0, 47.925000000000068, 22.0 ],
 					"text" : "disable",
 					"texton" : "disable"
 				}
@@ -124,7 +124,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 355.0, 407.0, 55.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 644.441666666666492, 5.0, 47.0, 22.0 ],
+					"presentation_rect" : [ 640.441666666666492, 5.0, 47.0, 22.0 ],
 					"text" : "bypass",
 					"texton" : "bypass"
 				}
@@ -189,7 +189,7 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"items" : [ "3-Band EQ", ",", "914 Mk 2", ",", "Aaltoverb", ",", "Alternator", ",", "Array", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixMixer", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMixer", ",", "AUMixer3D", ",", "AUMultibandCompressor", ",", "AUMultiChannelMixer", ",", "AUMultiSplitter", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpatialMixer", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Bidule FX (sidechain)", ",", "Bidule FX", ",", "Bidule MFX", ",", "Bidule MIDI", ",", "Bidule", ",", "Big Goat", ",", "Blend", ",", "Blue Face", ",", "Bluejay", ",", "Captain Chords_MidiEffects", ",", "Captain Chords_Synth", ",", "Captain Deep_MidiEffects", ",", "Captain Deep_Synth", ",", "Captain Melody_MidiEffects", ",", "Captain Melody_Synth", ",", "Captain Play_MidiEffects", ",", "Captain Play_Synth", ",", "Chorus_Effect", ",", "Clonemeld", ",", "Cloud Machine", ",", "Cluster", ",", "Comet", ",", "Corrosion", ",", "Crystallizer", ",", "Curve2", ",", "DAW Cassette", ",", "Decapitator", ",", "Degrader", ",", "Delay", ",", "Deleight", ",", "Devil-Loc Deluxe", ",", "Devil-Loc", ",", "Dipole", ",", "Dispersion", ",", "Distortion 1", ",", "DLSMusicDevice", ",", "Drone Piano", ",", "Droplet", ",", "EchoBoy Jr", ",", "EchoBoy", ",", "Echoes T7E", ",", "EffectRack", ",", "Eidolon", ",", "Emission", ",", "Enso", ",", "Eos 2", ",", "Eternal", ",", "Europa by Reason", ",", "Fathoms", ",", "FilterFreak1", ",", "FilterFreak2", ",", "FilterShaper3", ",", "Filterstation2", ",", "Flow II", ",", "Fog Convolver", ",", "Foomph", ",", "Fraction", ",", "FreeAMP", ",", "FuzzPlus3", ",", "Gain", ",", "Grain Streamer", ",", "GrainSpace", ",", "Grand Finale", ",", "Granule", ",", "Granulizer 2", ",", "HalfTime", ",", "Harmonic Maximizer", ",", "Heavy Pedal", ",", "Hexonator", ",", "Hologram", ",", "HRTFPanner", ",", "Idee Fixer", ",", "Inertia", ",", "Insight 2", ",", "Instinct", ",", "iZotope DDLY Dynamic Delay", ",", "iZotope Mobius Filter", ",", "iZotope Trash 2", ",", "Kleverb", ",", "LDC2 Compander", ",", "Limiter", ",", "Little AlterBoy", ",", "Little MicroShift", ",", "Little Plate", ",", "Little PrimalTap", ",", "Little Radiator", ",", "Low Filter", ",", "Luminance", ",", "Malfunction II", ",", "MicroShift", ",", "Microtonic Multi", ",", "Microtonic", ",", "MidiShaper", ",", "Mimik", ",", "Modley", ",", "Modular FX", ",", "Modular", ",", "Molecule", ",", "Multitude", ",", "Nectar 3 Elements", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Elements", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "Numerology AUMX", ",", "Nuxx", ",", "Octavlord", ",", "Outer Space", ",", "Ozone 8 Dynamic EQ", ",", "Ozone 8 Dynamics", ",", "Ozone 8 Elements", ",", "Ozone 8 Equalizer", ",", "Ozone 8 Exciter", ",", "Ozone 8 Imager", ",", "Ozone 8 Maximizer", ",", "Ozone 8 Spectral Shaper", ",", "Ozone 8 Vintage Compressor", ",", "Ozone 8 Vintage EQ", ",", "Ozone 8 Vintage Limiter", ",", "Ozone 8 Vintage Tape", ",", "Ozone 8", ",", "PanMan", ",", "Pastfabric", ",", "PhaseMistress", ",", "Plectrik", ",", "Polaris", ",", "Portal", ",", "Pre X7", ",", "PrimalTap", ",", "Protoverb", ",", "Quanta", ",", "Radiator", ",", "Re-Function", ",", "Reaktor 6 MFX", ",", "Reaktor 6 MIDIFX", ",", "Reaktor 6", ",", "REAMP", ",", "Relay", ",", "Reshuffle", ",", "Reverb", ",", "Robotizer", ",", "Room Piano v2", ",", "RoughRider2", ",", "RX 7 Breath Control", ",", "RX 7 Connect", ",", "RX 7 De-click", ",", "RX 7 De-clip", ",", "RX 7 De-crackle", ",", "RX 7 De-ess", ",", "RX 7 De-hum", ",", "RX 7 De-plosive", ",", "RX 7 De-reverb", ",", "RX 7 Monitor", ",", "RX 7 Mouth De-click", ",", "RX 7 Spectral De-noise", ",", "RX 7 Voice De-noise", ",", "Sequential", ",", "ShaperBox", ",", "Shift", ",", "Side Filter", ",", "Sie-Q", ",", "Singularity", ",", "SketchCassette", ",", "Snap Heap", ",", "Solveig", ",", "Spectral Averaging", ",", "Spectral Bin Shift", ",", "Spectral Blurring", ",", "Spectral DroneMaker", ",", "Spectral Emergence", ",", "Spectral Filterbank", ",", "Spectral Freezing", ",", "Spectral Gate And Hold", ",", "Spectral Gliding Filters", ",", "Spectral Granulation", ",", "Spectral Harmonizer", ",", "Spectral Partial Glide", ",", "Spectral Pitch Shift", ",", "Spectral Pulsing", ",", "Spectral Shimmer", ",", "Spectral Shuffle", ",", "Spectral Stretch", ",", "Spectral Tracing", ",", "Spectral Weave", ",", "Speektra", ",", "Splitch", ",", "Stereo", ",", "Stream", ",", "Super Filterbank", ",", "Surge", ",", "Svep", ",", "Switch", ",", "SyndtSphere", ",", "Synth1", ",", "SynthMaster 2.9 Effect", ",", "SynthMaster 2.9 Instrument", ",", "SynthMaster One Effect", ",", "SynthMaster One Instrument", ",", "TAL Reverb 4 Plugin", ",", "Texture", ",", "The Abuser", ",", "The Mangle", ",", "Tonal Balance Control", ",", "Torsion", ",", "Tremolator", ",", "TS-1 Transient Shaper", ",", "Tube Modulator", ",", "Turbo", ",", "Unfiltered Audio Dent 2", ",", "Unfiltered Audio Fault", ",", "Unfiltered Audio Indent 2", ",", "Unfiltered Audio Instant Delay", ",", "Unfiltered Audio Sandman Pro", ",", "Unfiltered Audio SpecOps", ",", "Unfiltered Audio Triad", ",", "ValhallaDelay", ",", "ValhallaFreqEcho", ",", "ValhallaPlate", ",", "ValhallaRoom", ",", "ValhallaShimmer", ",", "ValhallaSpaceModulator", ",", "ValhallaUberMod", ",", "ValhallaVintageVerb", ",", "VCV Bridge", ",", "Verv", ",", "VocalSynth 2", ",", "Washout", ",", "Whirl", ",", "XenoVerb", ",", "Zerone" ],
+					"items" : [ "3-Band EQ", ",", "914 Mk 2", ",", "Alternator", ",", "Array", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Axon 2", ",", "Beatformer", ",", "Bidule FX (sidechain)", ",", "Bidule FX", ",", "Bidule MFX", ",", "Bidule", ",", "Big Goat", ",", "Bitcrush", ",", "Blackhole (No MIDI)", ",", "Blackhole", ",", "Blend", ",", "Blue Face", ",", "Bluejay", ",", "Brusfri", ",", "Captain Beat", ",", "Captain Chords", ",", "Captain Deep", ",", "Captain Melody", ",", "Captain Play", ",", "Carve EQ", ",", "Cassette", ",", "Chorus_Effect", ",", "Clonemeld", ",", "Cloud Machine", ",", "Cluster", ",", "Comb Filter", ",", "Comet", ",", "Compressor", ",", "Corrosion", ",", "Cream", ",", "Crystallizer", ",", "Cthulhu", ",", "Curve2", ",", "DAW Cassette", ",", "Decapitator", ",", "Degrader", ",", "Delay", ",", "Deleight", ",", "Devil-Loc Deluxe", ",", "Devil-Loc", ",", "Dexed", ",", "Dipole", ",", "Disperser", ",", "Dispersion", ",", "Distortion 1", ",", "Distortion", ",", "DLSMusicDevice", ",", "Drone Piano", ",", "Droplet", ",", "Dubstation 2", ",", "EchoBoy Jr", ",", "EchoBoy", ",", "Echoes T7E", ",", "EffectRack", ",", "Eidolon", ",", "Emission", ",", "Ensemble", ",", "Enso", ",", "Eos 2", ",", "Eternal", ",", "Europa by Reason", ",", "Falcon", ",", "Fathoms", ",", "Faturator", ",", "Filter", ",", "FilterFreak1", ",", "FilterFreak2", ",", "FilterShaper3", ",", "Filterstation2", ",", "Flanger", ",", "Flow II", ",", "Fog Convolver", ",", "Foomph", ",", "Formant Filter", ",", "Fraction", ",", "FreeAMP", ",", "Frequency Shifter", ",", "Frostbite 2", ",", "FuzzPlus3", ",", "Gaffel", ",", "Gain", ",", "Gate", ",", "GotoEQ", ",", "Grain Streamer", ",", "GrainSpace", ",", "Grand Finale", ",", "Granule", ",", "Granulizer 2", ",", "H3000 Factory", ",", "Haas", ",", "Haaze 2", ",", "HalfTime", ",", "Harmonic Maximizer", ",", "Heavy Pedal", ",", "Hexonator", ",", "Hillman", ",", "Hologram", ",", "HRTFPanner", ",", "Idee Fixer", ",", "Inertia", ",", "Insight 2", ",", "Instinct", ",", "iZotope DDLY Dynamic Delay", ",", "iZotope Mobius Filter", ",", "iZotope Stutter Edit", ",", "iZotope Trash 2", ",", "kHs ONE", ",", "Kleverb", ",", "Ladder Filter", ",", "LDC2 Compander", ",", "Limiter", ",", "Little AlterBoy", ",", "Little MicroShift", ",", "Little Plate", ",", "Little PrimalTap", ",", "Little Radiator", ",", "Low Filter", ",", "Luminance", ",", "Malfunction II", ",", "MangledVerb", ",", "Markus 88 v151", ",", "MicroShift", ",", "Microtonic Multi", ",", "Microtonic", ",", "Midi Madness 3", ",", "MidiShaper", ",", "Mimik", ",", "Modley", ",", "Modular FX", ",", "Modular", ",", "Molecule", ",", "Multipass", ",", "Multitude", ",", "Nectar 3 Elements", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Elements", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "Nimbus", ",", "Northern Boarder", ",", "Nouveau Mellow", ",", "Nuxx", ",", "Octavlord", ",", "Outer Space", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Ozone Imager 2", ",", "Padshop", ",", "Palindrome", ",", "PanMan", ",", "Parallax", ",", "Pastfabric", ",", "Pastoral Piano", ",", "Phase Distortion", ",", "Phase Plant", ",", "PhaseMistress", ",", "Phaser", ",", "Pitch Shifter", ",", "Plectrik", ",", "Polaris", ",", "Portal", ",", "Pre X7", ",", "PrimalTap", ",", "Protoverb", ",", "Push", ",", "Quanta", ",", "R4", ",", "Radiator", ",", "Radio", ",", "Re-Function", ",", "Reaktor 6 MFX", ",", "Reaktor 6", ",", "REAMP", ",", "Regrader", ",", "Regroover Pro", ",", "Relay", ",", "Reshuffle", ",", "Resonator", ",", "Reverb", ",", "Reverser", ",", "Rhythmiq", ",", "Ring Mod", ",", "Robotizer", ",", "Room Piano v2", ",", "RX 7 Breath Control", ",", "RX 7 Connect", ",", "RX 7 De-click", ",", "RX 7 De-clip", ",", "RX 7 De-crackle", ",", "RX 7 De-ess", ",", "RX 7 De-hum", ",", "RX 7 De-plosive", ",", "RX 7 De-reverb", ",", "RX 7 Monitor", ",", "RX 7 Mouth De-click", ",", "RX 7 Spectral De-noise", ",", "RX 7 Voice De-noise", ",", "Sequential", ",", "Serato Sample", ",", "Serum", ",", "SerumFX", ",", "ShaperBox 2", ",", "Shift", ",", "Side Filter", ",", "Sie-Q", ",", "Singularity", ",", "SketchCassette", ",", "Slice EQ", ",", "Snap Heap", ",", "Solveig", ",", "Spectral Averaging", ",", "Spectral Bin Shift", ",", "Spectral Blurring", ",", "Spectral DroneMaker", ",", "Spectral Emergence", ",", "Spectral Filterbank", ",", "Spectral Freezing", ",", "Spectral Gate And Hold", ",", "Spectral Gliding Filters", ",", "Spectral Granulation", ",", "Spectral Harmonizer", ",", "Spectral Partial Glide", ",", "Spectral Pitch Shift", ",", "Spectral Pulsing", ",", "Spectral Shimmer", ",", "Spectral Shuffle", ",", "Spectral Stretch", ",", "Spectral Tracing", ",", "Spectral Weave", ",", "Speektra", ",", "Splitch", ",", "Springs", ",", "Stereo", ",", "Stream", ",", "Stutter Edit", ",", "Suntron", ",", "Super Filterbank", ",", "Surge", ",", "Svep", ",", "Switch", ",", "SyndtSphere", ",", "Synth1", ",", "SynthMaster 2.9 Effect", ",", "SynthMaster 2.9 Instrument", ",", "SynthMaster One Effect", ",", "SynthMaster One Instrument", ",", "TAL Reverb 4 Plugin", ",", "Tape Stop", ",", "Texture", ",", "Thales Model I v", ",", "The Abuser", ",", "The Mangle", ",", "Tonal Balance Control 2", ",", "Tonal Balance Control", ",", "Torsion", ",", "Trance Gate", ",", "Transient Shaper", ",", "Tremolator", ",", "TS-1 Transient Shaper", ",", "TTAP", ",", "Tube Modulator", ",", "Turbo", ",", "UltraTap", ",", "Unfiltered Audio Dent 2", ",", "Unfiltered Audio Fault", ",", "Unfiltered Audio Indent 2", ",", "Unfiltered Audio Instant Delay", ",", "Unfiltered Audio LION", ",", "Unfiltered Audio Sandman Pro", ",", "Unfiltered Audio SpecOps", ",", "Unfiltered Audio Triad", ",", "Union", ",", "UVIWorkstation", ",", "ValhallaDelay", ",", "ValhallaFreqEcho", ",", "ValhallaPlate", ",", "ValhallaRoom", ",", "ValhallaShimmer", ",", "ValhallaSpaceModulator", ",", "ValhallaUberMod", ",", "ValhallaVintageVerb", ",", "Vanisher", ",", "VCV Bridge", ",", "Verv", ",", "VocalSynth 2", ",", "Washout", ",", "Weave", ",", "Whirl", ",", "WOV", ",", "XenoVerb", ",", "Zerone" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -197,7 +197,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 455.499999999999886, 434.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 596.666666666666629, 29.0, 144.550000000000068, 22.0 ]
+					"presentation_rect" : [ 592.666666666666629, 29.0, 144.550000000000068, 22.0 ]
 				}
 
 			}
@@ -278,7 +278,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.4375, 3.0, 403.0, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.5, 0.5, 398.5, 136.5 ],
+					"presentation_rect" : [ 1.0, 1.0, 393.0, 132.5 ],
 					"viewvisibility" : 1
 				}
 
@@ -403,7 +403,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7.4375, 330.0, 155.219365686523588, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 435.0, 4.0, 159.666666666666629, 129.0 ],
+					"presentation_rect" : [ 432.0, 4.0, 159.666666666666629, 129.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -417,7 +417,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 40.0, 224.974365234375, 14.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 417.333333333333371, 30.0, 14.0, 79.0 ]
+					"presentation_rect" : [ 414.333333333333371, 30.0, 14.0, 79.0 ]
 				}
 
 			}
@@ -432,7 +432,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 11.5, 224.974365234375, 15.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 399.0, 30.0, 15.0, 79.0 ]
+					"presentation_rect" : [ 394.0, 30.0, 15.0, 79.0 ]
 				}
 
 			}
@@ -751,8 +751,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -770,8 +770,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

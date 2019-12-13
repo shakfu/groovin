@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 451.0, 376.0, 850.0, 472.0 ],
+		"rect" : [ 438.0, 304.0, 402.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -103,8 +103,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -515,7 +515,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 34.0625, 323.0, 48.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 343.552777777777806, 2.135593220339047, 47.0, 22.0 ],
+					"presentation_rect" : [ 343.552777777777806, 2.135593220339047, 44.884722222222194, 22.0 ],
 					"text" : ">",
 					"texton" : ">"
 				}
@@ -698,8 +698,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -872,7 +872,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 372.522064, 164.0, 333.144444444444275, 79.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.647064, 24.5, 349.790436, 83.0 ],
+					"presentation_rect" : [ 40.647064, 24.5, 347.790436, 83.0 ],
 					"setmode" : 1
 				}
 
@@ -913,9 +913,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 124.0, 283.0, 79.25, 16.0 ],
+					"patching_rect" : [ 124.0, 283.0, 80.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.459564, 108.72881355932202, 110.977936, 20.0 ],
+					"presentation_rect" : [ 280.459564, 108.728814, 107.977936, 20.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "<invalid>", "live.gain~", "float", -3.386184692382812, 5, "obj-118", "flonum", "float", 50.0, 5, "obj-117", "flonum", "float", 0.0, 5, "obj-116", "flonum", "float", 1.0, 5, "obj-115", "flonum", "float", 1.0, 5, "obj-114", "flonum", "float", 0.0, 5, "obj-113", "flonum", "float", 0.0, 5, "obj-112", "flonum", "float", 0.0, 5, "obj-111", "flonum", "float", 0.0, 5, "obj-110", "flonum", "float", 100.0, 5, "obj-109", "flonum", "float", 0.0, 5, "obj-100", "flonum", "float", 5.0, 5, "obj-99", "flonum", "float", 1.0, 5, "obj-14", "textbutton", "mode", 1, 5, "obj-14", "textbutton", "int", 0 ]
@@ -1281,8 +1281,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2164,7 +2164,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 173.666666666666657, 310.5, 43.5625, 310.5 ],
+					"midpoints" : [ 174.166666666666657, 310.5, 43.5625, 310.5 ],
 					"order" : 1,
 					"source" : [ "obj-11", 2 ]
 				}
