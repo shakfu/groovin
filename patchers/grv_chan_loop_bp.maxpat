@@ -47,7 +47,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_mod_looper_bp.maxpat",
+					"name" : "grv_mod_loop_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -215,7 +215,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_mod_looper_bp.maxpat",
+				"name" : "grv_mod_loop_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

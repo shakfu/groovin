@@ -271,7 +271,7 @@
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_mod_plugin_bp.maxpat",
+					"name" : "grv_mod_instr_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -636,8 +636,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "vst~", "vst~", 0 ],
 			"obj-44" : [ "vst~[1]", "vst~[1]", 0 ],
+			"obj-1" : [ "vst~", "vst~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -652,7 +652,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_mod_plugin_bp.maxpat",
+				"name" : "grv_mod_instr_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -751,8 +751,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
