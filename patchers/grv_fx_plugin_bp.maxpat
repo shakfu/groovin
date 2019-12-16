@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 635.0, 130.0, 611.0, 733.0 ],
+		"rect" : [ 61.0, 89.0, 877.0, 764.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,232 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1055.375, 777.0, 29.5, 22.0 ],
+					"text" : "join"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "float", "int" ],
+					"patching_rect" : [ 1050.125, 732.0, 40.0, 22.0 ],
+					"text" : "t b f 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1173.0, 599.0, 50.0, 22.0 ],
+					"text" : "2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1049.0625, 551.0, 41.0, 22.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "gswitch",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 964.5625, 334.5, 41.0, 32.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "float", "int" ],
+					"patching_rect" : [ 940.0625, 728.0, 40.0, 22.0 ],
+					"text" : "t b f 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 869.25, 623.0, 50.0, 22.0 ],
+					"text" : "3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 873.75, 545.0, 41.0, 22.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 869.25, 770.0, 29.5, 22.0 ],
+					"text" : "join"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 76.020833333333371, 638.77118644067798, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 76.020833333333371, 668.0, 40.0, 22.0 ],
+					"text" : "t i i 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 253.125, 642.77118644067798, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 361.125, 651.0, 40.0, 22.0 ],
+					"text" : "t i i 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1049.0625, 452.0, 41.0, 22.0 ],
+					"text" : "unjoin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 910.5, 457.0, 41.0, 22.0 ],
+					"text" : "unjoin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 966.0625, 416.0, 81.0, 22.0 ],
+					"text" : "routepass 1 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 260.999999999999886, 770.0, 29.5, 22.0 ],
+					"text" : "join"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"items" : "<empty>",
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 253.125, 609.77118644067798, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 134.0625, 120.0, 78.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 687.0, 42.0, 22.0 ],
+					"patching_rect" : [ 76.020833333333371, 703.0, 42.0, 22.0 ],
 					"text" : "get $1"
 				}
 
@@ -60,7 +280,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 532.5, 667.5, 54.0, 23.0 ]
+					"patching_rect" : [ 309.0625, 738.0, 54.0, 23.0 ]
 				}
 
 			}
@@ -74,7 +294,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 422.5, 667.5, 53.0, 23.0 ]
+					"patching_rect" : [ 199.0625, 738.0, 53.0, 23.0 ]
 				}
 
 			}
@@ -87,7 +307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "float" ],
-					"patching_rect" : [ 422.5, 637.5, 129.0, 23.0 ],
+					"patching_rect" : [ 199.0625, 709.0, 129.0, 23.0 ],
 					"text" : "unpack 0 0."
 				}
 
@@ -97,10 +317,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-70",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 417.5, 692.5, 105.0, 21.0 ],
+					"patching_rect" : [ 122.5, 745.0, 70.0, 36.0 ],
 					"text" : "parameter index"
 				}
 
@@ -113,7 +334,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 527.5, 692.5, 72.0, 21.0 ],
+					"patching_rect" : [ 375.5, 745.0, 72.0, 21.0 ],
 					"text" : "value (0-1)"
 				}
 
@@ -125,7 +346,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 215.0625, 17.0, 97.0, 22.0 ],
+					"patching_rect" : [ 1084.0625, 492.0, 97.0, 22.0 ],
 					"text" : "scale 0. 1. 0 127"
 				}
 
@@ -137,7 +358,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.5, 17.0, 97.0, 22.0 ],
+					"patching_rect" : [ 921.5, 492.0, 97.0, 22.0 ],
 					"text" : "scale 0. 1. 0 127"
 				}
 
@@ -151,7 +372,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 275.5, 52.0, 23.0 ],
+					"patching_rect" : [ 114.0, 214.5, 52.0, 23.0 ],
 					"text" : "params"
 				}
 
@@ -164,23 +385,24 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 609.0, 112.0, 23.0 ],
+					"patching_rect" : [ 76.020833333333371, 532.77118644067798, 112.0, 23.0 ],
 					"text" : "prepend append"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 12.0,
 					"id" : "obj-5",
-					"items" : [ "Attack", ",", "Decay", ",", "Sustain", ",", "Release", ",", "Filter Cutoff Frequency" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 54.0, 680.77118644067798, 100.0, 22.0 ],
+					"patching_rect" : [ 76.020833333333371, 609.77118644067798, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.5625, 655.77118644067798, 100.0, 22.0 ]
+					"presentation_rect" : [ 52.0625, 120.0, 80.0, 22.0 ]
 				}
 
 			}
@@ -191,7 +413,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 374.999999999999886, 436.0, 51.0, 22.0 ],
+					"patching_rect" : [ 447.999999999999886, 375.0, 51.0, 22.0 ],
 					"text" : "t b b s"
 				}
 
@@ -203,7 +425,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 207.5625, 631.0, 29.5, 22.0 ],
+					"patching_rect" : [ 280.5625, 565.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -215,7 +437,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.999999999999886, 553.0, 35.0, 22.0 ],
+					"patching_rect" : [ 463.999999999999886, 492.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -228,23 +450,24 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.5625, 553.0, 112.0, 23.0 ],
+					"patching_rect" : [ 280.5625, 492.0, 112.0, 23.0 ],
 					"text" : "prepend append"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 12.0,
 					"id" : "obj-41",
-					"items" : [ "70s Synth Strings", ",", "A Beautiful Sun", ",", "Acoustic Piano", ",", "Analog ePiano", ",", "Analog Fifth", ",", "Analog Flute Alike", ",", "Analog Keys", ",", "Analog Lead", ",", "Analog Pad 1", ",", "Analog Pad 2", ",", "Analog RetroLead", ",", "Analog RoyBass 1", ",", "Analog RoyBass 2", ",", "Analog Saw Bass", ",", "Analog Soft Strings", ",", "Analog Square", ",", "Balloon Pad", ",", "Balloon Saw", ",", "Boreal Highway", ",", "Dusty Mirage", ",", "Electric Guitar", ",", "Electric Piano", ",", "Gemini Pad", ",", "Kaini Lead", ",", "Late Night Whisperers", ",", "Little Room Lullaby", ",", "Mellow Vintage Strings", ",", "Mogue RoyBass", ",", "Mystery Pad", ",", "North Pole Pad", ",", "Nu Analog Lead", ",", "Olson Bass", ",", "Olson Lead", ",", "Opaque Water", ",", "Roygbiv Lead", ",", "Sadder Synth", ",", "Small Electronic Piano", ",", "Soft Drifting Lead", ",", "Soft Electronic Piano", ",", "Soft Winter Piano", ",", "Tundra Guitar", ",", "Unison Analog Pad" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 207.5625, 593.77118644067798, 100.0, 22.0 ],
+					"patching_rect" : [ 280.5625, 532.77118644067798, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.5625, 593.77118644067798, 100.0, 22.0 ]
+					"presentation_rect" : [ 134.0625, 2.0, 78.0, 22.0 ]
 				}
 
 			}
@@ -257,7 +480,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 349.5, 75.0, 23.0 ],
+					"patching_rect" : [ 114.0, 288.5, 75.0, 23.0 ],
 					"text" : "pgmnames"
 				}
 
@@ -271,7 +494,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 205.125000000000114, 216.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1050.125, 691.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -282,7 +505,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.125000000000114, 182.0, 97.0, 22.0 ],
+					"patching_rect" : [ 1050.125, 657.0, 97.0, 22.0 ],
 					"text" : "scale 0 127 0. 1."
 				}
 
@@ -296,7 +519,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.0625, 216.0, 50.0, 22.0 ]
+					"patching_rect" : [ 935.0625, 691.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -307,7 +530,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0625, 182.0, 97.0, 22.0 ],
+					"patching_rect" : [ 935.0625, 657.0, 97.0, 22.0 ],
 					"text" : "scale 0 127 0. 1."
 				}
 
@@ -320,7 +543,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 108.0625, 55.0, 100.0, 100.0 ]
+					"patching_rect" : [ 935.0625, 532.77118644067798, 100.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 52.0625, 26.0, 160.0, 92.0 ]
 				}
 
 			}
@@ -331,7 +556,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 334.5, 113.0, 31.0, 22.0 ],
+					"patching_rect" : [ 407.5, 52.0, 31.0, 22.0 ],
 					"text" : "t s b"
 				}
 
@@ -343,13 +568,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.5, 164.0, 76.0, 22.0 ],
+					"patching_rect" : [ 407.5, 103.0, 76.0, 22.0 ],
 					"text" : "sprintf list%s"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 12.0,
 					"id" : "obj-19",
 					"items" : [ "vst", ",", "vst3", ",", "au" ],
 					"maxclass" : "umenu",
@@ -357,9 +583,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 318.5, 78.0, 51.0, 22.0 ],
+					"patching_rect" : [ 391.5, 17.0, 51.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 148.666666999999961, 2.0, 51.0, 22.0 ]
+					"presentation_rect" : [ 1.374999833333391, 26.0, 48.687500166666609, 22.0 ]
 				}
 
 			}
@@ -371,7 +597,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 536.0, 349.5, 37.0, 23.0 ],
+					"patching_rect" : [ 609.0, 288.5, 37.0, 23.0 ],
 					"text" : "clear"
 				}
 
@@ -384,7 +610,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.499999999999886, 304.0, 112.0, 23.0 ],
+					"patching_rect" : [ 407.499999999999886, 243.0, 112.0, 23.0 ],
 					"text" : "prepend append"
 				}
 
@@ -397,7 +623,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 334.499999999999886, 249.0, 199.0, 23.0 ],
+					"patching_rect" : [ 407.499999999999886, 188.0, 199.0, 23.0 ],
 					"text" : "route plug_vst plug_au plug_vst3"
 				}
 
@@ -410,7 +636,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 334.499999999999886, 215.0, 58.0, 23.0 ],
+					"patching_rect" : [ 407.499999999999886, 154.0, 58.0, 23.0 ],
 					"text" : "vstscan"
 				}
 
@@ -424,7 +650,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.4375, 26.0, 30.0, 30.0 ]
+					"patching_rect" : [ 44.854166666666686, 9.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -435,7 +661,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.999999999999886, 349.5, 69.0, 22.0 ],
+					"patching_rect" : [ 428.999999999999886, 288.5, 69.0, 22.0 ],
 					"text" : "r plugin_list"
 				}
 
@@ -449,9 +675,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 76.5, 405.0, 67.0, 22.0 ],
+					"patching_rect" : [ 149.5, 344.0, 67.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.666666666666629, 2.0, 45.0, 22.0 ],
+					"presentation_rect" : [ 1.374999833333391, 50.0, 48.687500166666609, 22.0 ],
 					"text" : "plugin",
 					"texton" : "plugin"
 				}
@@ -467,9 +693,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 161.0625, 404.5, 47.0, 22.0 ],
+					"patching_rect" : [ 234.0625, 343.5, 47.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.291666666666742, 2.0, 48.375000333333219, 22.0 ],
+					"presentation_rect" : [ 1.374999833333391, 98.0, 48.687500166666609, 22.0 ],
 					"text" : "disable",
 					"texton" : "disable"
 				}
@@ -485,9 +711,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 236.0625, 405.0, 55.0, 22.0 ],
+					"patching_rect" : [ 309.0625, 344.0, 55.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.441666666666492, 2.0, 47.0, 22.0 ],
+					"presentation_rect" : [ 1.374999833333391, 74.0, 48.687500166666609, 22.0 ],
 					"text" : "bypass",
 					"texton" : "bypass"
 				}
@@ -501,7 +727,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0625, 349.5, 70.0, 22.0 ],
+					"patching_rect" : [ 309.0625, 288.5, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -515,7 +741,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0625, 446.0, 65.0, 22.0 ],
+					"patching_rect" : [ 309.0625, 385.0, 65.0, 22.0 ],
 					"text" : "bypass $1"
 				}
 
@@ -529,7 +755,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.0625, 446.0, 65.0, 22.0 ],
+					"patching_rect" : [ 234.0625, 385.0, 65.0, 22.0 ],
 					"text" : "disable $1"
 				}
 
@@ -543,7 +769,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.5, 446.0, 67.0, 22.0 ],
+					"patching_rect" : [ 149.5, 385.0, 67.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -552,15 +778,15 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"items" : [ "3-Band EQ", ",", "914 Mk 2", ",", "Alternator", ",", "Array", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Axon 2", ",", "Beatformer", ",", "Bidule FX (sidechain)", ",", "Bidule FX", ",", "Bidule MFX", ",", "Bidule", ",", "Big Goat", ",", "Bitcrush", ",", "Blackhole (No MIDI)", ",", "Blackhole", ",", "Blend", ",", "Blindfold EQ", ",", "Blue Face", ",", "Bluejay", ",", "Brusfri", ",", "Captain Beat", ",", "Captain Chords", ",", "Captain Deep", ",", "Captain Melody", ",", "Captain Play", ",", "Carve EQ", ",", "Cassette", ",", "Chorus_Effect", ",", "Clonemeld", ",", "Cloud Machine", ",", "Cluster", ",", "Comb Filter", ",", "Comet", ",", "Compressor", ",", "Corrosion", ",", "Cream", ",", "Crystallizer", ",", "Cthulhu", ",", "Curve2", ",", "DAW Cassette", ",", "Decapitator", ",", "Degrader", ",", "Delay", ",", "Deleight", ",", "Devil-Loc Deluxe", ",", "Devil-Loc", ",", "Dexed", ",", "Dipole", ",", "Disperser", ",", "Dispersion", ",", "Distortion 1", ",", "Distortion", ",", "DLSMusicDevice", ",", "Drone Piano", ",", "Droplet", ",", "Dubstation 2", ",", "EchoBoy Jr", ",", "EchoBoy", ",", "Echoes T7E", ",", "EffectRack", ",", "Eidolon", ",", "Emission", ",", "Ensemble", ",", "Enso", ",", "Eos 2", ",", "Eternal", ",", "Europa by Reason", ",", "Falcon", ",", "Fathoms", ",", "Faturator", ",", "Filter", ",", "FilterFreak1", ",", "FilterFreak2", ",", "FilterShaper3", ",", "Filterstation2", ",", "Flanger", ",", "Flow II", ",", "Fog Convolver", ",", "Foomph", ",", "Formant Filter", ",", "Fraction", ",", "FreeAMP", ",", "Frequency Shifter", ",", "Frostbite 2", ",", "FuzzPlus3", ",", "Gaffel", ",", "Gain", ",", "Gate", ",", "GotoEQ", ",", "Grain Streamer", ",", "GrainSpace", ",", "Grand Finale", ",", "Granule", ",", "Granulizer 2", ",", "H3000 Factory", ",", "Haas", ",", "Haaze 2", ",", "HalfTime", ",", "Harmonic Maximizer", ",", "Heavy Pedal", ",", "Hexonator", ",", "Hillman", ",", "Hologram", ",", "HRTFPanner", ",", "Idee Fixer", ",", "Inertia", ",", "Insight 2", ",", "Instinct", ",", "iZotope DDLY Dynamic Delay", ",", "iZotope Mobius Filter", ",", "iZotope Stutter Edit", ",", "iZotope Trash 2", ",", "kHs ONE", ",", "Kleverb", ",", "Ladder Filter", ",", "Latin Percussion", ",", "LDC2 Compander", ",", "Limiter", ",", "Little AlterBoy", ",", "Little MicroShift", ",", "Little Plate", ",", "Little PrimalTap", ",", "Little Radiator", ",", "Low Filter", ",", "Luminance", ",", "Malfunction II", ",", "MangledVerb", ",", "Markus 88 v151", ",", "MicroShift", ",", "Microtonic Multi", ",", "Microtonic", ",", "Midi Madness 3", ",", "MidiShaper", ",", "Mimik", ",", "Modley", ",", "Modular FX", ",", "Modular", ",", "Molecule", ",", "Multipass", ",", "Multitude", ",", "Nectar 3 Elements", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Elements", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "Nimbus", ",", "Northern Boarder", ",", "Nouveau Mellow", ",", "Nuxx", ",", "Octavlord", ",", "Outer Space", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Ozone Imager 2", ",", "Padshop", ",", "Palindrome", ",", "PanMan", ",", "Parallax", ",", "Pastfabric", ",", "Pastoral Piano", ",", "Phase Distortion", ",", "Phase Plant", ",", "PhaseMistress", ",", "Phaser", ",", "Pigments", ",", "Pitch Shifter", ",", "Plectrik", ",", "Polaris", ",", "Portal", ",", "Pre X7", ",", "PrimalTap", ",", "Protoverb", ",", "Push", ",", "Quanta", ",", "R4", ",", "Radiator", ",", "Radio", ",", "Re-Function", ",", "Reaktor 6 MFX", ",", "Reaktor 6", ",", "REAMP", ",", "Regrader", ",", "Regroover Pro", ",", "Relay", ",", "Reshuffle", ",", "Resonator", ",", "Reverb", ",", "Reverser", ",", "Rhythmiq", ",", "Ring Mod", ",", "Robotizer", ",", "Room Piano v2", ",", "RX 7 Breath Control", ",", "RX 7 Connect", ",", "RX 7 De-click", ",", "RX 7 De-clip", ",", "RX 7 De-crackle", ",", "RX 7 De-ess", ",", "RX 7 De-hum", ",", "RX 7 De-plosive", ",", "RX 7 De-reverb", ",", "RX 7 Monitor", ",", "RX 7 Mouth De-click", ",", "RX 7 Spectral De-noise", ",", "RX 7 Voice De-noise", ",", "Sequential", ",", "Serato Sample", ",", "Serum", ",", "SerumFX", ",", "ShaperBox 2", ",", "Shift", ",", "Side Filter", ",", "Sie-Q", ",", "Singularity", ",", "SketchCassette", ",", "Slice EQ", ",", "Snap Heap", ",", "Solveig", ",", "Spectral Averaging", ",", "Spectral Bin Shift", ",", "Spectral Blurring", ",", "Spectral DroneMaker", ",", "Spectral Emergence", ",", "Spectral Filterbank", ",", "Spectral Freezing", ",", "Spectral Gate And Hold", ",", "Spectral Gliding Filters", ",", "Spectral Granulation", ",", "Spectral Harmonizer", ",", "Spectral Partial Glide", ",", "Spectral Pitch Shift", ",", "Spectral Pulsing", ",", "Spectral Shimmer", ",", "Spectral Shuffle", ",", "Spectral Stretch", ",", "Spectral Tracing", ",", "Spectral Weave", ",", "Speektra", ",", "Splitch", ",", "Springs", ",", "Stereo", ",", "Stream", ",", "Stutter Edit", ",", "Suntron", ",", "Super Filterbank", ",", "Surge", ",", "Svep", ",", "Switch", ",", "SyndtSphere", ",", "Synth1", ",", "SynthMaster 2.9 Effect", ",", "SynthMaster 2.9 Instrument", ",", "SynthMaster One Effect", ",", "SynthMaster One Instrument", ",", "TAL Reverb 4 Plugin", ",", "Tape Stop", ",", "Texture", ",", "Thales Model I v", ",", "The Abuser", ",", "The Mangle", ",", "Tonal Balance Control 2", ",", "Tonal Balance Control", ",", "Torsion", ",", "Trance Gate", ",", "Transient Shaper", ",", "Tremolator", ",", "TS-1 Transient Shaper", ",", "TTAP", ",", "Tube Modulator", ",", "Turbo", ",", "UltraTap", ",", "Unfiltered Audio Dent 2", ",", "Unfiltered Audio Fault", ",", "Unfiltered Audio Indent 2", ",", "Unfiltered Audio Instant Delay", ",", "Unfiltered Audio LION", ",", "Unfiltered Audio Sandman Pro", ",", "Unfiltered Audio SpecOps", ",", "Unfiltered Audio Triad", ",", "Union", ",", "UVIWorkstation", ",", "ValhallaDelay", ",", "ValhallaFreqEcho", ",", "ValhallaPlate", ",", "ValhallaRoom", ",", "ValhallaShimmer", ",", "ValhallaSpaceModulator", ",", "ValhallaUberMod", ",", "ValhallaVintageVerb", ",", "Vanisher", ",", "VCV Bridge", ",", "Verv", ",", "VocalSynth 2", ",", "Washout", ",", "Weave", ",", "Whirl", ",", "WOV", ",", "XenoVerb", ",", "Zerone" ],
+					"items" : [ "3-Band EQ", ",", "914 Mk 2", ",", "Alternator", ",", "Array", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Axon 2", ",", "Beatformer", ",", "Bidule FX (sidechain)", ",", "Bidule FX", ",", "Bidule MFX", ",", "Bidule", ",", "Big Goat", ",", "Bitcrush", ",", "Blackhole (No MIDI)", ",", "Blackhole", ",", "Blend", ",", "Blindfold EQ", ",", "Blue Face", ",", "Bluejay", ",", "Brusfri", ",", "Captain Beat", ",", "Captain Chords", ",", "Captain Deep", ",", "Captain Melody", ",", "Captain Play", ",", "Carve EQ", ",", "Cassette", ",", "Chorus_Effect", ",", "Clonemeld", ",", "Cloud Machine", ",", "Cluster", ",", "Comb Filter", ",", "Comet", ",", "Compressor", ",", "Corrosion", ",", "Cream", ",", "Crystallizer", ",", "Cthulhu", ",", "Curve2", ",", "DAW Cassette", ",", "Decapitator", ",", "Degrader", ",", "Delay", ",", "Deleight", ",", "Devil-Loc Deluxe", ",", "Devil-Loc", ",", "Dexed", ",", "Dipole", ",", "Disperser", ",", "Dispersion", ",", "Distortion 1", ",", "Distortion", ",", "DLSMusicDevice", ",", "Drone Piano", ",", "Droplet", ",", "Dubstation 2", ",", "EchoBoy Jr", ",", "EchoBoy", ",", "Echoes T7E", ",", "EffectRack", ",", "Eidolon", ",", "Emission", ",", "Ensemble", ",", "Enso", ",", "Eos 2", ",", "Eternal", ",", "Europa by Reason", ",", "Falcon", ",", "Fathoms", ",", "Faturator", ",", "Filter", ",", "FilterFreak1", ",", "FilterFreak2", ",", "Filterjam", ",", "FilterShaper3", ",", "Filterstation2", ",", "Flanger", ",", "Flow II", ",", "Fog Convolver", ",", "Foomph", ",", "Formant Filter", ",", "Fraction", ",", "FreeAMP", ",", "Frequency Shifter", ",", "Frostbite 2", ",", "FuzzPlus3", ",", "Gaffel", ",", "Gain", ",", "Gate", ",", "GotoEQ", ",", "Grain Streamer", ",", "GrainSpace", ",", "Grand Finale", ",", "Granule", ",", "Granulizer 2", ",", "H3000 Factory", ",", "Haas", ",", "Haaze 2", ",", "HalfTime", ",", "Harmonic Maximizer", ",", "Heavy Pedal", ",", "Hexonator", ",", "Hillman", ",", "Hologram", ",", "HRTFPanner", ",", "Idee Fixer", ",", "Inertia", ",", "Insight 2", ",", "Instinct", ",", "iZotope DDLY Dynamic Delay", ",", "iZotope Mobius Filter", ",", "iZotope Stutter Edit", ",", "iZotope Trash 2", ",", "kHs ONE", ",", "Kleverb", ",", "Ladder Filter", ",", "Latin Percussion", ",", "LDC2 Compander", ",", "Limiter", ",", "Little AlterBoy", ",", "Little MicroShift", ",", "Little Plate", ",", "Little PrimalTap", ",", "Little Radiator", ",", "Low Filter", ",", "Luminance", ",", "Malfunction II", ",", "MangledVerb", ",", "Markus 88 v151", ",", "MicroShift", ",", "Microtonic Multi", ",", "Microtonic", ",", "Midi Madness 3", ",", "MidiShaper", ",", "Mimik", ",", "Modley", ",", "Modular FX", ",", "Modular", ",", "Molecule", ",", "Multipass", ",", "Multitude", ",", "Nectar 3 Elements", ",", "Nectar 3", ",", "Neutron 3 Compressor", ",", "Neutron 3 Elements", ",", "Neutron 3 Equalizer", ",", "Neutron 3 Exciter", ",", "Neutron 3 Gate", ",", "Neutron 3 Sculptor", ",", "Neutron 3 Transient Shaper", ",", "Neutron 3 Visual Mixer", ",", "Neutron 3", ",", "Nimbus", ",", "Northern Boarder", ",", "Nouveau Mellow", ",", "Nuxx", ",", "Octavlord", ",", "Outer Space", ",", "Ozone 9 Dynamic EQ", ",", "Ozone 9 Dynamics", ",", "Ozone 9 Equalizer", ",", "Ozone 9 Exciter", ",", "Ozone 9 Imager", ",", "Ozone 9 Low End Focus", ",", "Ozone 9 Master Rebalance", ",", "Ozone 9 Match EQ", ",", "Ozone 9 Maximizer", ",", "Ozone 9 Spectral Shaper", ",", "Ozone 9 Vintage Compressor", ",", "Ozone 9 Vintage EQ", ",", "Ozone 9 Vintage Limiter", ",", "Ozone 9 Vintage Tape", ",", "Ozone 9", ",", "Ozone Imager 2", ",", "Padshop", ",", "Palindrome", ",", "PanMan", ",", "Parallax", ",", "Pastfabric", ",", "Pastoral Piano", ",", "Phase Distortion", ",", "Phase Plant", ",", "PhaseMistress", ",", "Phaser", ",", "Pigments", ",", "Pitch Shifter", ",", "Plectrik", ",", "Polaris", ",", "Portal", ",", "Pre X7", ",", "PrimalTap", ",", "Protoverb", ",", "Push", ",", "Quanta", ",", "R4", ",", "Radiator", ",", "Radio", ",", "Re-Function", ",", "Reaktor 6 MFX", ",", "Reaktor 6", ",", "REAMP", ",", "Regrader", ",", "Regroover Pro", ",", "Relay", ",", "Reshuffle", ",", "Resonator", ",", "Reverb", ",", "Reverser", ",", "Rhythmiq", ",", "Ring Mod", ",", "Robotizer", ",", "Room Piano v2", ",", "Rust", ",", "RX 7 Breath Control", ",", "RX 7 Connect", ",", "RX 7 De-click", ",", "RX 7 De-clip", ",", "RX 7 De-crackle", ",", "RX 7 De-ess", ",", "RX 7 De-hum", ",", "RX 7 De-plosive", ",", "RX 7 De-reverb", ",", "RX 7 Monitor", ",", "RX 7 Mouth De-click", ",", "RX 7 Spectral De-noise", ",", "RX 7 Voice De-noise", ",", "Sequential", ",", "Serato Sample", ",", "Serum", ",", "SerumFX", ",", "ShaperBox 2", ",", "Shift", ",", "Side Filter", ",", "Sie-Q", ",", "Singularity", ",", "SketchCassette", ",", "Slice EQ", ",", "Snap Heap", ",", "Solveig", ",", "Spectral Averaging", ",", "Spectral Bin Shift", ",", "Spectral Blurring", ",", "Spectral DroneMaker", ",", "Spectral Emergence", ",", "Spectral Filterbank", ",", "Spectral Freezing", ",", "Spectral Gate And Hold", ",", "Spectral Gliding Filters", ",", "Spectral Granulation", ",", "Spectral Harmonizer", ",", "Spectral Partial Glide", ",", "Spectral Pitch Shift", ",", "Spectral Pulsing", ",", "Spectral Shimmer", ",", "Spectral Shuffle", ",", "Spectral Stretch", ",", "Spectral Tracing", ",", "Spectral Weave", ",", "Speektra", ",", "Splitch", ",", "Springs", ",", "Stereo", ",", "Stream", ",", "Stutter Edit", ",", "Suntron", ",", "Super Filterbank", ",", "Surge", ",", "Svep", ",", "Switch", ",", "SyndtSphere", ",", "Synth1", ",", "SynthMaster 2.9 Effect", ",", "SynthMaster 2.9 Instrument", ",", "SynthMaster One Effect", ",", "SynthMaster One Instrument", ",", "TAL Reverb 4 Plugin", ",", "Tape Stop", ",", "Texture", ",", "Thales Model I v", ",", "The Abuser", ",", "The Mangle", ",", "Tonal Balance Control 2", ",", "Tonal Balance Control", ",", "Torsion", ",", "Trance Gate", ",", "Transient Shaper", ",", "Tremolator", ",", "TS-1 Transient Shaper", ",", "TTAP", ",", "Tube Modulator", ",", "Turbo", ",", "UltraTap", ",", "Unfiltered Audio Dent 2", ",", "Unfiltered Audio Fault", ",", "Unfiltered Audio Indent 2", ",", "Unfiltered Audio Instant Delay", ",", "Unfiltered Audio LION", ",", "Unfiltered Audio Sandman Pro", ",", "Unfiltered Audio SpecOps", ",", "Unfiltered Audio Triad", ",", "Union", ",", "UVIWorkstation", ",", "ValhallaDelay", ",", "ValhallaFreqEcho", ",", "ValhallaPlate", ",", "ValhallaRoom", ",", "ValhallaShimmer", ",", "ValhallaSpaceModulator", ",", "ValhallaUberMod", ",", "ValhallaVintageVerb", ",", "Vanisher", ",", "VCV Bridge", ",", "Verv", ",", "VocalSynth 2", ",", "Washout", ",", "Weave", ",", "Whirl", ",", "WOV", ",", "XenoVerb", ",", "Zerone" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 334.499999999999886, 405.5, 100.0, 22.0 ],
+					"patching_rect" : [ 407.499999999999886, 344.5, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.666666999999961, 26.0, 145.0, 22.0 ]
+					"presentation_rect" : [ 1.374999833333391, 2.0, 130.687500166666609, 22.0 ]
 				}
 
 			}
@@ -571,7 +797,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.999999999999886, 477.0, 79.0, 22.0 ],
+					"patching_rect" : [ 479.999999999999886, 416.0, 79.0, 22.0 ],
 					"text" : "prepend plug"
 				}
 
@@ -582,7 +808,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 442.999999999999886, 401.5, 43.0, 20.0 ],
+					"patching_rect" : [ 515.999999999999886, 340.5, 43.0, 20.0 ],
 					"style" : "helpfile_label",
 					"text" : "plugin"
 				}
@@ -600,7 +826,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 7.4375, 540.0, 92.5, 22.0 ],
+					"patching_rect" : [ 44.854166666666686, 479.0, 128.083333333333314, 22.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -628,14 +854,14 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"pluginname" : "Northern Boarder.auinfo",
-							"plugindisplayname" : "Northern Boarder",
+							"pluginname" : "3-Band EQ.auinfo",
+							"plugindisplayname" : "3-Band EQ",
 							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 1398558532,
+							"pluginsaveduniqueid" : 711810926,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "12766.hAGaoMGcv.C1AHv.DTfAGfPBJrPKt7BLwvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwTA0DTOAAM..............PA..............P..........H..........C..........A.....DMCMDkLeCADNvvCPDgDSPQEVbAFYnwFbzgGe.RHhLBIkXxInjhJqvhTw.iTwTSTyHULwDEMQUiTwHST1HULyD0MQAST3HULzDULQkSVOUGcvUGcfDSLX8TczAWczAxLY8TczAWczARL1f0S0QGb0QGHzj0S0QGb0QGHwHCVOUGcvUGcfTCVOUGcvUGcfXSVOUGcvUGcfDyLX8TczAWczAxMY8TczAWczARLzf0S0QGb0QGH3f0S0QGb0QGHwf0S0QGb0QGH4j0S0QGb0QGHwTCVOUGcvUGcfHSVOUGcvUGcfDCLRLEWOQDD.HQX00VcOEwK9dCLyAxT44FcnAxTzIWZtc1btz1bkA.QrB..DwJ..D....P................f.....B...H...............................D....P..........DsHa7C1iBmO......8+++O..........D....f5lDiOSO8z+G..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................T.........................P....................................P.....A...7C.....+A...7G.......................Lv................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve........................AC...............D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P....+.....ve....+A......................vGL...............P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.......................ev................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.........................D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P....+.....ve....+A........................P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.........................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.......................7AG..........iv0i8B...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D...............................A....D....P....+.....ve....+A.......................BD...............P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P..........................LyLS9C....P.....A...7C.....+A...7G.......................Uv................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.........................D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P8nvs+.....ve....+A......................fFL...............P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.......................ev................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.......................7AC...............D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P....+.....ve....+A........................P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.........................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.........................D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P....+.....ve....+A........................P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.......................ev................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.......................7AC...............D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................fUUtQWZzwVYjA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jF.fBvn.TJ.HCvx.3L.PCvz.TM.WCf1.vM.eCP3.LN.kC.5.nN.rCf8.7e.IDfDAvQ.kDfKAfS.AEvRAPU.cEfYA.W.4EvfAfX.JFviwDE.......f.A.........fL..................PLZA"
+							"blob" : "1406.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FTR.xZHM2SQPP6E....b+...P...........P..............FL...Xv...WCA.fITD.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................HQX0YFdRr1bwUFDA..B.TA.Z.vI.vB.w.PN.DD.BAvQEfSA8TfP........BD..........M...................EPD"
 						}
 ,
 						"snapshotlist" : 						{
@@ -645,19 +871,19 @@
 									"version" : 2,
 									"minorversion" : 0,
 									"name" : "Northern Boarder",
-									"origin" : "Northern Boarder.auinfo",
+									"origin" : "3-Band EQ.auinfo",
 									"type" : "AudioUnit",
-									"subtype" : "Instrument",
+									"subtype" : "AudioEffect",
 									"embed" : 1,
 									"snapshot" : 									{
-										"pluginname" : "Northern Boarder.auinfo",
-										"plugindisplayname" : "Northern Boarder",
+										"pluginname" : "3-Band EQ.auinfo",
+										"plugindisplayname" : "3-Band EQ",
 										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1398558532,
+										"pluginsaveduniqueid" : 711810926,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "12766.hAGaoMGcv.C1AHv.DTfAGfPBJrPKt7BLwvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwTA0DTOAAM..............PA..............P..........H..........C..........A.....DMCMDkLeCADNvvCPDgDSPQEVbAFYnwFbzgGe.RHhLBIkXxInjhJqvhTw.iTwTSTyHULwDEMQUiTwHST1HULyD0MQAST3HULzDULQkSVOUGcvUGcfDSLX8TczAWczAxLY8TczAWczARL1f0S0QGb0QGHzj0S0QGb0QGHwHCVOUGcvUGcfTCVOUGcvUGcfXSVOUGcvUGcfDyLX8TczAWczAxMY8TczAWczARLzf0S0QGb0QGH3f0S0QGb0QGHwf0S0QGb0QGH4j0S0QGb0QGHwTCVOUGcvUGcfHSVOUGcvUGcfDCLRLEWOQDD.HQX00VcOEwK9dCLyAxT44FcnAxTzIWZtc1btz1bkA.QrB..DwJ..D....P................f.....B...H...............................D....P..........DsHa7C1iBmO......8+++O..........D....f5lDiOSO8z+G..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................T.........................P....................................P.....A...7C.....+A...7G.......................Lv................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve........................AC...............D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P....+.....ve....+A......................vGL...............P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.......................ev................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.........................D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P....+.....ve....+A........................P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.........................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.......................7AG..........iv0i8B...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D...............................A....D....P....+.....ve....+A.......................BD...............P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P..........................LyLS9C....P.....A...7C.....+A...7G.......................Uv................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.........................D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P8nvs+.....ve....+A......................fFL...............P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.......................ev................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.......................7AC...............D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P....+.....ve....+A........................P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.........................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.........................D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................D....................................D....P....+.....ve....+A........................P...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................P....................................P.....A...7C.....+A...7G.......................ev................A...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................................A....D...vO.....7G...ve.......................7AC...............D...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................fUUtQWZzwVYjA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jF.fBvn.TJ.HCvx.3L.PCvz.TM.WCf1.vM.eCP3.LN.kC.5.nN.rCf8.7e.IDfDAvQ.kDfKAfS.AEvRAPU.cEfYA.W.4EvfAfX.JFviwDE.......f.A.........fL..................PLZA"
+										"blob" : "1406.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FTR.xZHM2SQPP6E....b+...P...........P..............FL...Xv...WCA.fITD.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................A....................HQX0YFdRr1bwUFDA..B.TA.Z.vI.vB.w.PN.DD.BAvQEfSA8TfP........BD..........M...................EPD"
 									}
 ,
 									"fileref" : 									{
@@ -665,7 +891,7 @@
 										"filename" : "Northern Boarder.maxsnap",
 										"filepath" : "~/Documents/Max 8/Projects/Groovin/data",
 										"filepos" : -1,
-										"snapshotfileid" : "86d351840bf4dca71bf38d5e4db67fda"
+										"snapshotfileid" : "c025c112a4ec3c2433cd92c7f60ee585"
 									}
 
 								}
@@ -688,7 +914,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.4375, 618.77118644067798, 30.0, 30.0 ]
+					"patching_rect" : [ 44.854166666666686, 556.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -717,7 +943,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"midpoints" : [ 69.4375, 588.0, 197.25, 588.0, 197.25, 533.0, 217.0625, 533.0 ],
+					"midpoints" : [ 132.270833333333314, 512.0, 270.25, 512.0, 270.25, 472.0, 290.0625, 472.0 ],
 					"source" : [ "obj-1", 5 ]
 				}
 
@@ -725,6 +951,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
+					"midpoints" : [ 101.104166666666686, 524.0, 208.5625, 524.0 ],
 					"source" : [ "obj-1", 3 ]
 				}
 
@@ -732,7 +959,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 365.499999999999886, 388.0, 343.999999999999886, 388.0 ],
+					"midpoints" : [ 438.499999999999886, 327.0, 416.999999999999886, 327.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -747,7 +974,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 463.999999999999886, 287.5, 343.999999999999886, 287.5 ],
+					"midpoints" : [ 536.999999999999886, 226.5, 416.999999999999886, 226.5 ],
 					"source" : [ "obj-12", 2 ]
 				}
 
@@ -755,7 +982,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 403.999999999999886, 287.5, 343.999999999999886, 287.5 ],
+					"midpoints" : [ 476.999999999999886, 226.5, 416.999999999999886, 226.5 ],
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -776,8 +1003,38 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 85.520833333333371, 788.0, 31.21875, 788.0, 31.21875, 468.0, 54.354166666666686, 468.0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 2 ],
+					"midpoints" : [ 270.499999999999886, 802.0, 716.53125, 802.0, 716.53125, 304.0, 996.0625, 304.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-18", 1 ]
 				}
 
 			}
@@ -790,7 +1047,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 85.520833333333371, 602.885593220338933, 262.625, 602.885593220338933 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -798,7 +1065,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 356.0, 150.25, 545.5, 150.25 ],
+					"midpoints" : [ 429.0, 89.25, 618.5, 89.25 ],
 					"source" : [ "obj-20", 1 ]
 				}
 
@@ -813,7 +1080,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 545.5, 388.5, 343.999999999999886, 388.5 ],
+					"midpoints" : [ 618.5, 327.5, 416.999999999999886, 327.5 ],
 					"order" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -822,7 +1089,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 545.5, 539.25, 400.499999999999886, 539.25 ],
+					"midpoints" : [ 618.5, 478.25, 473.499999999999886, 478.25 ],
 					"order" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -830,8 +1097,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-22", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-23", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 117.5625, 168.0, 99.5625, 168.0 ],
+					"midpoints" : [ 944.5625, 643.0, 944.5625, 643.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -839,7 +1134,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 198.5625, 168.0, 214.625000000000114, 168.0 ],
+					"midpoints" : [ 1025.5625, 643.0, 1059.625, 643.0 ],
 					"source" : [ "obj-24", 1 ]
 				}
 
@@ -881,8 +1176,45 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 2 ],
+					"midpoints" : [ 381.125, 704.0, 851.34375, 704.0, 851.34375, 405.0, 1037.5625, 405.0 ],
+					"source" : [ "obj-32", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"midpoints" : [ 391.625, 704.0, 717.84375, 704.0, 717.84375, 323.5, 974.0625, 323.5 ],
+					"source" : [ "obj-32", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}
@@ -896,7 +1228,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 170.5625, 513.5, 16.9375, 513.5 ],
+					"midpoints" : [ 243.5625, 452.5, 54.354166666666686, 452.5 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -911,7 +1243,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 50.5, 397.0, 16.9375, 397.0 ],
+					"midpoints" : [ 123.5, 336.0, 54.354166666666686, 336.0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -932,8 +1264,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 416.499999999999886, 513.5, 16.9375, 513.5 ],
+					"midpoints" : [ 489.499999999999886, 452.5, 54.354166666666686, 452.5 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -941,7 +1280,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 245.5625, 513.0, 16.9375, 513.0 ],
+					"midpoints" : [ 318.5625, 452.0, 54.354166666666686, 452.0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -949,22 +1288,31 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 86.0, 514.75, 16.9375, 514.75 ],
+					"midpoints" : [ 159.0, 453.75, 54.354166666666686, 453.75 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 473.499999999999886, 602.385593220338933, 262.625, 602.385593220338933 ],
+					"order" : 1,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"midpoints" : [ 400.499999999999886, 583.885593220338933, 217.0625, 583.885593220338933 ],
+					"midpoints" : [ 473.499999999999886, 522.885593220338933, 290.0625, 522.885593220338933 ],
 					"order" : 0,
 					"source" : [ "obj-50", 0 ]
 				}
@@ -973,8 +1321,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 400.499999999999886, 671.385593220338933, 63.5, 671.385593220338933 ],
-					"order" : 1,
+					"midpoints" : [ 473.499999999999886, 602.385593220338933, 85.520833333333371, 602.385593220338933 ],
+					"order" : 2,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -982,7 +1330,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 217.0625, 663.0, 172.0, 663.0, 172.0, 529.0, 16.9375, 529.0 ],
+					"midpoints" : [ 290.0625, 593.0, 245.0, 593.0, 245.0, 468.0, 54.354166666666686, 468.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -990,7 +1338,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"midpoints" : [ 384.499999999999886, 477.0, 319.25, 477.0, 319.25, 329.5, 50.5, 329.5 ],
+					"midpoints" : [ 457.499999999999886, 416.0, 392.25, 416.0, 392.25, 268.5, 123.5, 268.5 ],
 					"order" : 0,
 					"source" : [ "obj-52", 0 ]
 				}
@@ -1013,9 +1361,46 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 384.499999999999886, 478.0, 319.499999999999943, 478.0, 319.499999999999943, 257.5, 50.5, 257.5 ],
+					"midpoints" : [ 457.499999999999886, 417.0, 392.5, 417.0, 392.5, 196.5, 123.5, 196.5 ],
 					"order" : 1,
 					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 1 ],
+					"midpoints" : [ 96.020833333333371, 700.0, 775.291666666666742, 700.0, 775.291666666666742, 392.0, 1006.5625, 392.0 ],
+					"source" : [ "obj-54", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"midpoints" : [ 106.520833333333371, 700.0, 718.291666666666742, 700.0, 718.291666666666742, 323.5, 974.0625, 323.5 ],
+					"source" : [ "obj-54", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}
@@ -1029,16 +1414,29 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 50.5, 320.25, 16.9375, 320.25 ],
+					"midpoints" : [ 123.5, 259.25, 54.354166666666686, 259.25 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 542.0, 700.5, 599.28125, 700.5, 599.28125, 6.0, 224.5625, 6.0 ],
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}
@@ -1058,6 +1456,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -1065,8 +1470,80 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 1 ],
+					"source" : [ "obj-73", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"midpoints" : [ 970.5625, 789.0, 1358.78125, 789.0, 1358.78125, 323.5, 974.0625, 323.5 ],
+					"source" : [ "obj-73", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"midpoints" : [ 1080.625, 764.0, 1357.34375, 764.0, 1357.34375, 323.5, 974.0625, 323.5 ],
+					"source" : [ "obj-79", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 1 ],
+					"source" : [ "obj-79", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-80", 0 ]
 				}
 
 			}
