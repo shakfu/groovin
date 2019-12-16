@@ -67,7 +67,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-81",
-					"items" : [ "karma", ",", "vst" ],
+					"items" : [ "karma", ",", "plugin" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -525,7 +525,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 379.0, 99.0, 509.0, 519.0 ],
+						"rect" : [ 420.0, 114.0, 509.0, 519.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -555,7 +555,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
-									"linecount" : 84,
+									"linecount" : 70,
 									"maxclass" : "textedit",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -563,10 +563,10 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 80.0, 148.0, 100.0, 50.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 32,
+									"presentation_linecount" : 28,
 									"presentation_rect" : [ 31.0, 22.5, 447.0, 474.0 ],
 									"readonly" : 1,
-									"text" : "# Groovin v0.51\n\n## Overview\n\nA Max/Msp 4+1 channel looper with overdubbing based on groove~ msp object and the karma~, spindrift~ and gigaverb~ externals.\n\nDeveloped on Max 8 and is of now, OS X only (64-bit).\n\nThis project is/was an iterative product of my attempts over a summer to learn max/msp.\n\nPlease note that it assumes that you have a set of samples files (..wav or .aif) in `~/Music/samples`. These can be of pretty much of variable subject to the constraints of the max/msp engine and your computer.\n\n\n\n## Externals\n\nThis project uses the following externals (OS X 64-bit):\n\n- [karma~](https://cycling74.com/tools/karma-samplerlooper-external): for variabile speed overdubbing and looping.\n\n- [spindrift~](http://www.michaelnorris.info/software/spindrift): for granular synthesis experimentation. \n\n- gigaverb, or more precisely, V. Boehm's [64-bit version](https://github.com/v7b1/gigaverb) of the original by Olaf Matthes implementated by Juhana Sadeharju), for reverb.\n\n"
+									"text" : "# Groovin v0.55\n\n## Overview\n\nA Max/Msp 4+1 channel looper with overdubbing based on groove~ msp object and the karma~, spindrift~ and gigaverb~ externals.\n\nDeveloped on Max 8 and currently OS X only (64-bit).\n\nPlease note that it assumes that you have a set of sample files (..wav or .aif) in `~/Music/samples`.\n\n\n\n## Externals\n\nThis project uses the following externals (OS X 64-bit):\n\n- [karma~](https://cycling74.com/tools/karma-samplerlooper-external): for variabile speed overdubbing and looping.\n\n- [spindrift~](http://www.michaelnorris.info/software/spindrift): for granular synthesis experimentation. \n\n- gigaverb, or more precisely, V. Boehm's [64-bit version](https://github.com/v7b1/gigaverb) of the original by Olaf Matthes implementated by Juhana Sadeharju), for reverb.\n\n"
 								}
 
 							}
@@ -717,7 +717,6 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-32",
@@ -725,43 +724,44 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 406.999999999999886, 117.0, 317.0, 40.0 ],
+									"patching_rect" : [ 406.999999999999886, 117.0, 317.0, 36.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 133.999999999999886, 189.0, 317.0, 40.0 ],
-									"text" : "remove the known list and opt-out of the\n scanning (going back to the Max normal behavior)"
+									"presentation_rect" : [ 133.999999999999886, 189.0, 317.0, 36.0 ],
+									"text" : "remove the known list and opt-out of the\n scanning (going back to the Max normal behavior)",
+									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 406.999999999999886, 13.0, 293.0, 25.0 ],
+									"patching_rect" : [ 406.999999999999886, 13.0, 293.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 133.999999999999886, 69.5, 293.0, 25.0 ],
-									"text" : "enable \"normal\" scan mode and initiate a scan"
+									"presentation_rect" : [ 133.999999999999886, 69.5, 293.0, 21.0 ],
+									"text" : "enable \"normal\" scan mode and initiate a scan",
+									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-25",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 406.999999999999886, 82.0, 308.0, 25.0 ],
+									"patching_rect" : [ 406.999999999999886, 82.0, 308.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 133.999999999999886, 151.0, 308.0, 25.0 ],
-									"text" : "delete the existing known list and do a full rescan"
+									"presentation_rect" : [ 133.999999999999886, 151.0, 308.0, 21.0 ],
+									"text" : "delete the existing known list and do a full rescan",
+									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
 							}
@@ -795,17 +795,17 @@
 							}
 , 							{
 								"box" : 								{
-									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 406.999999999999886, 50.0, 295.0, 25.0 ],
+									"patching_rect" : [ 406.999999999999886, 50.0, 295.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 133.999999999999886, 111.0, 295.0, 25.0 ],
-									"text" : "un-blacklist any failed plugins and rescan them"
+									"presentation_rect" : [ 133.999999999999886, 111.0, 295.0, 21.0 ],
+									"text" : "un-blacklist any failed plugins and rescan them",
+									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
 							}

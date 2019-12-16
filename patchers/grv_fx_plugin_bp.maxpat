@@ -600,9 +600,10 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-19",
-					"items" : [ "vst", ",", "vst3", ",", "au" ],
+					"items" : [ "au", ",", "vst", ",", "vst3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -610,7 +611,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 449.5, 46.0, 51.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.374999833333391, 22.0, 48.687500166666609, 20.0 ]
+					"presentation_rect" : [ 1.374999833333391, 22.0, 48.687500166666609, 20.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -916,7 +918,7 @@
 										"filename" : "Northern Boarder.maxsnap",
 										"filepath" : "~/Documents/Max 8/Projects/Groovin/data",
 										"filepos" : -1,
-										"snapshotfileid" : "c025c112a4ec3c2433cd92c7f60ee585"
+										"snapshotfileid" : "9a975684788656e88708e2e0e9e4ea9d"
 									}
 
 								}
@@ -1588,14 +1590,7 @@
 
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "Northern Boarder.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
