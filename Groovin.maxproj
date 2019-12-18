@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3659446642,
+	"modificationdate" : 3659501651,
 	"viewrect" : [ 42.0, 92.0, 343.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -22,11 +22,6 @@
 			}
 ,
 			"grv_chan_loop_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"grv_fx_plugin2_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -62,6 +57,11 @@
 			}
 ,
 			"grv_mod_karma_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_fx_plugin2_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -102,6 +102,11 @@
 			}
 ,
 			"grv_chan_loop2_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_chan_instr2_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
