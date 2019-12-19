@@ -1,4 +1,4 @@
-# Groovin v0.41
+# Groovin v0.55
 
 ## Overview
 
@@ -10,13 +10,25 @@ This project is/was an iterative product of my attempts over a summer to learn m
 
 Please note that it assumes that you have a set of samples files (..wav or .aif) in `~/Music/samples`. These can be of pretty much of variable subject to the constraints of the max/msp engine and your computer.
 
-
 Currently at v0.51 with VST/AU and external MIDI support. 
 
 A partial demo of the v0.4 features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
 
 [![groovin v0.4](media/groovin_v04_screenshot.png)](http://www.youtube.com/watch?v=sKZO_4qYpj0)
 
+## Modules
+
+channel
+    loop1
+    loop2
+    grain1
+    grain2
+    instr1
+    instr2
+
+mixer
+    karma
+    plugin
 
 
 ## Externals
