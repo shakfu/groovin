@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 636.0, 268.0, 749.0, 598.0 ],
+		"rect" : [ 270.0, 265.0, 772.0, 607.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,29 +44,18 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-1",
+					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_mod_loop_bp.maxpat",
+					"name" : "grv_mod_grain_bp.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 11.0, 109.0, 401.0, 137.0 ],
+					"patching_rect" : [ 9.0625, 4.0, 400.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 393.0, 128.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 391.5, 133.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 83.656865686523588, 352.0, 79.0, 20.0 ],
-					"text" : "biquad filter"
 				}
 
 			}
@@ -77,7 +66,29 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-8",
+					"id" : "obj-18",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "grv_fx_plugin2_bp.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 7.5625, 396.0, 166.270675111111018, 133.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 593.0, 2.135593220339047, 143.270675111111018, 129.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-22",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "grv_filter_biquad_bp.maxpat",
@@ -85,117 +96,94 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 7.4375, 376.0, 155.219365686523588, 131.0 ],
+					"patching_rect" : [ 7.5625, 249.0, 161.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 432.0, 1.0, 159.666666666666629, 129.0 ],
+					"presentation_rect" : [ 432.0, 2.135593220339047, 159.0, 129.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-3",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "grv_fx_plugin3_bp.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 7.4375, 519.5, 149.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 593.666666666666629, 1.0, 151.333333333333371, 128.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-55",
+					"id" : "obj-9",
 					"maxclass" : "meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 40.0, 270.974365234375, 14.0, 84.0 ],
+					"patching_rect" : [ 32.5625, 223.0, 96.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 414.333333333333371, 27.0, 14.0, 79.0 ]
+					"presentation_rect" : [ 414.0, 25.5, 14.0, 84.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
+					"id" : "obj-5",
 					"maxclass" : "gain~",
 					"multichannelvariant" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.5, 270.974365234375, 15.0, 84.0 ],
+					"patching_rect" : [ 9.0625, 162.0, 20.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.0, 27.0, 15.0, 79.0 ]
+					"presentation_rect" : [ 394.0, 25.5, 15.0, 84.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-26",
+					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.4375, 664.77118644067798, 30.0, 30.0 ]
+					"patching_rect" : [ 7.5625, 555.5, 30.0, 30.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-1", 0 ]
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"midpoints" : [ 17.0, 352.313137248410953, 34.25, 352.313137248410953, 34.25, 257.313137248410953, 48.0, 257.313137248410953 ],
-					"order" : 0,
-					"source" : [ "obj-19", 0 ]
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
 					"order" : 1,
-					"source" : [ "obj-19", 0 ]
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-8", 0 ]
+					"destination" : [ "obj-9", 0 ],
+					"order" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-1" : [ "vst~", "vst~", 0 ],
+			"obj-18::obj-1" : [ "vst~", "vst~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -203,20 +191,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "grv_fx_plugin3_bp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sl.ui_vst_xy.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "grv_filter_biquad_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
@@ -224,24 +198,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_mod_loop_bp.maxpat",
+				"name" : "grv_fx_plugin2_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wfmodes.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfknob.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
+				"name" : "grv_mod_grain_bp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -250,6 +217,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "spindrift~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,

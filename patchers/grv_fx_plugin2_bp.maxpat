@@ -278,7 +278,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 311.125, 638.77118644067798, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0625, 87.0, 70.0, 20.0 ]
+					"presentation_rect" : [ 72.0625, 108.0, 70.0, 20.0 ]
 				}
 
 			}
@@ -427,7 +427,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 134.020833333333371, 638.77118644067798, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0625, 87.0, 70.0, 20.0 ]
+					"presentation_rect" : [ 1.0625, 108.0, 70.0, 20.0 ]
 				}
 
 			}
@@ -492,7 +492,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 338.5625, 561.77118644067798, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0625, 1.0, 70.0, 20.0 ]
+					"presentation_rect" : [ 72.0625, 22.0, 70.0, 20.0 ]
 				}
 
 			}
@@ -570,7 +570,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 935.0625, 532.77118644067798, 100.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0625, 22.0, 91.0, 64.0 ]
+					"presentation_rect" : [ 51.0625, 43.0, 91.0, 64.0 ]
 				}
 
 			}
@@ -611,7 +611,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 449.5, 46.0, 51.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.750000166666609, 22.0, 49.0, 20.0 ],
+					"presentation_rect" : [ 1.0625, 1.0, 49.0, 20.0 ],
 					"textjustification" : 1
 				}
 
@@ -722,7 +722,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 292.0625, 372.5, 47.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0625, 108.0, 48.687500166666609, 20.0 ],
+					"presentation_rect" : [ 1.0625, 87.0, 48.687500166666609, 20.0 ],
 					"text" : "disable",
 					"texton" : "disable"
 				}
@@ -813,7 +813,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.499999999999886, 373.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0625, 1.0, 69.687500166666609, 20.0 ]
+					"presentation_rect" : [ 1.0625, 22.0, 69.687500166666609, 20.0 ]
 				}
 
 			}
@@ -918,7 +918,7 @@
 										"filename" : "Northern Boarder.maxsnap",
 										"filepath" : "~/Documents/Max 8/Projects/Groovin/data",
 										"filepos" : -1,
-										"snapshotfileid" : "0eb86dee4bdd3cf4eeefdb2c78f1d181"
+										"snapshotfileid" : "9a975684788656e88708e2e0e9e4ea9d"
 									}
 
 								}
@@ -1676,8 +1676,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1695,8 +1695,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
