@@ -31,6 +31,18 @@ mixer
     plugin
 
 
+alt:
+
+channel
+    lp.f.d
+    lp.f.p
+    gr.f.d
+    in.f.d
+    in.f.p
+
+    
+
+
 ## Externals
 
 This project uses the following externals (OS X 64-bit):
