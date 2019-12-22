@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 622.0, 79.0, 756.0, 611.0 ],
+		"rect" : [ 229.0, 136.0, 741.0, 611.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -89,7 +89,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 80.0, 50.0, 212.0, 106.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 0.0, 212.0, 108.0 ],
+					"presentation_rect" : [ 1.0, 0.0, 195.0, 108.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -250,10 +250,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Northern Boarder.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Projects/Groovin/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
+				"name" : "sl.ui_vst_xy.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
@@ -324,8 +324,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

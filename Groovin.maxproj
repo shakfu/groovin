@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3659832738,
+	"modificationdate" : 3659885290,
 	"viewrect" : [ 41.0, 92.0, 236.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -137,10 +137,6 @@
 				"kind" : "object",
 				"local" : 1
 			}
-
-		}
-,
-		"other" : 		{
 
 		}
 
