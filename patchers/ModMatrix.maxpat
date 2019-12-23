@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 60.0, 94.0, 532.0, 569.0 ],
+		"rect" : [ 60.0, 94.0, 548.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -324,7 +324,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 36.0, 14.0, 459.0, 235.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 5.0, 513.0, 123.0 ],
+					"presentation_rect" : [ 7.0, 5.0, 538.0, 123.0 ],
 					"varname" : "6SynchLFO",
 					"viewvisibility" : 1
 				}
@@ -657,7 +657,6 @@
 			"obj-2::obj-57" : [ "phase[13]", "phase[20]", 0 ],
 			"obj-26" : [ "phase[21]", "phase[2]", 0 ],
 			"obj-2::obj-50" : [ "phase[3]", "phase[3]", 0 ],
-			"obj-2::obj-276" : [ "FreqMode[4]", "FreqMode", 0 ],
 			"obj-2::obj-278" : [ "textbutton[2]", "textbutton[1]", 0 ],
 			"obj-2::obj-12" : [ "SpectraLFOShape[2]", "Shape", 0 ],
 			"obj-2::obj-18" : [ "flonum[6]", "flonum", 0 ],
@@ -732,12 +731,11 @@
 			"snapshot" : 			{
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
-						"FreqMode[4]" : 0.0,
 						"ReTriggerA[1]" : 4.0,
-						"ReTriggerA[5]" : 3.0,
-						"ReTriggerA[6]" : 5.0,
-						"SpectraLFOShape[1]" : 1.0,
-						"SpectraLFOShape[2]" : 0.0,
+						"ReTriggerA[5]" : 4.0,
+						"ReTriggerA[6]" : 0.0,
+						"SpectraLFOShape[1]" : 4.0,
+						"SpectraLFOShape[2]" : 4.0,
 						"flonum" : 1.0,
 						"flonum[1]" : 1.0,
 						"flonum[3]" : 1.0,
@@ -746,7 +744,7 @@
 						"flonum[6]" : 1.0,
 						"flonum[7]" : 1.0,
 						"flonum[8]" : 1.0,
-						"multiplier[4]" : 2.0,
+						"multiplier[4]" : 1.0,
 						"blob" : 						{
 							"phase[10]" : [ -1.0 ],
 							"phase[11]" : [ 1.0 ],
@@ -789,12 +787,11 @@
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"FreqMode[4]" : 0.0,
 									"ReTriggerA[1]" : 4.0,
-									"ReTriggerA[5]" : 3.0,
-									"ReTriggerA[6]" : 5.0,
-									"SpectraLFOShape[1]" : 1.0,
-									"SpectraLFOShape[2]" : 0.0,
+									"ReTriggerA[5]" : 4.0,
+									"ReTriggerA[6]" : 0.0,
+									"SpectraLFOShape[1]" : 4.0,
+									"SpectraLFOShape[2]" : 4.0,
 									"flonum" : 1.0,
 									"flonum[1]" : 1.0,
 									"flonum[3]" : 1.0,
@@ -803,7 +800,7 @@
 									"flonum[6]" : 1.0,
 									"flonum[7]" : 1.0,
 									"flonum[8]" : 1.0,
-									"multiplier[4]" : 2.0,
+									"multiplier[4]" : 1.0,
 									"blob" : 									{
 										"phase[10]" : [ -1.0 ],
 										"phase[11]" : [ 1.0 ],
