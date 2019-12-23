@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 60.0, 94.0, 573.0, 569.0 ],
+		"rect" : [ 60.0, 94.0, 532.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,18 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 312.0, 45.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 524.0, 5.0, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"format" : 6,
 					"id" : "obj-29",
 					"maxclass" : "flonum",
@@ -62,17 +50,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 475.5, 575.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 348.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 376.0, 344.0, 54.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[2]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[24]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -95,17 +83,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 388.5, 575.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 314.0, 348.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 311.0, 344.0, 54.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[2]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[23]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -128,17 +116,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 299.5, 575.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.0, 348.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 246.0, 344.0, 54.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[2]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[22]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -161,17 +149,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 211.5, 575.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.0, 348.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 183.0, 344.0, 54.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[2]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[21]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -194,17 +182,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 124.0, 575.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 124.0, 348.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 118.0, 344.0, 54.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[2]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[20]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -227,17 +215,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 36.0, 575.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 348.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 55.0, 344.0, 54.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[2]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[19]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -336,7 +324,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 36.0, 14.0, 459.0, 235.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 5.0, 513.0, 135.0 ],
+					"presentation_rect" : [ 7.0, 5.0, 513.0, 129.0 ],
 					"varname" : "6SynchLFO",
 					"viewvisibility" : 1
 				}
@@ -359,7 +347,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 36.0, 272.0, 459.0, 180.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.0, 142.0, 149.0, 142.0 ],
+					"presentation_rect" : [ 189.0, 136.0, 149.0, 142.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -374,7 +362,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 475.5, 501.0, 65.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 285.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 376.0, 281.0, 54.0, 60.0 ],
 					"setstyle" : 5,
 					"slidercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
@@ -390,7 +378,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 388.5, 501.0, 65.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 314.0, 285.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 311.0, 281.0, 54.0, 60.0 ],
 					"setstyle" : 5,
 					"slidercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
@@ -406,7 +394,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 299.5, 501.0, 65.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.0, 285.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 246.0, 281.0, 54.0, 60.0 ],
 					"setstyle" : 5,
 					"slidercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
@@ -422,7 +410,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 211.5, 501.0, 65.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.0, 285.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 183.0, 281.0, 54.0, 60.0 ],
 					"setstyle" : 5,
 					"slidercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
@@ -438,7 +426,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 124.0, 501.0, 65.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 124.0, 285.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 118.0, 281.0, 54.0, 60.0 ],
 					"setstyle" : 5,
 					"slidercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
@@ -454,7 +442,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 36.0, 501.0, 65.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 285.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 55.0, 281.0, 54.0, 60.0 ],
 					"setstyle" : 5,
 					"slidercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
@@ -661,41 +649,49 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-2::obj-19" : [ "phase[1]", "phase[1]", 0 ],
+			"obj-29" : [ "phase[24]", "phase[2]", 0 ],
+			"obj-2::obj-73" : [ "phase[8]", "phase[8]", 0 ],
+			"obj-2::obj-69" : [ "SpectraLFOShape[1]", "Shape", 0 ],
+			"obj-2::obj-22" : [ "multiplier[4]", "multiplier", 0 ],
+			"obj-2::obj-90" : [ "phase[18]", "phase[18]", 0 ],
 			"obj-27" : [ "phase[22]", "phase[2]", 0 ],
 			"obj-2::obj-58" : [ "phase[4]", "phase[4]", 0 ],
 			"obj-2::obj-188" : [ "ReTriggerA[5]", "Re-Trigger", 0 ],
-			"obj-2::obj-56" : [ "base freq", "base freq", 0 ],
-			"obj-2::obj-74" : [ "multiplier[38]", "multiplier", 0 ],
+			"obj-2::obj-14" : [ "flonum[8]", "flonum", 0 ],
 			"obj-2::obj-49" : [ "phase[12]", "phase[19]", 0 ],
 			"obj-24" : [ "phase[20]", "phase[2]", 0 ],
 			"obj-2::obj-34" : [ "phase[2]", "phase[2]", 0 ],
 			"obj-2::obj-276" : [ "FreqMode[4]", "FreqMode", 0 ],
 			"obj-2::obj-81" : [ "phase[9]", "phase[9]", 0 ],
 			"obj-2::obj-12" : [ "SpectraLFOShape[2]", "Shape", 0 ],
-			"obj-2::obj-94" : [ "multiplier[36]", "multiplier", 0 ],
 			"obj-2::obj-84" : [ "phase[10]", "phase[10]", 0 ],
 			"obj-21" : [ "phase[19]", "phase[2]", 0 ],
+			"obj-2::obj-17" : [ "flonum[5]", "flonum", 0 ],
 			"obj-28" : [ "phase[23]", "phase[2]", 0 ],
+			"obj-2::obj-18" : [ "flonum[6]", "flonum", 0 ],
 			"obj-2::obj-68" : [ "phase[7]", "phase[7]", 0 ],
 			"obj-2::obj-62" : [ "ReTriggerA[6]", "Re-Trigger", 0 ],
-			"obj-2::obj-61" : [ "multiplier[1]", "multiplier", 0 ],
-			"obj-2::obj-187" : [ "multiplier[39]", "multiplier", 0 ],
+			"obj-2::obj-8" : [ "flonum", "flonum", 0 ],
 			"obj-2::obj-57" : [ "phase[13]", "phase[20]", 0 ],
 			"obj-26" : [ "phase[21]", "phase[2]", 0 ],
+			"obj-2::obj-4" : [ "flonum[7]", "flonum", 0 ],
+			"obj-2::obj-16" : [ "flonum[4]", "flonum", 0 ],
 			"obj-2::obj-50" : [ "phase[3]", "phase[3]", 0 ],
 			"obj-2::obj-23" : [ "ReTriggerA[1]", "Re-Trigger", 0 ],
 			"obj-2::obj-278" : [ "textbutton[2]", "textbutton[1]", 0 ],
-			"obj-2::obj-75" : [ "SpectraLFOShape[3]", "Shape", 0 ],
-			"obj-2::obj-96" : [ "multiplier[37]", "multiplier", 0 ],
+			"obj-2::obj-15" : [ "flonum[3]", "flonum", 0 ],
+			"obj-2::obj-10" : [ "flonum[1]", "flonum", 0 ],
 			"obj-2::obj-87" : [ "phase[11]", "phase[11]", 0 ],
-			"obj-2::obj-19" : [ "phase[1]", "phase[1]", 0 ],
-			"obj-29" : [ "phase[24]", "phase[2]", 0 ],
-			"obj-2::obj-73" : [ "phase[8]", "phase[8]", 0 ],
-			"obj-2::obj-69" : [ "SpectraLFOShape[1]", "Shape", 0 ],
-			"obj-2::obj-21" : [ "multiplier[35]", "multiplier", 0 ],
-			"obj-2::obj-22" : [ "multiplier[4]", "multiplier", 0 ],
-			"obj-2::obj-90" : [ "phase[18]", "phase[18]", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-2::obj-22" : 				{
+					"parameter_longname" : "multiplier[4]",
+					"parameter_shortname" : "multiplier"
+				}
 
 			}
 
@@ -738,32 +734,32 @@
 					"parameter_values" : 					{
 						"FreqMode[4]" : 0.0,
 						"ReTriggerA[1]" : 4.0,
-						"ReTriggerA[5]" : 4.0,
-						"ReTriggerA[6]" : 0.0,
-						"SpectraLFOShape[1]" : 4.0,
-						"SpectraLFOShape[2]" : 4.0,
-						"SpectraLFOShape[3]" : 1.0,
-						"base freq" : 1.0,
-						"multiplier[1]" : 1.25,
-						"multiplier[35]" : 1.0,
-						"multiplier[36]" : 1.05,
-						"multiplier[37]" : 1.0,
-						"multiplier[38]" : 1.1,
-						"multiplier[39]" : 1.15,
-						"multiplier[4]" : 1.2,
+						"ReTriggerA[5]" : 3.0,
+						"ReTriggerA[6]" : 5.0,
+						"SpectraLFOShape[1]" : 1.0,
+						"SpectraLFOShape[2]" : 0.0,
+						"flonum" : 1.0,
+						"flonum[1]" : 1.0,
+						"flonum[3]" : 1.0,
+						"flonum[4]" : 1.0,
+						"flonum[5]" : 1.0,
+						"flonum[6]" : 1.0,
+						"flonum[7]" : 1.0,
+						"flonum[8]" : 1.0,
+						"multiplier[4]" : 2.0,
 						"blob" : 						{
 							"phase[10]" : [ -1.0 ],
 							"phase[11]" : [ 1.0 ],
 							"phase[12]" : [ 1.0 ],
 							"phase[13]" : [ -1.0 ],
 							"phase[18]" : [ -1.0 ],
-							"phase[19]" : [ 0.0 ],
+							"phase[19]" : [ 0.982823519308623 ],
 							"phase[1]" : [ -1.0 ],
-							"phase[20]" : [ 0.0 ],
-							"phase[21]" : [ 0.0 ],
-							"phase[22]" : [ 0.0 ],
-							"phase[23]" : [ 0.0 ],
-							"phase[24]" : [ 0.0 ],
+							"phase[20]" : [ -0.075248979426235 ],
+							"phase[21]" : [ 0.812119727723111 ],
+							"phase[22]" : [ -0.604785487852038 ],
+							"phase[23]" : [ -1.0 ],
+							"phase[24]" : [ -0.487484693527222 ],
 							"phase[2]" : [ 1.0 ],
 							"phase[3]" : [ 1.0 ],
 							"phase[4]" : [ -1.0 ],
@@ -795,32 +791,32 @@
 								"parameter_values" : 								{
 									"FreqMode[4]" : 0.0,
 									"ReTriggerA[1]" : 4.0,
-									"ReTriggerA[5]" : 4.0,
-									"ReTriggerA[6]" : 0.0,
-									"SpectraLFOShape[1]" : 4.0,
-									"SpectraLFOShape[2]" : 4.0,
-									"SpectraLFOShape[3]" : 1.0,
-									"base freq" : 1.0,
-									"multiplier[1]" : 1.25,
-									"multiplier[35]" : 1.0,
-									"multiplier[36]" : 1.05,
-									"multiplier[37]" : 1.0,
-									"multiplier[38]" : 1.1,
-									"multiplier[39]" : 1.15,
-									"multiplier[4]" : 1.2,
+									"ReTriggerA[5]" : 3.0,
+									"ReTriggerA[6]" : 5.0,
+									"SpectraLFOShape[1]" : 1.0,
+									"SpectraLFOShape[2]" : 0.0,
+									"flonum" : 1.0,
+									"flonum[1]" : 1.0,
+									"flonum[3]" : 1.0,
+									"flonum[4]" : 1.0,
+									"flonum[5]" : 1.0,
+									"flonum[6]" : 1.0,
+									"flonum[7]" : 1.0,
+									"flonum[8]" : 1.0,
+									"multiplier[4]" : 2.0,
 									"blob" : 									{
 										"phase[10]" : [ -1.0 ],
 										"phase[11]" : [ 1.0 ],
 										"phase[12]" : [ 1.0 ],
 										"phase[13]" : [ -1.0 ],
 										"phase[18]" : [ -1.0 ],
-										"phase[19]" : [ 0.0 ],
+										"phase[19]" : [ 0.982823519308623 ],
 										"phase[1]" : [ -1.0 ],
-										"phase[20]" : [ 0.0 ],
-										"phase[21]" : [ 0.0 ],
-										"phase[22]" : [ 0.0 ],
-										"phase[23]" : [ 0.0 ],
-										"phase[24]" : [ 0.0 ],
+										"phase[20]" : [ -0.075248979426235 ],
+										"phase[21]" : [ 0.812119727723111 ],
+										"phase[22]" : [ -0.604785487852038 ],
+										"phase[23]" : [ -1.0 ],
+										"phase[24]" : [ -0.487484693527222 ],
 										"phase[2]" : [ 1.0 ],
 										"phase[3]" : [ 1.0 ],
 										"phase[4]" : [ -1.0 ],

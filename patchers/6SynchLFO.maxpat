@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 71.0, 111.0, 558.0, 555.0 ],
+		"rect" : [ 117.0, 124.0, 659.0, 559.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,334 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 10.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 428.0, 2.416655999999989, 136.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 429.559447999999975, 5.333336000000003, 54.0, 18.0 ],
+					"text" : "global",
+					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Global Freq",
+					"fontsize" : 10.0,
+					"format" : 6,
+					"hint" : "Global Freq",
+					"id" : "obj-14",
+					"maxclass" : "flonum",
+					"maximum" : 16.0,
+					"minimum" : 1.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 154.059448000000003, 103.725532999999984, 49.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 429.559447999999975, 22.416656000000003, 54.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1.0 ],
+							"parameter_shortname" : "flonum",
+							"parameter_type" : 0,
+							"parameter_mmin" : 1.0,
+							"parameter_longname" : "flonum[8]",
+							"parameter_initial_enable" : 1
+						}
+
+					}
+,
+					"varname" : "flonum[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Global Multplier",
+					"fontsize" : 10.0,
+					"format" : 6,
+					"hint" : "Global Multplier",
+					"id" : "obj-4",
+					"maxclass" : "flonum",
+					"maximum" : 16.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 254.059447999999975, 254.725532999999984, 49.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 429.559447999999975, 46.416656000000003, 54.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1.0 ],
+							"parameter_shortname" : "flonum",
+							"parameter_type" : 0,
+							"parameter_longname" : "flonum[7]",
+							"parameter_initial_enable" : 1
+						}
+
+					}
+,
+					"varname" : "flonum[5]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"annotation" : "Shape of the LFO waveform. Available Waveforms: sine, ramp+, ramp–, triangle, square, s/h",
+					"bordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"focusbordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"hltcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"id" : "obj-22",
+					"maxclass" : "live.menu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1234.786620999999968, 121.725532999999984, 60.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 177.0, 5.333336000000003, 55.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 5,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "Shape",
+							"parameter_enum" : [ "sine", "ramp+", "ramp–", "triangle", "square", "s/h" ],
+							"parameter_type" : 2,
+							"parameter_longname" : "SpectraLFOShape[3]",
+							"parameter_initial_enable" : 1
+						}
+
+					}
+,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"tricolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"varname" : "SpectraShape[4]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Multiplier value for this LFO",
+					"fontsize" : 10.0,
+					"format" : 6,
+					"id" : "obj-18",
+					"maxclass" : "flonum",
+					"maximum" : 16.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 618.32946800000002, 388.895537999999988, 49.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 240.5, 46.416656000000003, 54.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "flonum",
+							"parameter_type" : 0,
+							"parameter_longname" : "flonum[6]",
+							"parameter_initial_enable" : 1
+						}
+
+					}
+,
+					"varname" : "flonum[7]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Multiplier value for this LFO",
+					"fontsize" : 10.0,
+					"format" : 6,
+					"id" : "obj-17",
+					"maxclass" : "flonum",
+					"maximum" : 16.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1024.501769999999851, 390.395537999999931, 49.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 304.942687999999976, 46.416656000000003, 54.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "flonum",
+							"parameter_type" : 0,
+							"parameter_longname" : "flonum[5]",
+							"parameter_initial_enable" : 1
+						}
+
+					}
+,
+					"varname" : "flonum[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Multiplier value for this LFO",
+					"fontsize" : 10.0,
+					"format" : 6,
+					"id" : "obj-16",
+					"maxclass" : "flonum",
+					"maximum" : 16.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1437.729248000000098, 388.895537999999988, 49.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 368.609436000000017, 46.416656000000003, 54.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "flonum",
+							"parameter_type" : 0,
+							"parameter_longname" : "flonum[4]",
+							"parameter_initial_enable" : 1
+						}
+
+					}
+,
+					"varname" : "flonum[4]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Multiplier value for this LFO",
+					"fontsize" : 10.0,
+					"format" : 6,
+					"id" : "obj-15",
+					"maxclass" : "flonum",
+					"maximum" : 16.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1316.786620999999968, 116.725532999999999, 49.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 177.0, 46.416656000000003, 54.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "flonum",
+							"parameter_type" : 0,
+							"parameter_longname" : "flonum[3]",
+							"parameter_initial_enable" : 1
+						}
+
+					}
+,
+					"varname" : "flonum[6]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Multiplier value for this LFO",
+					"fontsize" : 10.0,
+					"format" : 6,
+					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"maximum" : 16.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 893.05175799999995, 116.725532999999999, 49.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 113.0, 46.416656000000003, 54.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "flonum",
+							"parameter_type" : 0,
+							"parameter_longname" : "flonum[1]",
+							"parameter_initial_enable" : 1
+						}
+
+					}
+,
+					"varname" : "flonum[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Multiplier value for this LFO",
+					"fontsize" : 10.0,
+					"format" : 6,
+					"id" : "obj-8",
+					"maxclass" : "flonum",
+					"maximum" : 16.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 506.10943599999996, 116.725532999999999, 49.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 49.0, 46.416656000000003, 54.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1.0 ],
+							"parameter_shortname" : "flonum",
+							"parameter_type" : 0,
+							"parameter_longname" : "flonum",
+							"parameter_initial_enable" : 1
+						}
+
+					}
+,
+					"varname" : "flonum"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 51.416656000000003, 136.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 46.416656000000003, 41.0, 18.0 ],
+					"text" : " multip",
+					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
@@ -111,17 +439,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1669.786865000000034, 388.895537999999988, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 368.609436000000017, 84.000000000000014, 54.0, 20.0 ],
+					"presentation_rect" : [ 368.609436000000017, 70.000000000000014, 54.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[19]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[12]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -166,17 +494,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1591.786865000000034, 388.895537999999988, 44.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 368.609436000000017, 108.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 368.609436000000017, 94.0, 53.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ -1.0 ],
 							"parameter_shortname" : "phase[20]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[13]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -209,46 +537,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"activeneedlecolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.4 ],
-					"annotation" : "Multiplier value for this LFO",
-					"appearance" : 1,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"dialcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"id" : "obj-61",
-					"maxclass" : "live.dial",
-					"needlecolor" : [ 0.32549, 0.345098, 0.372549, 0.6 ],
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1437.729248000000098, 388.895537999999988, 47.0, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 368.609436000000017, 44.416656000000003, 47.0, 36.0 ],
-					"prototypename" : "M4L.dial.tiny",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
-							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "multiplier",
-							"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_longname" : "multiplier[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16.0
-						}
-
-					}
-,
-					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"varname" : "flonum[4]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"annotation" : "Shape of the LFO waveform. Available Waveforms: sine, ramp+, ramp–, triangle, square, s/h",
 					"bordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -265,13 +553,13 @@
 					"presentation_rect" : [ 367.609436000000017, 5.333336000000003, 55.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 5,
 							"parameter_initial" : [ 5 ],
 							"parameter_shortname" : "Re-Trigger",
 							"parameter_enum" : [ "sine", "ramp+", "ramp–", "triangle", "square", "s/h" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "ReTriggerA[6]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 5
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -313,7 +601,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1413.729248000000098, 359.895537999999988, 67.0, 22.0 ],
-					"restore" : [ 1.25 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -432,17 +720,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1255.742064999999911, 388.895537999999988, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.942687999999976, 84.000000000000014, 54.0, 20.0 ],
+					"presentation_rect" : [ 304.942687999999976, 70.000000000000014, 54.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[11]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[11]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -487,17 +775,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1180.531737999999905, 388.895537999999988, 44.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.942687999999976, 108.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 304.942687999999976, 94.0, 53.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ -1.0 ],
 							"parameter_shortname" : "phase[18]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[18]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -542,17 +830,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 843.5, 388.895537999999988, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.5, 84.000000000000014, 54.0, 20.0 ],
+					"presentation_rect" : [ 240.5, 70.000000000000014, 54.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[9]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[9]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -597,17 +885,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 768.0, 388.895537999999988, 44.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.5, 108.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 240.5, 94.0, 53.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ -1.0 ],
 							"parameter_shortname" : "phase[10]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[10]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -652,17 +940,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1560.109375, 116.725532999999999, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 84.416656000000003, 54.0, 20.0 ],
+					"presentation_rect" : [ 177.0, 70.416656000000003, 54.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[7]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[7]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -707,17 +995,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1484.609375, 116.725532999999999, 44.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 108.416655999999989, 53.0, 20.0 ],
+					"presentation_rect" : [ 177.0, 94.416655999999989, 53.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ -1.0 ],
 							"parameter_shortname" : "phase[8]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[8]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -762,17 +1050,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 737.0, 116.725532999999999, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 84.416656000000003, 54.0, 20.0 ],
+					"presentation_rect" : [ 49.0, 70.416656000000003, 54.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[3]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[3]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -817,17 +1105,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 661.5, 116.725532999999999, 44.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 108.416655999999989, 53.0, 20.0 ],
+					"presentation_rect" : [ 49.0, 94.416655999999989, 53.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ -1.0 ],
 							"parameter_shortname" : "phase[4]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[4]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -872,17 +1160,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1139.129271999999901, 116.725532999999999, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 84.416656000000003, 54.0, 20.0 ],
+					"presentation_rect" : [ 113.0, 70.416656000000003, 54.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_shortname" : "phase[2]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -927,17 +1215,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1063.629271999999901, 116.725532999999999, 44.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 108.416655999999989, 53.0, 20.0 ],
+					"presentation_rect" : [ 113.0, 94.416655999999989, 53.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ -1.0 ],
 							"parameter_shortname" : "phase[1]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -1.0,
 							"parameter_longname" : "phase[1]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -978,7 +1266,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.189574999999991, 525.0, 136.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 84.416656000000003, 34.0, 18.0 ],
+					"presentation_rect" : [ 11.0, 70.416656000000003, 34.0, 18.0 ],
 					"text" : " max",
 					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
 					"textjustification" : 1
@@ -995,7 +1283,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.189574999999991, 525.0, 136.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 108.416655999999989, 34.0, 18.0 ],
+					"presentation_rect" : [ 11.0, 94.416655999999989, 34.0, 18.0 ],
 					"text" : "min",
 					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
 					"textjustification" : 1
@@ -1021,85 +1309,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-					"activeneedlecolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.4 ],
-					"annotation" : "Set a multiplier value for the master oscillator",
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"dialcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"id" : "obj-56",
-					"maxclass" : "live.dial",
-					"needlecolor" : [ 0.32549, 0.345098, 0.372549, 0.6 ],
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 147.829467999999991, 93.395538000000002, 60.0, 48.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 426.559447999999975, 30.0, 60.0, 48.0 ],
-					"prototypename" : "M4L.dial.tiny",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
-							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "base freq",
-							"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_longname" : "base freq",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16.0
-						}
-
-					}
-,
-					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"varname" : "flonum[3]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activedialcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"activeneedlecolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.4 ],
-					"annotation" : "Multiplier value for this LFO",
-					"appearance" : 1,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"dialcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"id" : "obj-22",
-					"maxclass" : "live.dial",
-					"needlecolor" : [ 0.32549, 0.345098, 0.372549, 0.6 ],
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1024.501831000000038, 388.895537999999988, 47.0, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 304.942687999999976, 44.416656000000003, 47.0, 36.0 ],
-					"prototypename" : "M4L.dial.tiny",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
-							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "multiplier",
-							"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_longname" : "multiplier[4]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16.0
-						}
-
-					}
-,
-					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"varname" : "flonum[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"annotation" : "Shape of the LFO waveform. Available Waveforms: sine, ramp+, ramp–, triangle, square, s/h",
 					"bordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -1116,13 +1325,13 @@
 					"presentation_rect" : [ 303.942687999999976, 5.333336000000003, 55.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 5,
 							"parameter_initial" : [ 5 ],
 							"parameter_shortname" : "Re-Trigger",
 							"parameter_enum" : [ "sine", "ramp+", "ramp–", "triangle", "square", "s/h" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "ReTriggerA[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 5
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -1164,7 +1373,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1000.501769999999965, 359.895537999999988, 67.0, 22.0 ],
-					"restore" : [ 1.2 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1297,7 +1506,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 147.829467999999991, 147.0, 74.0, 22.0 ],
+					"patching_rect" : [ 154.059448000000003, 147.0, 74.0, 22.0 ],
 					"text" : "phasor~ 0.5"
 				}
 
@@ -1450,125 +1659,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
-					"activeneedlecolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.4 ],
-					"annotation" : "Set a multiplier value for the master oscillator",
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"dialcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"id" : "obj-21",
-					"maxclass" : "live.dial",
-					"needlecolor" : [ 0.32549, 0.345098, 0.372549, 0.6 ],
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 254.059448000000003, 255.845551, 60.0, 48.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 426.559447999999975, 79.416655999999989, 60.0, 48.0 ],
-					"prototypename" : "M4L.dial.tiny",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
-							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "multiplier",
-							"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_longname" : "multiplier[35]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16.0
-						}
-
-					}
-,
-					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"varname" : "flonum[26]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activedialcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"activeneedlecolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.4 ],
-					"annotation" : "Multiplier value for this LFO",
-					"appearance" : 1,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"dialcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"id" : "obj-94",
-					"maxclass" : "live.dial",
-					"needlecolor" : [ 0.32549, 0.345098, 0.372549, 0.6 ],
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 908.05175799999995, 116.725532999999999, 47.0, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 44.416656000000003, 47.0, 36.0 ],
-					"prototypename" : "M4L.dial.tiny",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
-							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "multiplier",
-							"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_longname" : "multiplier[36]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16.0
-						}
-
-					}
-,
-					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"varname" : "flonum[12]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activedialcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"activeneedlecolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.4 ],
-					"annotation" : "Multiplier value for this LFO",
-					"appearance" : 1,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"dialcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"id" : "obj-96",
-					"maxclass" : "live.dial",
-					"needlecolor" : [ 0.32549, 0.345098, 0.372549, 0.6 ],
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 506.109436000000017, 116.725532999999999, 47.0, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 44.416656000000003, 47.0, 36.0 ],
-					"prototypename" : "M4L.dial.tiny",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
-							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "multiplier",
-							"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_longname" : "multiplier[37]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16.0
-						}
-
-					}
-,
-					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"varname" : "flonum"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"annotation" : "Shape of the LFO waveform. Available Waveforms: sine, ramp+, ramp–, triangle, square, s/h",
 					"bordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -1585,13 +1675,13 @@
 					"presentation_rect" : [ 112.0, 5.333336000000003, 55.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 5,
 							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "Shape",
 							"parameter_enum" : [ "sine", "ramp+", "ramp–", "triangle", "square", "s/h" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "SpectraLFOShape[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 5
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -1620,13 +1710,13 @@
 					"presentation_rect" : [ 48.0, 5.333336000000003, 55.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 5,
 							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "Shape",
 							"parameter_enum" : [ "sine", "ramp+", "ramp–", "triangle", "square", "s/h" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "SpectraLFOShape[2]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 5
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -1679,81 +1769,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"activeneedlecolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.4 ],
-					"annotation" : "Multiplier value for this LFO",
-					"appearance" : 1,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"dialcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"id" : "obj-74",
-					"maxclass" : "live.dial",
-					"needlecolor" : [ 0.32549, 0.345098, 0.372549, 0.6 ],
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1318.786620999999968, 115.725532999999999, 47.0, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 44.416656000000003, 47.0, 36.0 ],
-					"prototypename" : "M4L.dial.tiny",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
-							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "multiplier",
-							"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_longname" : "multiplier[38]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16.0
-						}
-
-					}
-,
-					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"varname" : "flonum[25]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activebgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"annotation" : "Shape of the LFO waveform. Available Waveforms: sine, ramp+, ramp–, triangle, square, s/h",
-					"bordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"focusbordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"hltcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"id" : "obj-75",
-					"maxclass" : "live.menu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1234.786620999999968, 116.725532999999999, 60.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 176.0, 5.333336000000003, 55.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 3 ],
-							"parameter_shortname" : "Shape",
-							"parameter_enum" : [ "sine", "ramp+", "ramp–", "triangle", "square", "s/h" ],
-							"parameter_type" : 2,
-							"parameter_longname" : "SpectraLFOShape[3]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 5
-						}
-
-					}
-,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"tricolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"varname" : "SpectraShape[9]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 10.0,
 					"format" : 6,
 					"id" : "obj-76",
@@ -1769,46 +1784,6 @@
 					"presentation_rect" : [ 177.0, 22.416656000000003, 54.0, 20.0 ],
 					"triangle" : 0,
 					"varname" : "phase[14]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activedialcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"activeneedlecolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.4 ],
-					"annotation" : "Multiplier value for this LFO",
-					"appearance" : 1,
-					"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"dialcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"id" : "obj-187",
-					"maxclass" : "live.dial",
-					"needlecolor" : [ 0.32549, 0.345098, 0.372549, 0.6 ],
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 618.32946800000002, 388.895537999999988, 47.0, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 240.5, 44.416656000000003, 47.0, 36.0 ],
-					"prototypename" : "M4L.dial.tiny",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
-							"parameter_speedlim" : 0.0,
-							"parameter_shortname" : "multiplier",
-							"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_longname" : "multiplier[39]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 16.0
-						}
-
-					}
-,
-					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
-					"varname" : "flonum[29]"
 				}
 
 			}
@@ -1830,13 +1805,13 @@
 					"presentation_rect" : [ 239.5, 5.333336000000003, 55.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 5,
 							"parameter_initial" : [ 5 ],
 							"parameter_shortname" : "Re-Trigger",
 							"parameter_enum" : [ "sine", "ramp+", "ramp–", "triangle", "square", "s/h" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "ReTriggerA[5]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 5
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -1898,7 +1873,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 594.32946800000002, 359.895537999999988, 67.0, 22.0 ],
-					"restore" : [ 1.15 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1961,7 +1936,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1294.786620999999968, 86.725532999999999, 67.0, 22.0 ],
-					"restore" : [ 1.1 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2024,7 +1999,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 884.05175799999995, 87.725532999999999, 67.0, 22.0 ],
-					"restore" : [ 1.05 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2262,15 +2237,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 99.779480000000007, 187.484649999999988, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 488.559447999999975, 95.416655999999989, 16.0, 16.0 ],
+					"presentation_rect" : [ 448.559447999999975, 72.000000000000028, 16.0, 17.999999999999986 ],
 					"rounded" : 16.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "FreqMode",
 							"parameter_enum" : [ "R", "R" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "FreqMode[4]",
-							"parameter_mmax" : 1
+							"parameter_longname" : "FreqMode[4]"
 						}
 
 					}
@@ -2296,16 +2271,16 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1734.059936999999991, 34.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 436.534454000000039, 5.333336000000003, 40.049987999999956, 15.0 ],
+					"presentation_rect" : [ 436.534453999999982, 94.0, 40.049987999999956, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 0 ],
 							"parameter_shortname" : "textbutton[1]",
 							"parameter_type" : 3,
 							"parameter_longname" : "textbutton[2]",
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 1.0
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -2322,6 +2297,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 1 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -2348,7 +2330,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-119", 1 ]
 				}
 
@@ -2362,7 +2344,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-94", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-124", 1 ]
 				}
 
@@ -2390,6 +2372,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 1 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 1 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 107.779480000000007, 278.41589399999998, 163.559448000000003, 278.41589399999998 ],
 					"source" : [ "obj-161", 0 ]
@@ -2398,7 +2401,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-187", 0 ],
+					"destination" : [ "obj-80", 1 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-170", 1 ]
 				}
 
@@ -2412,15 +2422,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-188", 0 ],
-					"source" : [ "obj-184", 1 ]
+					"destination" : [ "obj-83", 1 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-83", 1 ],
-					"source" : [ "obj-187", 0 ]
+					"destination" : [ "obj-188", 0 ],
+					"source" : [ "obj-184", 1 ]
 				}
 
 			}
@@ -2447,14 +2457,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-218", 1 ]
 				}
 
@@ -2468,7 +2471,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-80", 1 ],
+					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -2482,7 +2485,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-230", 1 ]
 				}
 
@@ -2510,14 +2513,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-27", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-274", 1 ]
 				}
 
@@ -2658,7 +2661,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 3 ],
-					"midpoints" : [ 1455.979248000000098, 125.493133999999998, 530.129467999999974, 125.493133999999998 ],
+					"midpoints" : [ 1455.979248000000098, 146.493133999999998, 530.129467999999974, 146.493133999999998 ],
 					"order" : 5,
 					"source" : [ "obj-33", 0 ]
 				}
@@ -2748,6 +2751,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
@@ -2807,13 +2817,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
-					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -2901,13 +2904,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 1 ],
-					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -2922,7 +2918,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-64", 1 ]
 				}
 
@@ -2985,20 +2981,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 1 ],
-					"source" : [ "obj-74", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
-					"source" : [ "obj-75", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-43", 2 ],
 					"source" : [ "obj-76", 0 ]
 				}
@@ -3023,6 +3005,13 @@
 					"destination" : [ "obj-1", 1 ],
 					"midpoints" : [ 1362.457153000000062, 551.975891000000047, 1101.609375, 551.975891000000047 ],
 					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 1 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -3098,50 +3087,36 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 1 ],
-					"source" : [ "obj-94", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-36", 1 ],
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
+			"obj-19" : [ "phase[1]", "phase[1]", 0 ],
+			"obj-73" : [ "phase[8]", "phase[8]", 0 ],
+			"obj-69" : [ "SpectraLFOShape[1]", "Shape", 0 ],
+			"obj-90" : [ "phase[18]", "phase[18]", 0 ],
 			"obj-58" : [ "phase[4]", "phase[4]", 0 ],
 			"obj-188" : [ "ReTriggerA[5]", "Re-Trigger", 0 ],
-			"obj-56" : [ "base freq", "base freq", 0 ],
-			"obj-74" : [ "multiplier[38]", "multiplier", 0 ],
+			"obj-14" : [ "flonum[8]", "flonum", 0 ],
 			"obj-49" : [ "phase[12]", "phase[19]", 0 ],
 			"obj-34" : [ "phase[2]", "phase[2]", 0 ],
 			"obj-276" : [ "FreqMode[4]", "FreqMode", 0 ],
 			"obj-81" : [ "phase[9]", "phase[9]", 0 ],
 			"obj-12" : [ "SpectraLFOShape[2]", "Shape", 0 ],
-			"obj-94" : [ "multiplier[36]", "multiplier", 0 ],
 			"obj-84" : [ "phase[10]", "phase[10]", 0 ],
+			"obj-17" : [ "flonum[5]", "flonum", 0 ],
+			"obj-18" : [ "flonum[6]", "flonum", 0 ],
 			"obj-68" : [ "phase[7]", "phase[7]", 0 ],
 			"obj-62" : [ "ReTriggerA[6]", "Re-Trigger", 0 ],
-			"obj-61" : [ "multiplier[1]", "multiplier", 0 ],
-			"obj-187" : [ "multiplier[39]", "multiplier", 0 ],
+			"obj-8" : [ "flonum", "flonum", 0 ],
 			"obj-57" : [ "phase[13]", "phase[20]", 0 ],
+			"obj-16" : [ "flonum[4]", "flonum", 0 ],
 			"obj-50" : [ "phase[3]", "phase[3]", 0 ],
+			"obj-4" : [ "flonum[7]", "flonum", 0 ],
 			"obj-23" : [ "ReTriggerA[1]", "Re-Trigger", 0 ],
 			"obj-278" : [ "textbutton[2]", "textbutton[1]", 0 ],
-			"obj-75" : [ "SpectraLFOShape[3]", "Shape", 0 ],
-			"obj-96" : [ "multiplier[37]", "multiplier", 0 ],
+			"obj-22" : [ "SpectraLFOShape[3]", "Shape", 0 ],
+			"obj-15" : [ "flonum[3]", "flonum", 0 ],
+			"obj-10" : [ "flonum[1]", "flonum", 0 ],
 			"obj-87" : [ "phase[11]", "phase[11]", 0 ],
-			"obj-19" : [ "phase[1]", "phase[1]", 0 ],
-			"obj-73" : [ "phase[8]", "phase[8]", 0 ],
-			"obj-69" : [ "SpectraLFOShape[1]", "Shape", 0 ],
-			"obj-21" : [ "multiplier[35]", "multiplier", 0 ],
-			"obj-22" : [ "multiplier[4]", "multiplier", 0 ],
-			"obj-90" : [ "phase[18]", "phase[18]", 0 ],
 			"parameterbanks" : 			{
 
 			}
