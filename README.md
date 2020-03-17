@@ -34,12 +34,20 @@ mixer
 alt:
 
 channel
-    lp.f.d
-    lp.f.p
-    gr.f.d
-    in.f.d
-    in.f.p
+    lp-f-d
+    lp-f-p
+    gr-f-d
+    in-f-d
+    in-f-p
 
+looper + filter + delay  = lpfrdy / lfd
+looper + filter + plugin = lpfrpn / lfp
+grain + filter + delay   = grfrdy / gfd
+instr + filter + delay   = itfrdy / ifd
+instr + filter + plugin  = itfrpn / ifp
+
+karma + filter + visualr = kafrvr / kfv
+plugin + plugin + filter + viz = pnpnfrvr / 2pfv / ppfv
     
 
 

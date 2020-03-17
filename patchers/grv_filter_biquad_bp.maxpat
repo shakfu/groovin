@@ -174,7 +174,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -571,7 +570,7 @@
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-76",
-									"items" : [ "sine", ",", "ramp", ",", "rect", ",", "noise" ],
+									"items" : [ "sine", ",", "ramp", ",", "rect", ",", "rand" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -647,7 +646,7 @@
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-70",
-									"items" : [ "sine", ",", "ramp", ",", "rect", ",", "noise" ],
+									"items" : [ "sine", ",", "ramp", ",", "rect", ",", "rand" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -723,7 +722,7 @@
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-64",
-									"items" : [ "sine", ",", "ramp", ",", "rect", ",", "noise" ],
+									"items" : [ "sine", ",", "ramp", ",", "rect", ",", "rand" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -872,7 +871,7 @@
 								"box" : 								{
 									"fontsize" : 11.0,
 									"id" : "obj-48",
-									"items" : [ "sine", ",", "ramp", ",", "rect", ",", "noise" ],
+									"items" : [ "sine", ",", "ramp", ",", "rect", ",", "rand" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
