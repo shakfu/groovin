@@ -19,36 +19,28 @@ A partial demo of the v0.4 features is available on [youtube](https://youtu.be/s
 ## Modules
 
 channel
-    loop1
-    loop2
-    grain1
-    grain2
-    instr1
-    instr2
+    loop
+    grain
+    instr
+    karma with external input (planned)
+    stutter (planned)
+    chucker (planned)
+
+
+within channels you can change the fx chain:
+    fd: filter -> delay
+    fp: filter -> plugin
+    pp: filter -> amxd (planned)
+    
+    f->d
+    f->p
+    p->p
+
+
 
 mixer
     karma
     plugin
-
-
-alt:
-
-channel
-    lp-f-d
-    lp-f-p
-    gr-f-d
-    in-f-d
-    in-f-p
-
-looper + filter + delay  = lpfrdy / lfd
-looper + filter + plugin = lpfrpn / lfp
-grain + filter + delay   = grfrdy / gfd
-instr + filter + delay   = itfrdy / ifd
-instr + filter + plugin  = itfrpn / ifp
-
-karma + filter + visualr = kafrvr / kfv
-plugin + plugin + filter + viz = pnpnfrvr / 2pfv / ppfv
-    
 
 
 ## Externals
@@ -59,7 +51,7 @@ This project uses the following externals (OS X 64-bit):
 
 - [spindrift~](http://www.michaelnorris.info/software/spindrift): for granular synthesis experimentation. 
 
-- gigaverb, or more precisely, V. Boehm's [64-bit version](https://github.com/v7b1/gigaverb) of the original by Olaf Matthes implementated by Juhana Sadeharju), for reverb.
+- gigaverb~, or more precisely, V. Boehm's [64-bit version](https://github.com/v7b1/gigaverb) of the original by Olaf Matthes implementated by Juhana Sadeharju), for reverb.
 
 
 ## Design
@@ -70,7 +62,7 @@ As of v0.4, the design is quite simple:
 ![overview](media/groovin.svg)
 
 
-	sum(mi => ai => fi => di | i in 1 .. 4) => (k1 => f1 => r1) => dac
+	sum(m_i => a_i => f_i => d_i | i <-  1 .. 4) => (k1 => f1 => r1) => dac
 
 
 A single page patch with 4 gain-controlled channels each consisting of a module which can be either a (groove~) looper or a (spindrift~) granulator, a single pole filter and a mono delay, mixing into a (karma~) overdubber/looper which in turn feeds into an n-pole multi-filter/eq and then onto a reverb (gigaverb~) to audio out.
@@ -86,16 +78,14 @@ The design allows for:
 
 **primary**
 
-- [ ] add audio unit support to master channel
-- [x] code naming improvement: `chan` (for channel) is composite and `mod` (for module)
-- [x] clickless delays (see [ej.vdb~] or m4l.vdelay~ see [here](https://cycling74.com/forums/interpolating-delay/))
-- [x] add switchable matrix input from channels to karma module, reverb, audio out)
-- [x] add a keyboard sampler module with midi input
-- [x] audiounit support
+- [ ] fx switch at module within channel instead of changing channel itself
+- [ ] looper reverse button should actually reverse instead of going to -1
+- [ ] normalize button size
 - [ ] more standalone polish
-- [ ] better docs
-- [ ] check ranges
 - [ ] add modulation
+- [ ] improve docs
+- [ ] check ranges
+- [ ] add amxd plugins
 
 **secondary**
 
