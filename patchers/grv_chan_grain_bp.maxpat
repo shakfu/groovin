@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 276.0, 255.0, 748.0, 607.0 ],
+		"rect" : [ 421.0, 193.0, 748.0, 595.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,19 +39,36 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 345.0, 205.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 394.0, 109.135593220339047, 34.0, 22.0 ],
+					"text" : "mute",
+					"texton" : "mute"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"align" : 1,
 					"arrow" : 0,
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-4",
-					"items" : [ "f", ">", "d", ",", "f", ">", "p" ],
+					"items" : [ "f", "d", ",", "f", "p" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 399.0, 208.0, 100.0, 20.0 ],
+					"patching_rect" : [ 276.5625, 205.0, 57.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 2.5, 34.0, 20.0 ],
+					"presentation_rect" : [ 394.0, 3.135593220339047, 34.0, 22.0 ],
 					"textjustification" : 1
 				}
 
@@ -143,24 +160,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 10.0,
-					"id" : "obj-7",
-					"maxclass" : "textbutton",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 276.5625, 208.0, 55.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 110.0, 34.0, 20.0 ],
-					"text" : "f >> d",
-					"texton" : "f >> p"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -191,11 +190,11 @@
 					"id" : "obj-18",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_fx_delay_bp.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
+					"name" : "grv_fx_plugin2_bp.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 7.5625, 410.0, 166.270675111111018, 133.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.0, 2.135593220339047, 143.270675111111018, 129.0 ],
@@ -235,7 +234,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 32.5625, 223.0, 96.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 414.0, 25.5, 14.0, 82.0 ]
+					"presentation_rect" : [ 412.0, 26.5, 16.0, 79.0 ]
 				}
 
 			}
@@ -250,7 +249,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.0625, 162.0, 20.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 25.5, 15.0, 82.0 ]
+					"presentation_rect" : [ 394.0, 27.0, 16.0, 78.5 ]
 				}
 
 			}
@@ -339,6 +338,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"order" : 1,
 					"source" : [ "obj-5", 0 ]
@@ -353,14 +359,15 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
+ ],
+		"parameters" : 		{
+			"obj-18::obj-1" : [ "vst~", "vst~", 0 ],
+			"parameterbanks" : 			{
 
 			}
- ],
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "grv_filter_biquad_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
@@ -376,15 +383,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_fx_delay_bp.maxpat",
+				"name" : "grv_fx_plugin2_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "M4L.vdelay~.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}
