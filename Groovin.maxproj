@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3670697733,
+	"modificationdate" : 3670869742,
 	"viewrect" : [ 41.0, 92.0, 236.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -107,6 +107,11 @@
 			}
 ,
 			"grv_chan_instr_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sl.mute.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
