@@ -1,16 +1,16 @@
-# Groovin v0.55
+# Groovin v0.56
 
 ## Overview
 
-A Max/Msp 4+1 channel looper with overdubbing based on groove~ msp object and the karma~, spindrift~ and gigaverb~ externals.
+A Max/Msp 4+1 channel looper with overdubbing based on the groove~ msp object and karma~, spindrift~ and gigaverb~ externals.
 
 Developed on Max 8 and is of now, OS X only (64-bit).
 
 This project is/was an iterative product of my attempts over a summer to learn max/msp.
 
-Please note that it assumes that you have a set of samples files (..wav or .aif) in `~/Music/samples`. These can be of pretty much of variable subject to the constraints of the max/msp engine and your computer.
+Please note that it assumes that you have a set of samples files (..wav or .aif) in `~/Music/samples`. These can be of pretty much of variable length subject to the constraints of the max/msp engine and your computer.
 
-Currently at v0.51 with VST/AU and external MIDI support. 
+Currently at v0.56 with VST/AU and external MIDI support. 
 
 A partial demo of the v0.4 features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
 
@@ -30,13 +30,8 @@ channel
 within channels you can change the fx chain:
     fd: filter -> delay
     fp: filter -> plugin
-    pp: filter -> amxd (planned)
-    
-    f->d
-    f->p
-    p->p
-
-
+    pp: plugin -> plugin (planned)
+    fa: filter -> amxd (planned)
 
 mixer
     karma
@@ -78,10 +73,11 @@ The design allows for:
 
 **primary**
 
-- [ ] fx switch at module within channel instead of changing channel itself
+- [x] fx switch at module within channel instead of changing channel itself
 - [ ] looper reverse button should actually reverse instead of going to -1
-- [ ] normalize button size
+- [ ] normalize button size and ui cleanup
 - [ ] more standalone polish
+- [x] add per channel pre-fader pre-fx mute
 - [ ] add modulation
 - [ ] improve docs
 - [ ] check ranges
