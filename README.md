@@ -8,13 +8,18 @@ Developed on Max 8 and is of now, OS X only (64-bit).
 
 This project is/was an iterative product of my attempts over a summer to learn max/msp.
 
-Please note that it assumes that you have a set of samples files (..wav or .aif) in `~/Music/samples`. These can be of pretty much of variable length subject to the constraints of the max/msp engine and your computer.
+Please note that it assumes that you have a set of samples files (..wav or .aif) in `~/Music/samples`. These can be of pretty much of any length subject to the constraints of the max/msp engine and your computer.
 
 Currently at v0.56 with VST/AU and external MIDI support. 
 
-A partial demo of the v0.4 features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
+A brief demo of the v0.4 features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
 
-[![groovin v0.4](media/groovin_v04_screenshot.png)](http://www.youtube.com/watch?v=sKZO_4qYpj0)
+![groovin v0.4](media/groovin_v04_screenshot.png)](http://www.youtube.com/watch?v=sKZO_4qYpj0)
+
+The current version has more features though and looks like this:
+
+![groovin_v0.5](media/groovin_v05_screenshot.png)
+
 
 ## Modules
 
