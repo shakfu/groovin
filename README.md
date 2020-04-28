@@ -19,6 +19,12 @@ The current version has more features though and looks like this:
 ![groovin_v0.5](media/groovin_v05_screenshot.png)
 
 
+## Design Spec
+
+see tests/test_layout.maxpat
+
+
+
 ## Modules
 
 ```
