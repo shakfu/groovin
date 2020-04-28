@@ -21,6 +21,7 @@ The current version has more features though and looks like this:
 
 ## Modules
 
+```
 channel
     loop
     grain
@@ -39,7 +40,7 @@ within channels you can change the fx chain:
 mixer
     karma
     plugin
-
+```
 
 ## Externals
 
@@ -54,20 +55,9 @@ This project uses the following externals (OS X 64-bit):
 
 ## Design
 
-As of v0.4, the design is quite simple:
-
-
-![overview](media/groovin.svg)
-
-
-	sum(m_i => a_i => f_i => d_i | i <-  1 .. 4) => (k1 => f1 => r1) => dac
-
-
-A single page patch with 4 gain-controlled channels each consisting of a module which can be either a (groove~) looper or a (spindrift~) granulator, a single pole filter and a mono delay, mixing into a (karma~) overdubber/looper which in turn feeds into an n-pole multi-filter/eq and then onto a reverb (gigaverb~) to audio out.
-
 The design allows for:
 
-1. Changing the type of channel: currently either a looper or a granulator via the 4 dropdown menus at the top.
+1. Changing the type of channel: currently either a looper, a granulator, a radnom midi generator via the 4 dropdown menus at the top. Each channel has two fx slots (currently a filter/delay or filter/plugin)
 
 2. Overdubbing into a 5th channel: the karma~ overdubber/looper records the mix of the 4 channels and then can be used as a seperate 5th channel thereafter during playback.
 
