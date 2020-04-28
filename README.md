@@ -14,8 +14,6 @@ Currently at v0.56 with VST/AU and external MIDI support.
 
 A brief demo of the v0.4 features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
 
-![groovin v0.4](media/groovin_v04_screenshot.png)](http://www.youtube.com/watch?v=sKZO_4qYpj0)
-
 The current version has more features though and looks like this:
 
 ![groovin_v0.5](media/groovin_v05_screenshot.png)
