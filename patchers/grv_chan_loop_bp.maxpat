@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 94.0, 749.0, 598.0 ],
+		"rect" : [ 427.0, 94.0, 875.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 76.0625, 266.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.0, 106.0, 34.0, 22.0 ],
+					"presentation_rect" : [ 423.0, 104.864406779660953, 34.0, 22.0 ],
 					"text" : "mute",
 					"texton" : "mute"
 				}
@@ -80,7 +80,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 332.5625, 280.0, 57.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 2.135593220339047, 34.0, 22.0 ],
+					"presentation_rect" : [ 421.0, 1.0, 34.0, 22.0 ],
 					"textjustification" : 1
 				}
 
@@ -187,7 +187,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 11.0, 109.0, 401.0, 137.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 393.0, 128.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 418.0, 128.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -220,7 +220,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7.4375, 376.0, 155.219365686523588, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 432.0, 1.0, 159.666666666666629, 129.0 ],
+					"presentation_rect" : [ 459.0, -0.135593, 160.0, 130.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -242,7 +242,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7.4375, 519.5, 149.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 593.666666666666629, 1.0, 151.333333333333371, 128.0 ],
+					"presentation_rect" : [ 620.666666999999961, -0.135593, 160.0, 130.0 ],
 					"varname" : "#0_fx",
 					"viewvisibility" : 1
 				}
@@ -257,7 +257,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 40.0, 270.974365234375, 14.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 414.333333333333371, 27.0, 14.0, 75.0 ]
+					"presentation_rect" : [ 441.333333333333371, 25.864406779660953, 14.0, 75.0 ]
 				}
 
 			}
@@ -272,7 +272,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 11.5, 270.974365234375, 15.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.0, 27.0, 15.0, 75.0 ]
+					"presentation_rect" : [ 423.0, 25.864406779660953, 15.0, 75.0 ]
 				}
 
 			}
@@ -408,13 +408,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "grv_fx_delay_bp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/Groovin/patchers",
