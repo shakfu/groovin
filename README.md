@@ -33,6 +33,7 @@ channel
     grain
     instr
     karma with external input (planned)
+    slicer (planned)
     stutter (planned)
     chucker (planned)
 
@@ -72,7 +73,12 @@ The design allows for:
 
 **primary**
 
+- [ ] add csound~ as an engine
+- [ ] use gen~ as an egine
+- [ ] use poly~ for fx chain
+- [ ] add switch on 5th channel to change filter to plugin
 - [x] fx switch at module within channel instead of changing channel itself
+- [ ] smoother gain inc/dec (adjust approprirate param in gain~)
 - [ ] looper reverse button should actually reverse instead of going to -1
 - [ ] normalize button size and ui cleanup
 - [ ] more standalone polish

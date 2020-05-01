@@ -104,8 +104,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.0, 414.0, 37.0, 22.0 ],
-					"text" : "delay"
+					"patching_rect" : [ 311.0, 414.0, 44.0, 22.0 ],
+					"text" : "delay2"
 				}
 
 			}
