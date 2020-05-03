@@ -69,6 +69,13 @@ The design allows for:
 2. Overdubbing into a 5th channel: the karma~ overdubber/looper records the mix of the 4 channels and then can be used as a seperate 5th channel thereafter during playback.
 
 
+## Presets
+
+- Shift-click in a square to store
+- Click on square to recall
+- Shift-(option|alt)-click on square to delete
+
+
 ## Todo
 
 **primary**
