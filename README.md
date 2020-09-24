@@ -19,6 +19,32 @@ The current version has more features though and looks like this:
 ![groovin_v0.5](media/groovin_v05_screenshot.png)
 
 
+## Design Spec
+
+see tests/test_layout.maxpat
+
+
+## Notes
+
+see: https://cycling74.com/forums/rhythmic-multitap-delay
+
+"I am using exactly that without problem. The tapout~ in a poly~ the tapin~ outside connected with a simple send/receive. That way changing the maximum number of taps is as simple as sending a voice $1 or typing a number into the poly~ object. Works like a charm..."
+
+```python
+def bpm2ms(bpm):
+    ms_per_min = 1 * 60 * 1000
+    quarter_note_duration_ms = ms_per_min / bpm
+    return quarter_note_duration_ms
+```
+
+see: https://www.keyandpitch.com/tools/bpm-to-ms-calculator/
+
+see alse: https://cycling74.com/tutorials/gen-tutorial-1-the-garden-of-earthly-delays
+
+using python in csound~: http://www.csounds.com/manual/html/py.html
+
+
+
 ## Modules
 
 ```
@@ -27,6 +53,7 @@ channel
     grain
     instr
     karma with external input (planned)
+    slicer (planned)
     stutter (planned)
     chucker (planned)
 
@@ -62,11 +89,23 @@ The design allows for:
 2. Overdubbing into a 5th channel: the karma~ overdubber/looper records the mix of the 4 channels and then can be used as a seperate 5th channel thereafter during playback.
 
 
+## Presets
+
+- Shift-click in a square to store
+- Click on square to recall
+- Shift-(option|alt)-click on square to delete
+
+
 ## Todo
 
 **primary**
 
+- [ ] add csound~ as an engine
+- [ ] use gen~ as an egine
+- [ ] use poly~ for fx chain
+- [ ] add switch on 5th channel to change filter to plugin
 - [x] fx switch at module within channel instead of changing channel itself
+- [ ] smoother gain inc/dec (adjust approprirate param in gain~)
 - [ ] looper reverse button should actually reverse instead of going to -1
 - [ ] normalize button size and ui cleanup
 - [ ] more standalone polish
