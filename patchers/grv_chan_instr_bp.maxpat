@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 428.0, 107.0, 881.0, 733.0 ],
+		"rect" : [ 369.0, 139.0, 839.0, 237.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 89.0625, 204.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 109.0, 34.0, 22.0 ],
+					"presentation_rect" : [ 422.0, 109.0, 34.0, 22.0 ],
 					"text" : "mute",
 					"texton" : "mute"
 				}
@@ -80,7 +80,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.5625, 190.0, 57.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 4.135593220339047, 34.0, 22.0 ],
+					"presentation_rect" : [ 422.0, 4.135593220339047, 34.0, 22.0 ],
 					"textjustification" : 1
 				}
 
@@ -187,7 +187,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7.4375, 475.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 593.4375, 4.0, 146.0, 128.0 ],
+					"presentation_rect" : [ 621.4375, 4.0, 160.0, 130.0 ],
 					"varname" : "#0_fx",
 					"viewvisibility" : 1
 				}
@@ -210,7 +210,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.4375, 3.0, 403.0, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 393.0, 132.5 ],
+					"presentation_rect" : [ 1.0, 1.0, 418.0, 132.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -336,7 +336,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7.4375, 330.0, 155.219365686523588, 131.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 432.0, 4.0, 159.666666666666629, 129.0 ],
+					"presentation_rect" : [ 460.0, 4.0, 159.666666666666629, 129.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -350,7 +350,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 40.0, 224.974365234375, 14.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 414.333333333333371, 30.0, 14.0, 77.0 ]
+					"presentation_rect" : [ 442.333333333333371, 30.0, 14.0, 77.0 ]
 				}
 
 			}
@@ -365,7 +365,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 11.5, 224.974365234375, 15.0, 84.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 30.0, 15.0, 77.0 ]
+					"presentation_rect" : [ 422.0, 30.0, 15.0, 77.0 ]
 				}
 
 			}
@@ -666,8 +666,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

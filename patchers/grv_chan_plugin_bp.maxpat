@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 229.0, 136.0, 741.0, 611.0 ],
+		"rect" : [ 312.0, 291.0, 789.0, 134.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 80.0, 212.0, 212.0, 106.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 1.0, 193.937500238418579, 107.0 ],
+					"presentation_rect" : [ 223.0, 1.0, 194.937500238418579, 107.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -68,7 +68,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 53.0, 387.5, 12.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 397.937500238418579, 1.0, 29.999999761581421, 107.0 ]
+					"presentation_rect" : [ 421.937500238418579, 1.0, 29.999999761581421, 107.0 ]
 				}
 
 			}
@@ -89,7 +89,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 80.0, 50.0, 212.0, 106.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 0.0, 195.0, 108.0 ],
+					"presentation_rect" : [ 3.0, 0.0, 194.0, 108.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -104,7 +104,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 430.978058000000033, 473.5, 129.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 592.65625, 57.125, 142.0, 47.0 ]
+					"presentation_rect" : [ 625.65625, 57.125, 152.0, 47.0 ]
 				}
 
 			}
@@ -125,7 +125,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 80.0, 387.5, 161.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 431.9375, 1.0, 159.0, 107.0 ],
+					"presentation_rect" : [ 458.9375, 1.0, 159.0, 107.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -139,7 +139,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 296.0, 473.5, 130.0, 130.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 592.65625, 2.0, 141.84375, 54.125 ]
+					"presentation_rect" : [ 625.65625, 2.0, 151.84375, 54.125 ]
 				}
 
 			}
@@ -343,8 +343,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

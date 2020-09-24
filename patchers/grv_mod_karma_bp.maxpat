@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 112.0, 103.0, 532.0, 409.0 ],
+		"rect" : [ 459.0, 467.0, 532.0, 409.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,22 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 253.058570104491764, 550.0, 45.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 395.4375, 3.135593220339047, 27.5625, 22.0 ],
+					"text" : "m",
+					"texton" : "m"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "textbutton",
@@ -77,7 +93,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 200.0, 315.0, 333.000031000000035, 81.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.000015500000018, 27.0, 393.0, 81.0 ],
+					"presentation_rect" : [ 1.999969, 27.0, 421.0, 81.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"slidercolor" : [ 0.501961, 0.501961, 0.501961, 0.4 ]
 				}
@@ -93,7 +109,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 200.0, 315.0, 333.000031000000035, 81.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.999969, 27.0, 391.0, 81.0 ]
+					"presentation_rect" : [ 1.999969, 27.0, 421.0, 81.0 ]
 				}
 
 			}
@@ -664,6 +680,24 @@
 				"multi" : 0
 			}
 , 			{
+				"name" : "messageBlue",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.660494,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "newobjBlue-1",
 				"default" : 				{
 					"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -721,8 +755,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
