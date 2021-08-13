@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-12",
@@ -244,7 +245,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 11.0, 109.0, 401.0, 137.0 ],
+					"patching_rect" : [ 11.0, 109.0, 418.75, 133.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 418.0, 128.0 ],
 					"viewvisibility" : 1

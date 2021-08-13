@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3676135553,
+	"modificationdate" : 3711734559,
 	"viewrect" : [ 41.0, 92.0, 236.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -132,6 +132,26 @@
 			}
 ,
 			"sl.delayline.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"groovin_1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_view_fourtrack_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"groovin_alt.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_view_fourtape_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

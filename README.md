@@ -24,30 +24,10 @@ The current version has more features though and looks like this:
 see tests/test_layout.maxpat
 
 
-## Notes
-
-see: https://cycling74.com/forums/rhythmic-multitap-delay
-
-"I am using exactly that without problem. The tapout~ in a poly~ the tapin~ outside connected with a simple send/receive. That way changing the maximum number of taps is as simple as sending a voice $1 or typing a number into the poly~ object. Works like a charm..."
-
-```python
-def bpm2ms(bpm):
-    ms_per_min = 1 * 60 * 1000
-    quarter_note_duration_ms = ms_per_min / bpm
-    return quarter_note_duration_ms
-```
-
-see: https://www.keyandpitch.com/tools/bpm-to-ms-calculator/
-
-see alse: https://cycling74.com/tutorials/gen-tutorial-1-the-garden-of-earthly-delays
-
-using python in csound~: http://www.csounds.com/manual/html/py.html
-
-
 
 ## Modules
 
-```
+```text
 channel
     loop
     grain
@@ -69,6 +49,15 @@ mixer
     plugin
 ```
 
+## Design
+
+The design allows for:
+
+1. Changing the type of channel: currently either a looper, a granulator, a radnom midi generator via the 4 dropdown menus at the top. Each channel has two fx slots (currently a filter/delay or filter/plugin)
+
+2. Overdubbing into a 5th channel: the karma~ overdubber/looper records the mix of the 4 channels and then can be used as a seperate 5th channel thereafter during playback.
+
+
 ## Externals
 
 This project uses the following externals (OS X 64-bit):
@@ -78,15 +67,6 @@ This project uses the following externals (OS X 64-bit):
 - [spindrift~](http://www.michaelnorris.info/software/spindrift): for granular synthesis experimentation. 
 
 - gigaverb~, or more precisely, V. Boehm's [64-bit version](https://github.com/v7b1/gigaverb) of the original by Olaf Matthes implementated by Juhana Sadeharju), for reverb.
-
-
-## Design
-
-The design allows for:
-
-1. Changing the type of channel: currently either a looper, a granulator, a radnom midi generator via the 4 dropdown menus at the top. Each channel has two fx slots (currently a filter/delay or filter/plugin)
-
-2. Overdubbing into a 5th channel: the karma~ overdubber/looper records the mix of the 4 channels and then can be used as a seperate 5th channel thereafter during playback.
 
 
 ## Presets
@@ -101,7 +81,7 @@ The design allows for:
 **primary**
 
 - [ ] add csound~ as an engine
-- [ ] use gen~ as an egine
+- [ ] use gen~ as an engine
 - [ ] use poly~ for fx chain
 - [ ] add switch on 5th channel to change filter to plugin
 - [x] fx switch at module within channel instead of changing channel itself
