@@ -1,10 +1,11 @@
-# Groovin v0.56
+# Groovin v0.60
 
 ## Overview
 
 A Max/Msp 4+1 channel looper with overdubbing based on the groove~ msp object and karma~, spindrift~ and gigaverb~ externals.
 
-Developed on Max 8 and is of now, OS X only (64-bit).
+Developed on Max 8 and is of now, OS X only (64-bit). It is now fully
+codesigned and notarized.
 
 This project is/was an iterative product of my attempts over a summer to learn max/msp.
 
