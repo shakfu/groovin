@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -460,7 +460,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -556,7 +556,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -712,7 +712,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -982,7 +982,7 @@
 								"box" : 								{
 									"fontsize" : 10.0,
 									"id" : "obj-8",
-									"items" : [ "914 Mk 2", ",", "Aalto", ",", "Aaltoverb", ",", "Abyss", ",", "ACE", ",", "Acme Opticom XLA-3", ",", "Akoustic", ",", "Albedo", ",", "Alborosie Dub Station", ",", "AlmondOrgan", ",", "Alternator", ",", "Ampeg SVTVR Classic", ",", "Antoka", ",", "Aparillo", ",", "Arkinaut", ",", "Array", ",", "Artillery2", ",", "Atom", ",", "Attack", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Axon 2", ",", "Babylon", ",", "Baervaag", ",", "Balloon", ",", "Bazille", ",", "BC Chorus 4 (Mono)", ",", "BC Chorus 4 (Stereo)", ",", "BC Flanger 3 (Mono)", ",", "BC Flanger 3 (Stereo)", ",", "BC Free Amp", ",", "BC FreqAnalyst 2 (Mono)", ",", "BC FreqAnalyst 2 (Stereo)", ",", "BC FreqAnalyst Multi 2", ",", "BC Gain 3 (Dual)", ",", "BC Gain 3 (Mono)", ",", "BC Gain 3 (Stereo)", ",", "BC Late Replies", ",", "BC MB-7 Mixer 2 (Dual)", ",", "BC MB-7 Mixer 2 (Mono)", ",", "BC MB-7 Mixer 2 (Stereo)", ",", "BC Oscilloscope Multi 2", ",", "BC PatchWork Synth_Effect", ",", "BC PatchWork Synth_Synth", ",", "BC PatchWork", ",", "BC Phaser 3 (Mono)", ",", "BC Phaser 3 (Stereo)", ",", "BC StereoScope Multi 2", ",", "BC Triple EQ 4 (Dual)", ",", "BC Triple EQ 4 (Mono)", ",", "BC Triple EQ 4 (Stereo)", ",", "Beatformer", ",", "Bidule FX (sidechain)", ",", "Bidule FX", ",", "Bidule MFX", ",", "Bidule", ",", "Big Goat", ",", "Black Box Analog Design HG-2", ",", "Black Box Analog Design HG-2MS", ",", "Blend v2", ",", "Blend", ",", "Blindfold EQ", ",", "Blue Face", ",", "Bluejay", ",", "BM-VOID", ",", "Brusfri", ",", "Bulgroz", ",", "bx_cleansweep V2", ",", "bx_console SSL 4000 G", ",", "bx_masterdesk", ",", "bx_rockrack V3 Player", ",", "bx_solo", ",", "bx_subfilter", ",", "CabbagePlugin   ", ",", "Canvas", ",", "Captain Beat", ",", "Captain Chords", ",", "Captain Deep", ",", "Captain Melody", ",", "Captain Play", ",", "Carve EQ", ",", "Cassette", ",", "Castafiore", ",", "chipsynth MD", ",", "chipsynth OPS7", ",", "Chorus", ",", "Chromaphone 2", ",", "Chromaphone 3", ",", "Clonemeld", ",", "Cloud Machine", ",", "Cloudmaster", ",", "Cluster", ",", "CollaB3", ",", "ColourCopy", ",", "Comeback Kid", ",", "Comet", ",", "Continua", ",", "Corrosion v2", ",", "Cream", ",", "Crossover", ",", "Ctrlr-AU", ",", "Curve2", ",", "D-Pole", ",", "Darklands", ",", "DAW Cassette", ",", "Degrader", ",", "Deleight", ",", "Denise - Bad Tape", ",", "denise - Bite Harder", ",", "denise - Dragon Fire", ",", "Denise - God Mode", ",", "Denise - Noize 2", ",", "Denise - Noize Retro", ",", "denise - Perfect Plate XL", ",", "Denise - Perfect Room", ",", "denise - poltergate", ",", "Denise - Slappy", ",", "Denise - The Sweeper", ",", "Dexed", ",", "Dipole v2", ",", "Dipole", ",", "Discord4", ",", "Disperser", ",", "Dispersion v2", ",", "Dispersion", ",", "Distortion 1", ",", "Diva", ",", "DLSMusicDevice", ",", "DLYM", ",", "DRC", ",", "Drift", ",", "Driftmaker", ",", "Drone Piano", ",", "Droplet v2", ",", "Droplet", ",", "DrumComputer", ",", "DS Tantra 2", ",", "Dubstation 2", ",", "Echo Cat", ",", "Echoes T7E", ",", "Effect Grid", ",", "Eidolon", ",", "Electrix", ",", "ElectroNylon", ",", "elysia alpha master", ",", "elysia alpha mix", ",", "elysia niveau filter", ",", "elysia phils cascade", ",", "Ember", ",", "Emergence", ",", "Emission", ",", "Enso", ",", "Eos 2", ",", "Eternal v2", ",", "Eternal", ",", "Expanse", ",", "F-em", ",", "Fathoms", ",", "Faturator", ",", "FF Pro-C 2", ",", "FF Pro-Q 3", ",", "FF Pro-R", ",", "Filterjam", ",", "FilterShaper3", ",", "Filterstation2", ",", "Filterstep", ",", "FIN-NEO", ",", "Fire Piano Bass", ",", "Flare", ",", "Flow II", ",", "FM8 MFX", ",", "FM8", ",", "Fog Convolver", ",", "Fog", ",", "Foomph", ",", "Fraction", ",", "Fragment", ",", "FreeAMP", ",", "FRMS_Effect", ",", "FRMS_Synth", ",", "Frostbite 2", ",", "Frosting", ",", "Fusia", ",", "FuzzPlus3", ",", "Gaffel", ",", "Ghz Good Dither 3", ",", "Ghz Midside Matrix 3", ",", "Ghz Panpot 3", ",", "Ghz Tiltshift 3", ",", "Ghz Vulf Compressor 3", ",", "Ghz Wow Control 3", ",", "GotoEQ", ",", "Grain Strain", ",", "Grain Streamer", ",", "GrainSpace", ",", "Grainstation-C", ",", "Grand Finale", ",", "Granule", ",", "Granulizer 2", ",", "Haaze 2", ",", "Halcyon", ",", "HalfTime", ",", "Hand Clapper", ",", "Harmonic Maximizer", ",", "Hats", ",", "Heavy Pedal", ",", "Helm", ",", "Hexonator", ",", "Hillman", ",", "Hive", ",", "Hollow", ",", "Hologram", ",", "HoRNet ChannelStrip MK3", ",", "HoRNetAngle", ",", "HoRNetAutoGainProMK2", ",", "HoRNetHarmonics", ",", "HoRNetMulticompPlusMK2", ",", "HoRNetSongKeyMK3_Effect", ",", "HoRNetThirtyOneMK2", ",", "HoRNetTrackUtilityMK2", ",", "HoRNetVUMeterMK4", ",", "HRTFPanner", ",", "Hyperion", ",", "Idee Fixer", ",", "ImPerfect", ",", "Inertia", ",", "Infiltrator", ",", "Innervelt", ",", "Instinct", ",", "Irid", ",", "Jussi", ",", "Kaivo", ",", "kHs 3-Band EQ", ",", "kHs Bitcrush", ",", "kHs Chorus", ",", "kHs Comb Filter", ",", "kHs Compressor", ",", "kHs Convolver", ",", "kHs Delay", ",", "kHs Distortion", ",", "kHs Dynamics", ",", "kHs Ensemble", ",", "kHs Filter", ",", "kHs Flanger", ",", "kHs Formant Filter", ",", "kHs Frequency Shifter", ",", "kHs Gain", ",", "kHs Gate", ",", "kHs Haas", ",", "kHs Ladder Filter", ",", "kHs Limiter", ",", "kHs Nonlinear Filter", ",", "kHs ONE", ",", "kHs Phase Distortion", ",", "kHs Phaser", ",", "kHs Pitch Shifter", ",", "kHs Resonator", ",", "kHs Reverb", ",", "kHs Reverser", ",", "kHs Ring Mod", ",", "kHs Stereo", ",", "kHs Tape Stop", ",", "kHs Trance Gate", ",", "kHs Transient Shaper", ",", "Kleverb", ",", "Knif Audio Knifonium", ",", "Knorr", ",", "Korvpressor", ",", "Kristall", ",", "Kuvert", ",", "Latin Percussion", ",", "LDC2 Compander", ",", "Lounge Lizard EP-4", ",", "Low Filter", ",", "Luminance v2", ",", "Luminance", ",", "LUXE", ",", "Maag MAGNUM-K", ",", "MAGC", ",", "MagicDeathEye", ",", "MagicDeathEyeStereo", ",", "Malfunction II", ",", "MAmp", ",", "MAnalyzer", ",", "Markus 88 v151", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDrumReplacer", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "Metaplugin", ",", "MetapluginSynth", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFM2", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MHarmonizerMB", ",", "Microtonic Multi", ",", "Microtonic", ",", "Midi Madness 3", ",", "MidiShaper", ",", "MidSide", ",", "Mimik OD", ",", "Mimik", ",", "MiniMock", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MODALplugin", ",", "Model T", ",", "Modley", ",", "Molecule", ",", "Monique", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MSuperLooper16in16out", ",", "MSuperLooper16out", ",", "MSW2", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboAmp", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "Multipass", ",", "Multitude", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "MXXX6in6out", ",", "MXXX6out", ",", "Nebula", ",", "Nest", ",", "Nighthawk", ",", "Northern Boarder", ",", "Nouveau Mellow", ",", "Nuxx", ",", "OB-Xd", ",", "Objeq Delay", ",", "Octavlord", ",", "Oracle", ",", "Other Desert Cities", ",", "Outer Space", ",", "Pads", ",", "Pana", ",", "Panstation2", ",", "Paradigm", ",", "Parallax", ",", "Parallel Aggressor", ",", "Parsec", ",", "Partikl", ",", "Pastfabric", ",", "Pastoral Piano", ",", "PaulXStretch", ",", "Pendulate", ",", "Phase Motion 2", ",", "Phase Plant", ",", "Phosphor3", ",", "Piantone 600", ",", "Pigments", ",", "Pipa", ",", "Plectrik", ",", "Polaris", ",", "PPG Wave 2.V", ",", "Pre X7", ",", "Presswerk", ",", "Pro-DS", ",", "Pro-G", ",", "Pro-L 2", ",", "Pro-MB", ",", "Prophet REV2 PlugSE Control", ",", "Prophet REV2 PlugSE", ",", "Protoverb", ",", "Quanta", ",", "R0Verb", ",", "Radio", ",", "Rand", ",", "Raum", ",", "Re-Function", ",", "Reaktor 6 MFX", ",", "Reaktor 6", ",", "REAMP", ",", "Reed106", ",", "Reels", ",", "Regrader", ",", "Regressif", ",", "Regroover Pro", ",", "reMIDI", ",", "Remnant", ",", "Remote Control 64", ",", "Renoise Redux", ",", "Repro-1", ",", "Repro-5", ",", "Rerun v2", ",", "Reshuffle", ",", "Rev INTENSITY", ",", "Rev PLATE-140", ",", "Rhythmiq", ",", "Robotizer", ",", "Room Piano v2", ",", "RoughRider3", ",", "Ruina", ",", "Rust", ",", "Satin", ",", "Saturn 2", ",", "Scaler 2", ",", "ScalerAudio 2", ",", "Schoeps Double MS", ",", "SendIt", ",", "Sequential", ",", "Serato Sample", ",", "Serum", ",", "SerumFX", ",", "SH-2", ",", "Shadow", ",", "Shaper2", ",", "ShaperBox 2", ",", "Shift", ",", "Shrike", ",", "Side Filter", ",", "Sinc Vereor", ",", "Singularity", ",", "Sinnah", ",", "Skaka", ",", "SketchCassette II", ",", "Slammer", ",", "Slice EQ", ",", "Smooth Operator", ",", "Snap Heap", ",", "Solveig", ",", "Space Strip", ",", "SpaceCraft", ",", "SpaceCraftFX", ",", "Spaced Out", ",", "Speakers", ",", "Spectral Averaging", ",", "Spectral Bin Shift", ",", "Spectral Blurring", ",", "Spectral DroneMaker", ",", "Spectral Emergence", ",", "Spectral Filterbank", ",", "Spectral Freezing", ",", "Spectral Gate And Hold", ",", "Spectral Gliding Filters", ",", "Spectral Granulation", ",", "Spectral Harmonizer", ",", "Spectral Partial Glide", ",", "Spectral Pitch Shift", ",", "Spectral Pulsing", ",", "Spectral Shimmer", ",", "Spectral Shuffle", ",", "Spectral Stretch", ",", "Spectral Tracing", ",", "Spectral Weave", ",", "Spectre", ",", "Speektra", ",", "Spinn", ",", "Spire-1.5", ",", "SPL Free Ranger", ",", "Splitch", ",", "Springs", ",", "SR-88", ",", "STARK", ",", "Strata", ",", "Stream_Effect", ",", "String Studio VS-3", ",", "Strum GS-2", ",", "SUB Analog Drums", ",", "Suit73-V2", ",", "Suntron", ",", "Super Filterbank", ",", "Super VHS", ",", "Surge", ",", "SurgeEffectsBank", ",", "Svep", ",", "Swarm", ",", "Switch", ",", "Syndt", ",", "SyndtSphere", ",", "Synth1", ",", "SynthMaster 2.9 Effect", ",", "SynthMaster 2.9 Instrument", ",", "SynthMaster One Effect", ",", "SynthMaster One Instrument", ",", "TAIP", ",", "TAL Reverb 4 Plugin", ",", "TAL U-No-LX-V2", ",", "TAL-Filter-2", ",", "TAL-J-8", ",", "Tantrum", ",", "Temper", ",", "Texture", ",", "The Abuser", ",", "The Barber", ",", "The Mangle", ",", "Things Motor", ",", "Things Texture", ",", "Timedream", ",", "Timeless 3", ",", "Tines", ",", "Ting", ",", "Torsion", ",", "Trackspacer 2.5", ",", "Transmutator", ",", "TS-1 Transient Shaper", ",", "TTAP", ",", "Turbo", ",", "Twangstrom", ",", "Ultra Analog VA-3", ",", "Unfiltered Audio Byome", ",", "Unfiltered Audio Dent 2", ",", "Unfiltered Audio Fault", ",", "Unfiltered Audio Indent 2", ",", "Unfiltered Audio Instant Delay", ",", "Unfiltered Audio LION", ",", "Unfiltered Audio lo-fi-af", ",", "Unfiltered Audio Sandman Pro", ",", "Unfiltered Audio Silo", ",", "Unfiltered Audio SpecOps", ",", "Unfiltered Audio Triad", ",", "Union", ",", "ValhallaDelay", ",", "ValhallaFreqEcho", ",", "ValhallaPlate", ",", "ValhallaRoom", ",", "ValhallaShimmer", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaUberMod", ",", "ValhallaVintageVerb", ",", "Valves", ",", "Vanisher", ",", "Vaporwaves 2", ",", "Velvet Machine", ",", "Verv", ",", "Vinyl Strip", ",", "Virt Vereor", ",", "VirtualCZ", ",", "Vital", ",", "Volcano 3", ",", "Wade", ",", "Washout", ",", "Wave Box", ",", "Weave", ",", "Wet Reverb", ",", "Whirl v2", ",", "Whirl", ",", "Wires", ",", "WOV", ",", "XenoVerb", ",", "Xodoi", ",", "Zap", ",", "Zebra2", ",", "Zebralette", ",", "Zebrify", ",", "ZENOLOGY", ",", "Zerone", ",", "Zone", ",", "ZRev" ],
+									"items" : [ "914 Mk 2", ",", "Aalto", ",", "Aaltoverb", ",", "Abyss", ",", "ACE", ",", "Acme Opticom XLA-3", ",", "Akoustic", ",", "Albedo", ",", "Alborosie Dub Station", ",", "AlmondOrgan", ",", "Alternator", ",", "Ampeg SVTVR Classic", ",", "Antoka", ",", "Aparillo", ",", "Arkinaut", ",", "Array", ",", "Artillery2", ",", "Atom", ",", "Attack", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Axon 2", ",", "Babylon", ",", "Baervaag", ",", "Balloon", ",", "Basimilus Iteritas", ",", "Bazille", ",", "BC Chorus 4 (Mono)", ",", "BC Chorus 4 (Stereo)", ",", "BC Flanger 3 (Mono)", ",", "BC Flanger 3 (Stereo)", ",", "BC Free Amp", ",", "BC FreqAnalyst 2 (Mono)", ",", "BC FreqAnalyst 2 (Stereo)", ",", "BC FreqAnalyst Multi 2", ",", "BC Gain 3 (Dual)", ",", "BC Gain 3 (Mono)", ",", "BC Gain 3 (Stereo)", ",", "BC Late Replies", ",", "BC MB-7 Mixer 2 (Dual)", ",", "BC MB-7 Mixer 2 (Mono)", ",", "BC MB-7 Mixer 2 (Stereo)", ",", "BC Oscilloscope Multi 2", ",", "BC PatchWork Synth_Effect", ",", "BC PatchWork Synth_Synth", ",", "BC PatchWork", ",", "BC Phaser 3 (Mono)", ",", "BC Phaser 3 (Stereo)", ",", "BC StereoScope Multi 2", ",", "BC Triple EQ 4 (Dual)", ",", "BC Triple EQ 4 (Mono)", ",", "BC Triple EQ 4 (Stereo)", ",", "Beatformer", ",", "Bidule FX (sidechain)", ",", "Bidule FX", ",", "Bidule MFX", ",", "Bidule", ",", "Big Goat", ",", "Black Box Analog Design HG-2", ",", "Black Box Analog Design HG-2MS", ",", "Blend v2", ",", "Blend", ",", "Blindfold EQ", ",", "Blue Face", ",", "Bluejay", ",", "BM-VOID", ",", "Borsta", ",", "Brusfri", ",", "Bulgroz", ",", "bx_cleansweep V2", ",", "bx_console SSL 4000 G", ",", "bx_masterdesk", ",", "bx_rockrack V3 Player", ",", "bx_solo", ",", "bx_subfilter", ",", "CabbagePlugin   ", ",", "Canvas", ",", "Captain Beat Epic", ",", "Captain Chords Epic", ",", "Captain Deep Epic", ",", "Captain Melody Epic", ",", "Captain Play Epic", ",", "Carve EQ", ",", "Cassette", ",", "Castafiore", ",", "chipsynth MD", ",", "chipsynth OPS7", ",", "Chorus", ",", "Chromaphone 2", ",", "Chromaphone 3", ",", "Clonemeld", ",", "Cloud Machine", ",", "Cloudmaster", ",", "Cluster", ",", "CollaB3", ",", "ColourCopy", ",", "Comeback Kid", ",", "Comet", ",", "Continua", ",", "Corrosion v2", ",", "Cream", ",", "Crossover", ",", "Crystalline", ",", "Ctrlr-AU", ",", "Cursus Vereor", ",", "Curve2", ",", "D-Pole", ",", "Darklands", ",", "DAW Cassette", ",", "Degrader", ",", "Deleight", ",", "denise - Bad Tape 2", ",", "Denise - Bad Tape", ",", "denise - Bite Harder", ",", "denise - Dragon Fire", ",", "Denise - God Mode", ",", "Denise - Noize 2", ",", "Denise - Noize Retro", ",", "denise - Perfect Plate XL", ",", "Denise - Perfect Room", ",", "denise - poltergate", ",", "Denise - Slappy", ",", "Denise - The Sweeper", ",", "Desmodus", ",", "Dexed", ",", "Digitalis", ",", "Dipole v2", ",", "Dipole", ",", "Discord4", ",", "Disperser", ",", "Dispersion v2", ",", "Dispersion", ",", "Distortion 1", ",", "Diva", ",", "DLSMusicDevice", ",", "DLYM", ",", "DRC", ",", "Drift", ",", "Driftmaker", ",", "Drone Piano", ",", "Droplet v2", ",", "Droplet", ",", "DrumComputer", ",", "DS Tantra 2", ",", "Dubstation 2", ",", "Echo Cat", ",", "Echoes T7E", ",", "Effect Grid", ",", "Efx FRAGMENTS", ",", "Eidolon", ",", "Electrix", ",", "ElectroNylon", ",", "elysia alpha master", ",", "elysia alpha mix", ",", "elysia niveau filter", ",", "elysia phils cascade", ",", "Ember", ",", "Emergence", ",", "Emission", ",", "Enso", ",", "Eos 2", ",", "Eternal v2", ",", "Eternal", ",", "Expanse", ",", "F-em", ",", "Fathoms", ",", "Faturator", ",", "Filterjam", ",", "FilterShaper3", ",", "Filterstation2", ",", "Filterstep", ",", "FIN-NEO", ",", "Fire Piano Bass", ",", "Flare", ",", "Flow II", ",", "Flux Pro", ",", "FM8 MFX", ",", "FM8", ",", "Fog Convolver 2", ",", "Fog Convolver", ",", "Fog", ",", "Foomph", ",", "Fosfat", ",", "Fraction", ",", "Fragment", ",", "FreeAMP", ",", "FRMS_Effect", ",", "FRMS_Synth", ",", "Frostbite 2", ",", "Frosting", ",", "Fusia", ",", "FuzzPlus3", ",", "Gaffel", ",", "Ghz Good Dither 3", ",", "Ghz Midside Matrix 3", ",", "Ghz Panpot 3", ",", "Ghz Tiltshift 3", ",", "Ghz Vulf Compressor 3", ",", "Ghz Wow Control 3", ",", "Glitch", ",", "GotoEQ", ",", "Grain Strain", ",", "Grain Streamer", ",", "GrainSpace", ",", "Grainstation-C", ",", "Grand Finale", ",", "Granule", ",", "Granulizer 2", ",", "Haaze 2", ",", "Halcyon", ",", "HalfTime", ",", "Hand Clapper", ",", "Harmonic Maximizer", ",", "Hats", ",", "Heavy Pedal", ",", "Helisert_5.0-beta.0", ",", "Helm", ",", "Hexonator", ",", "Hillman", ",", "Hive", ",", "Hollow", ",", "Hologram", ",", "HoRNet ChannelStrip MK3", ",", "HoRNetAngle", ",", "HoRNetAutoGainProMK2", ",", "HoRNetHarmonics", ",", "HoRNetMulticompPlusMK2", ",", "HoRNetSongKeyMK3", ",", "HoRNetThirtyOneMK2", ",", "HoRNetTrackUtilityMK2", ",", "HoRNetVUMeterMK4", ",", "HRTFPanner", ",", "Hyperion", ",", "I Wish", ",", "Idee Fixer", ",", "ImPerfect", ",", "Inertia", ",", "Infiltrator", ",", "Innervelt", ",", "Instinct", ",", "Irid", ",", "Jussi", ",", "K7D", ",", "Kaivo", ",", "kHs 3-Band EQ", ",", "kHs Bitcrush", ",", "kHs Chorus", ",", "kHs Comb Filter", ",", "kHs Compressor", ",", "kHs Convolver", ",", "kHs Delay", ",", "kHs Distortion", ",", "kHs Dynamics", ",", "kHs Ensemble", ",", "kHs Filter", ",", "kHs Flanger", ",", "kHs Formant Filter", ",", "kHs Frequency Shifter", ",", "kHs Gain", ",", "kHs Gate", ",", "kHs Haas", ",", "kHs Ladder Filter", ",", "kHs Limiter", ",", "kHs Nonlinear Filter", ",", "kHs ONE", ",", "kHs Phase Distortion", ",", "kHs Phaser", ",", "kHs Pitch Shifter", ",", "kHs Resonator", ",", "kHs Reverb", ",", "kHs Reverser", ",", "kHs Ring Mod", ",", "kHs Stereo", ",", "kHs Tape Stop", ",", "kHs Trance Gate", ",", "kHs Transient Shaper", ",", "Kleverb", ",", "Knif Audio Knifonium", ",", "Knorr", ",", "Korvpressor", ",", "Kristall", ",", "Kuvert", ",", "Latin Percussion", ",", "LDC2 Compander", ",", "Loom", ",", "Lore", ",", "Lounge Lizard EP-4", ",", "Low Filter", ",", "Luminance v2", ",", "Luminance", ",", "LUXE", ",", "Maag MAGNUM-K", ",", "MAGC", ",", "MagicDeathEye", ",", "MagicDeathEyeStereo", ",", "Malfunction II", ",", "MAmp", ",", "MAnalyzer", ",", "Markus 88 v151", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDrumReplacer", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MetaPiano", ",", "Metaplugin", ",", "MetapluginSynth", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFM2", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MGuitarArchitect", ",", "MHarmonizerMB", ",", "Microtonic Multi", ",", "Microtonic", ",", "Midi Madness 3", ",", "MidiShaper", ",", "MidSide", ",", "Mimik OD", ",", "Mimik", ",", "MiniMock", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMorphB", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MODALplugin", ",", "Model T", ",", "Modley", ",", "Molecule", ",", "Monique", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MSuperLooper16in16out", ",", "MSuperLooper16out", ",", "MSW2", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboAmp", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboFilter", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "Multipass", ",", "Multitude", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "MXXX6in6out", ",", "MXXX6out", ",", "Nebula", ",", "Nest", ",", "Nighthawk", ",", "Noises", ",", "Northern Boarder", ",", "Nouveau Mellow", ",", "Novum", ",", "Nuxx", ",", "OB-Xd_Generator", ",", "OB-Xd_Synth", ",", "Objeq Delay", ",", "Octavlord", ",", "oi grandad", ",", "opsix native", ",", "Oracle", ",", "Other Desert Cities", ",", "Outer Space", ",", "Pads", ",", "Pana", ",", "Panstation2", ",", "Paradigm", ",", "Parallax", ",", "Parallel Aggressor", ",", "Parsec", ",", "Partikl", ",", "Pastfabric", ",", "Pastoral Piano", ",", "Pastoral Tones", ",", "PaulXStretch", ",", "Pendulate", ",", "Phase Motion 2", ",", "Phase Plant", ",", "Phosphor3", ",", "Piantone 600", ",", "Pigments", ",", "Pipa", ",", "Plectrik", ",", "Polaris", ",", "PPG Wave 2.V", ",", "Pre X7", ",", "Presswerk", ",", "Pro-C 2", ",", "Pro-DS", ",", "Pro-G", ",", "Pro-L 2", ",", "Pro-MB", ",", "Pro-Q 3", ",", "Pro-R", ",", "Prophet REV2 PlugSE Control", ",", "Prophet REV2 PlugSE", ",", "Protoverb", ",", "Quanta", ",", "R0Verb", ",", "Radio", ",", "Rand", ",", "Raum", ",", "Re-Function", ",", "Reaktor 6 MFX", ",", "Reaktor 6", ",", "REAMP", ",", "Reed106", ",", "Reels", ",", "Regrader", ",", "Regressif", ",", "Regroover Pro", ",", "reMIDI", ",", "Remnant", ",", "Remote Control 64", ",", "Renoise Redux", ",", "Repro-1", ",", "Repro-5", ",", "Rerun v2", ",", "Reshuffle", ",", "Rev INTENSITY", ",", "Rev PLATE-140", ",", "Rhythmiq", ",", "Robotizer", ",", "Room Piano v2", ",", "Room Reverb", ",", "RoughRider3", ",", "Ruina", ",", "Rust", ",", "Satin", ",", "Saturn 2", ",", "Scaler 2", ",", "ScalerAudio 2", ",", "Schoeps Double MS", ",", "SendIt", ",", "Sequential", ",", "Serato Sample", ",", "Serum", ",", "SerumFX", ",", "SH-2", ",", "Shadow Hills Class A Mastering Comp", ",", "Shadow", ",", "Shaper2", ",", "ShaperBox 2", ",", "ShapeShifter", ",", "Shift", ",", "Shrike", ",", "Side Filter", ",", "Sinc Vereor", ",", "Singularity", ",", "Sinnah", ",", "Skaka", ",", "SketchCassette II", ",", "Skew", ",", "Slammer", ",", "Slice EQ", ",", "Smooth Operator", ",", "Snap Heap", ",", "Solveig", ",", "Space Strip", ",", "SpaceCraft", ",", "SpaceCraftFX", ",", "Spaced Out", ",", "Speakers", ",", "Spectral Averaging", ",", "Spectral Bin Shift", ",", "Spectral Blurring", ",", "Spectral DroneMaker", ",", "Spectral Emergence", ",", "Spectral Filterbank", ",", "Spectral Freezing", ",", "Spectral Gate And Hold", ",", "Spectral Gliding Filters", ",", "Spectral Granulation", ",", "Spectral Harmonizer", ",", "Spectral Partial Glide", ",", "Spectral Pitch Shift", ",", "Spectral Pulsing", ",", "Spectral Shimmer", ",", "Spectral Shuffle", ",", "Spectral Stretch", ",", "Spectral Tracing", ",", "Spectral Weave", ",", "Spectre", ",", "Speektra", ",", "Spinn", ",", "Spire-1.5", ",", "SPL Free Ranger", ",", "SPL IRON", ",", "Splitch", ",", "Springs", ",", "SR-88", ",", "STARK", ",", "Stator", ",", "Stranular_1.1.0", ",", "Strata", ",", "Stream_Effect", ",", "String Studio VS-3", ",", "Strokes", ",", "Strum GS-2", ",", "SUB Analog Drums", ",", "Suit73-V2", ",", "Suntron", ",", "Super Filterbank", ",", "Super VHS", ",", "Surge", ",", "SurgeEffectsBank", ",", "Svep", ",", "Swarm", ",", "Switch", ",", "Syndt", ",", "SyndtSphere", ",", "Synth1", ",", "SynthMaster 2.9 Effect", ",", "SynthMaster 2.9 Instrument", ",", "SynthMaster One Effect", ",", "SynthMaster One Instrument", ",", "TAIP", ",", "TAL Reverb 4 Plugin", ",", "TAL U-No-LX-V2", ",", "TAL-Drum", ",", "TAL-Filter-2", ",", "TAL-J-8", ",", "Tantrum", ",", "Tape Pro", ",", "Temper", ",", "Texture", ",", "The Abuser", ",", "The Barber", ",", "The Mangle", ",", "Things Motor", ",", "Things Texture", ",", "Timedream", ",", "Timeless 3", ",", "Tines", ",", "Ting", ",", "Torsion", ",", "Trackspacer 2.5", ",", "Transmutator", ",", "TS-1 Transient Shaper", ",", "TTAP", ",", "Turbo", ",", "Twangstrom", ",", "Ultra Analog VA-3", ",", "Unfiltered Audio Byome", ",", "Unfiltered Audio Dent 2", ",", "Unfiltered Audio Fault", ",", "Unfiltered Audio Indent 2", ",", "Unfiltered Audio Instant Delay", ",", "Unfiltered Audio LION", ",", "Unfiltered Audio lo-fi-af", ",", "Unfiltered Audio Sandman Pro", ",", "Unfiltered Audio Silo", ",", "Unfiltered Audio SpecOps", ",", "Unfiltered Audio Tails", ",", "Unfiltered Audio Triad", ",", "Union", ",", "ValhallaDelay", ",", "ValhallaFreqEcho", ",", "ValhallaPlate", ",", "ValhallaRoom", ",", "ValhallaShimmer", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaUberMod", ",", "ValhallaVintageVerb", ",", "Valves", ",", "Vanisher", ",", "Vaporwaves 2", ",", "Velvet Machine", ",", "Verv", ",", "Vinyl Strip", ",", "Virt Vereor", ",", "VirtualCZ", ",", "Vital", ",", "Volcano 3", ",", "Wade", ",", "Washout", ",", "Wave Box", ",", "Weave", ",", "Wet Reverb", ",", "Whirl v2", ",", "Whirl", ",", "Wires", ",", "WOV", ",", "XenoVerb", ",", "Xodoi", ",", "Zap", ",", "Zebra2", ",", "Zebralette", ",", "Zebrify", ",", "ZENOLOGY FX", ",", "ZENOLOGY", ",", "Zerone", ",", "Zone", ",", "ZRev" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1351,13 +1351,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-										"angle" : 270,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -1378,13 +1378,13 @@
 								"name" : "messageBlue",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.660494,
-										"autogradient" : 0
+										"type" : "gradient"
 									}
 
 								}
@@ -1494,7 +1494,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "list" ],
+					"outlettype" : [ "signal", "signal", "signal", "" ],
 					"patching_rect" : [ 12.0, 876.5, 68.0, 22.0 ],
 					"text" : "matrix~ 4 3"
 				}
@@ -1600,7 +1600,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1762,7 +1762,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2231,7 +2231,7 @@
 						"noloadbangdefeating" : 1,
 						"overdrive" : 0,
 						"preffilename" : "Groovin Preferences",
-						"searchformissingfiles" : 0,
+						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
 						"usesearchpath" : 0
 					}
@@ -2554,7 +2554,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 3,
 							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -3515,6 +3515,23 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "M4L.vdelay~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gigaverb~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "grv_chan_karma_bp.maxpat",
+				"bootpath" : "~/Downloads/projects/groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "grv_chan_loop_bp.maxpat",
 				"bootpath" : "~/Downloads/projects/groovin/patchers",
 				"patcherrelativepath" : ".",
@@ -3522,76 +3539,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_fx_delay_bp.maxpat",
-				"bootpath" : "~/Downloads/projects/groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "M4L.vdelay~.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Tools resources",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "grv_filter_biquad_bp.maxpat",
-				"bootpath" : "~/Downloads/projects/groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sl.lfo.maxpat",
-				"bootpath" : "~/Downloads/projects/groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grv_mod_loop_bp.maxpat",
-				"bootpath" : "~/Downloads/projects/groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfmodes.png",
-				"bootpath" : "~/Downloads/projects/groovin/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfknob.png",
-				"bootpath" : "~/Downloads/projects/groovin/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sl.ui_sample_menu.maxpat",
-				"bootpath" : "~/Downloads/projects/groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sl.mute.maxpat",
-				"bootpath" : "~/Downloads/projects/groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grv_fx_reverb_bp.maxpat",
-				"bootpath" : "~/Downloads/projects/groovin/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grv_chan_karma_bp.maxpat",
 				"bootpath" : "~/Downloads/projects/groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -3605,6 +3553,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "grv_fx_delay_bp.maxpat",
+				"bootpath" : "~/Downloads/projects/groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grv_fx_reverb_bp.maxpat",
+				"bootpath" : "~/Downloads/projects/groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "grv_mod_karma_bp.maxpat",
 				"bootpath" : "~/Downloads/projects/groovin/patchers",
 				"patcherrelativepath" : ".",
@@ -3612,12 +3574,50 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gigaverb~.mxo",
-				"type" : "iLaX"
+				"name" : "grv_mod_loop_bp.maxpat",
+				"bootpath" : "~/Downloads/projects/groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "karma~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sl.lfo.maxpat",
+				"bootpath" : "~/Downloads/projects/groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sl.mute.maxpat",
+				"bootpath" : "~/Downloads/projects/groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sl.ui_sample_menu.maxpat",
+				"bootpath" : "~/Downloads/projects/groovin/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfknob.png",
+				"bootpath" : "~/Downloads/projects/groovin/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfmodes.png",
+				"bootpath" : "~/Downloads/projects/groovin/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
@@ -3629,13 +3629,13 @@
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-						"angle" : 270,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
@@ -3656,13 +3656,13 @@
 				"name" : "messageBlue",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.660494,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 
 				}
