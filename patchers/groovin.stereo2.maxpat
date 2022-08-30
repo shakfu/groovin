@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 316.0, 93.0, 817.0, 773.0 ],
+		"rect" : [ 329.0, 93.0, 817.0, 773.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -111,7 +111,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 522.666666666666742, 1091.0, 16.0, 68.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 794.0, 596.0, 11.0, 100.0 ],
+					"presentation_rect" : [ 794.0, 592.666625999999951, 11.0, 103.333374000000049 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider[4]",
@@ -201,7 +201,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 207.166666666666686, 1091.0, 16.0, 68.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 794.0, 189.5, 11.0, 115.0 ],
+					"presentation_rect" : [ 794.0, 185.5, 11.0, 115.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider[1]",
@@ -369,12 +369,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "grv_fx_reverb3_bp.maxpat",
+					"name" : "grv_fx_reverb2_bp.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 16.5, 1307.166625999999951, 157.0, 40.333374000000049 ],
+					"patching_rect" : [ 16.5, 1307.166625999999951, 445.0, 53.333374000000049 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 718.666625999999951, 484.0, 44.333374000000049 ],
 					"viewvisibility" : 1
@@ -1848,7 +1848,7 @@
 					"patching_rect" : [ 826.25, 24.0, 46.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 665.500000000000114, 13.5, 63.25, 20.0 ],
-					"text" : "v0.60",
+					"text" : "v0.65",
 					"textcolor" : [ 0.513725490196078, 0.470588235294118, 0.470588235294118, 1.0 ],
 					"textjustification" : 2
 				}
@@ -2716,7 +2716,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 16.5, 1397.5, 129.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.333333333333371, 709.5, 239.0, 26.0 ],
+					"presentation_rect" : [ 498.333333333333371, 709.5, 239.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : ""
@@ -2750,7 +2750,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 876.0, 824.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 692.5, 736.5, 49.0, 21.0 ],
+					"presentation_rect" : [ 687.5, 736.5, 49.0, 21.0 ],
 					"text" : "settings",
 					"texton" : "settings"
 				}
@@ -2764,7 +2764,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 94.5, 1558.5, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 746.333333333333371, 716.0, 38.5, 38.5 ]
+					"presentation_rect" : [ 741.333333333333371, 716.0, 38.5, 38.5 ]
 				}
 
 			}
@@ -2779,7 +2779,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 62.0, 1449.0, 45.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 544.500000000000114, 736.5, 45.0, 23.0 ],
+					"presentation_rect" : [ 539.500000000000114, 736.5, 45.0, 23.0 ],
 					"text" : "REC",
 					"texton" : "REC",
 					"textoncolor" : [ 0.996078431372549, 0.388235294117647, 0.388235294117647, 1.0 ]
@@ -2796,7 +2796,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 76.0, 1515.5, 76.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 591.500000000000114, 736.5, 99.0, 23.0 ],
+					"presentation_rect" : [ 586.500000000000114, 736.5, 99.0, 23.0 ],
 					"text" : "0 0 0 0",
 					"textjustification" : 1
 				}
@@ -2813,7 +2813,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.5, 1449.0, 38.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.500000000000114, 736.5, 39.0, 23.0 ],
+					"presentation_rect" : [ 498.500000000000114, 736.5, 39.0, 23.0 ],
 					"text" : "open"
 				}
 
@@ -2830,7 +2830,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 566.0, 825.0, 291.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 495.91666666666697, 706.375, 293.08333333333303, 57.625 ],
+					"presentation_rect" : [ 490.91666666666697, 706.375, 293.08333333333303, 57.625 ],
 					"proportion" : 0.5
 				}
 
@@ -3985,6 +3985,10 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "gigaverb~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "grv_chan_karma_bp.maxpat",
 				"bootpath" : "~/Downloads/projects/groovin/patchers",
 				"patcherrelativepath" : ".",
@@ -4020,7 +4024,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_fx_reverb3_bp.maxpat",
+				"name" : "grv_fx_reverb2_bp.maxpat",
 				"bootpath" : "~/Downloads/projects/groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

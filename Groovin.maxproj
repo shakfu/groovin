@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3727054974,
+	"modificationdate" : 3744691629,
 	"viewrect" : [ 41.0, 92.0, 236.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -19,6 +19,21 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"grv_chan_karma_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_filter_cascade_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_mod_karma_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"grv_chan_loop_bp.maxpat" : 			{
@@ -51,22 +66,12 @@
 				"local" : 1
 			}
 ,
+			"grv_fx_reverb2_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"grv_fx_reverb_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"grv_chan_karma_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"grv_filter_cascade_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"grv_mod_karma_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -145,6 +150,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"grv_fx_reverb3_bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -153,12 +163,12 @@
 		}
 ,
 		"externals" : 		{
-			"gigaverb~.mxo" : 			{
+			"karma~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
-			"karma~.mxo" : 			{
+			"gigaverb~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
