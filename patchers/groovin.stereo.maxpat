@@ -4041,10 +4041,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "karma~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "sl.lfo.maxpat",
 				"bootpath" : "~/Downloads/projects/groovin/patchers",
 				"patcherrelativepath" : ".",
@@ -4067,15 +4063,13 @@
 			}
 , 			{
 				"name" : "wfknob.png",
-				"bootpath" : "~/Downloads/projects/groovin/media",
-				"patcherrelativepath" : "../media",
+				"bootpath" : "C74:/media/max/picts",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wfmodes.png",
-				"bootpath" : "~/Downloads/projects/groovin/media",
-				"patcherrelativepath" : "../media",
+				"bootpath" : "C74:/media/max/picts",
 				"type" : "PNG",
 				"implicit" : 1
 			}

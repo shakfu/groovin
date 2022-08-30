@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 206.0, 93.0, 817.0, 773.0 ],
+		"rect" : [ 322.0, 90.0, 794.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,397 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-99",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 524.0, 1174.0, 103.0, 22.0 ],
-					"text" : "scale 0. 1. 1. 0. 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-98",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.5, 1173.0, 103.0, 22.0 ],
-					"text" : "scale 0. 1. 1. 0. 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-97",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.166666666666686, 1173.0, 103.0, 22.0 ],
-					"text" : "scale 0. 1. 1. 0. 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-95",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.5, 1173.0, 103.0, 22.0 ],
-					"text" : "scale 0. 1. 1. 0. 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-60",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.0, 1174.0, 103.0, 22.0 ],
-					"text" : "scale 0. 1. 1. 0. 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"hint" : "pan 5",
-					"id" : "obj-103",
-					"knobshape" : 5,
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 522.666666666666742, 1091.0, 16.0, 68.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 794.0, 596.0, 11.0, 100.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "slider[4]",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "slider",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 6
-						}
-
-					}
-,
-					"size" : 1.0,
-					"varname" : "slider[4]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"hint" : "pan 4",
-					"id" : "obj-102",
-					"knobshape" : 5,
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 417.500000000000057, 1091.0, 16.0, 68.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 794.0, 459.0, 11.0, 115.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "slider[3]",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "slider",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 6
-						}
-
-					}
-,
-					"size" : 1.0,
-					"varname" : "slider[3]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"hint" : "pan 3",
-					"id" : "obj-101",
-					"knobshape" : 5,
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 312.333333333333371, 1091.0, 16.0, 68.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 794.0, 322.0, 11.0, 115.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "slider[2]",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "slider",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 6
-						}
-
-					}
-,
-					"size" : 1.0,
-					"varname" : "slider[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"hint" : "pan 2",
-					"id" : "obj-100",
-					"knobshape" : 5,
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 207.166666666666686, 1091.0, 16.0, 68.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 794.0, 189.5, 11.0, 115.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "slider[1]",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "slider",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 6
-						}
-
-					}
-,
-					"size" : 1.0,
-					"varname" : "slider[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"hint" : "pan 1",
-					"id" : "obj-96",
-					"knobshape" : 5,
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 102.0, 1091.0, 16.0, 68.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 794.0, 51.5, 10.0, 115.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "slider",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "slider",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 6
-						}
-
-					}
-,
-					"size" : 1.0,
-					"varname" : "slider"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-89",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 306.0, 848.0, 32.0, 22.0 ],
-					"text" : "t b b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-47",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 324.0, 878.5, 125.0, 22.0 ],
-					"text" : "0 1 1 1 2 1 2 3 1 3 4 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-84",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 306.0, 819.5, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-86",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.0, 906.0, 125.0, 22.0 ],
-					"text" : "0 0 1 1 0 1 2 0 1 3 0 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosize" : 1,
-					"columns" : 4,
-					"id" : "obj-87",
-					"maxclass" : "matrixctrl",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "list", "list" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 102.0, 842.5, 66.0, 82.0 ],
-					"rows" : 5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-88",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 6,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 26.25, 960.166625999999951, 71.5, 22.0 ],
-					"text" : "matrix~ 4 5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-43",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "grv_chan_karma_bp.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 36.0, 692.0, 779.0, 121.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 588.666625999999951, 779.833333333333371, 112.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.833333333333371, 1030.0, 80.0, 22.0 ],
-					"text" : "loadmess 0.5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-39",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "grv_fx_reverb2_bp.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 16.5, 1307.166625999999951, 157.0, 40.333374000000049 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 718.666625999999951, 484.0, 44.333374000000049 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-92",
-					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 102.0, 1199.0, 439.666666666666742, 22.0 ],
-					"text" : "mc.pack~ 5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-93",
-					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 20.0, 1080.0, 70.0, 22.0 ],
-					"text" : "mc.pack~ 5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 20.0, 1259.0, 84.0, 22.0 ],
-					"text" : "mc.unpack~ 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-94",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 20.0, 1228.5, 68.0, 22.0 ],
-					"text" : "mc.stereo~"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-85",
 					"maxclass" : "message",
@@ -743,7 +352,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 882.5, 1188.0, 38.0, 23.25 ],
+					"patching_rect" : [ 177.141666666666652, 978.0, 38.0, 23.25 ],
 					"text" : "<<",
 					"texton" : "<<"
 				}
@@ -759,7 +368,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 839.75, 1188.0, 38.0, 23.25 ],
+					"patching_rect" : [ 134.391666666666652, 978.0, 38.0, 23.25 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 574.0, 8.0, 35.0, 22.0 ],
 					"text" : ">",
@@ -774,7 +383,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 778.75, 1156.0, 82.0, 22.0 ],
+					"patching_rect" : [ 73.391666666666652, 946.0, 82.0, 22.0 ],
 					"text" : "loadmess 115"
 				}
 
@@ -786,7 +395,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 778.75, 1216.0, 59.0, 22.0 ],
+					"patching_rect" : [ 73.391666666666652, 1006.0, 59.0, 22.0 ],
 					"text" : "tempo $1"
 				}
 
@@ -799,7 +408,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 778.75, 1188.0, 50.0, 22.0 ],
+					"patching_rect" : [ 73.391666666666652, 978.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 492.0, 8.0, 42.0, 22.0 ]
 				}
@@ -812,7 +421,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 891.0, 1216.0, 29.5, 22.0 ],
+					"patching_rect" : [ 185.641666666666652, 1006.0, 29.5, 22.0 ],
 					"text" : "0."
 				}
 
@@ -824,7 +433,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 9,
 					"outlettype" : [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
-					"patching_rect" : [ 778.75, 1261.0, 103.0, 22.0 ],
+					"patching_rect" : [ 73.391666666666652, 1051.0, 103.0, 22.0 ],
 					"text" : "transport"
 				}
 
@@ -1373,7 +982,7 @@
 								"box" : 								{
 									"fontsize" : 10.0,
 									"id" : "obj-8",
-									"items" : [ "914 Mk 2", ",", "Aalto", ",", "Aaltoverb", ",", "Abyss", ",", "ACE", ",", "Acme Opticom XLA-3", ",", "Akoustic", ",", "Albedo", ",", "Alborosie Dub Station", ",", "AlmondOrgan", ",", "Alternator", ",", "Ampeg SVTVR Classic", ",", "Antoka", ",", "Aparillo", ",", "Arkinaut", ",", "Array", ",", "Artillery2", ",", "Atom", ",", "Attack", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Axon 2", ",", "Babylon", ",", "Baervaag", ",", "Balloon", ",", "Basimilus Iteritas", ",", "Bazille", ",", "BC Chorus 4 (Mono)", ",", "BC Chorus 4 (Stereo)", ",", "BC Flanger 3 (Mono)", ",", "BC Flanger 3 (Stereo)", ",", "BC Free Amp", ",", "BC FreqAnalyst 2 (Mono)", ",", "BC FreqAnalyst 2 (Stereo)", ",", "BC FreqAnalyst Multi 2", ",", "BC Gain 3 (Dual)", ",", "BC Gain 3 (Mono)", ",", "BC Gain 3 (Stereo)", ",", "BC Late Replies", ",", "BC MB-7 Mixer 2 (Dual)", ",", "BC MB-7 Mixer 2 (Mono)", ",", "BC MB-7 Mixer 2 (Stereo)", ",", "BC Oscilloscope Multi 2", ",", "BC PatchWork Synth_Effect", ",", "BC PatchWork Synth_Synth", ",", "BC PatchWork", ",", "BC Phaser 3 (Mono)", ",", "BC Phaser 3 (Stereo)", ",", "BC StereoScope Multi 2", ",", "BC Triple EQ 4 (Dual)", ",", "BC Triple EQ 4 (Mono)", ",", "BC Triple EQ 4 (Stereo)", ",", "Beatformer", ",", "Bidule FX (sidechain)", ",", "Bidule FX", ",", "Bidule MFX", ",", "Bidule", ",", "Big Goat", ",", "Black Box Analog Design HG-2", ",", "Black Box Analog Design HG-2MS", ",", "BlankFor.ms - Tape Synths", ",", "Blend v2", ",", "Blend", ",", "Blindfold EQ", ",", "Blue Face", ",", "Bluejay", ",", "BM-VOID", ",", "Borsta", ",", "Brusfri", ",", "Bulgroz", ",", "bx_cleansweep V2", ",", "bx_console SSL 4000 G", ",", "bx_masterdesk", ",", "bx_rockrack V3 Player", ",", "bx_solo", ",", "bx_subfilter", ",", "CabbagePlugin   ", ",", "Canvas", ",", "Captain Beat Epic", ",", "Captain Chords Epic", ",", "Captain Deep Epic", ",", "Captain Melody Epic", ",", "Captain Play Epic", ",", "Carve EQ", ",", "Cassette", ",", "Castafiore", ",", "chipsynth MD", ",", "chipsynth OPS7", ",", "Chorus", ",", "Chromaphone 2", ",", "Chromaphone 3", ",", "Clonemeld", ",", "Cloud Machine", ",", "Cloudmaster", ",", "Cluster", ",", "CollaB3", ",", "ColourCopy", ",", "Comeback Kid", ",", "Comet", ",", "Continua", ",", "Corrosion v2", ",", "Cream", ",", "Crossover", ",", "Crystalline", ",", "Ctrlr-AU", ",", "Cursus Vereor", ",", "Curve2", ",", "D-Pole", ",", "Darklands", ",", "DAW Cassette", ",", "Degrader", ",", "Deleight", ",", "denise - Bad Tape 2", ",", "Denise - Bad Tape", ",", "denise - Bite Harder", ",", "denise - Dragon Fire", ",", "Denise - God Mode", ",", "Denise - Noize 2", ",", "Denise - Noize Retro", ",", "denise - Perfect Plate XL", ",", "Denise - Perfect Room", ",", "denise - poltergate", ",", "Denise - Slappy", ",", "Denise - The Sweeper", ",", "Desmodus", ",", "Dexed", ",", "Digitalis", ",", "Dipole v2", ",", "Dipole", ",", "Discord4", ",", "Disperser", ",", "Dispersion v2", ",", "Dispersion", ",", "Distortion 1", ",", "Diva", ",", "DLSMusicDevice", ",", "DLYM", ",", "DRC", ",", "Drift", ",", "Driftmaker", ",", "Drone Piano", ",", "Droplet v2", ",", "Droplet", ",", "DrumComputer", ",", "DS Tantra 2", ",", "Dubstation 2", ",", "Echo Cat", ",", "Echoes T7E", ",", "Effect Grid", ",", "Efx FRAGMENTS", ",", "Eidolon", ",", "Electrix", ",", "ElectroNylon", ",", "elysia alpha master", ",", "elysia alpha mix", ",", "elysia niveau filter", ",", "elysia phils cascade", ",", "Ember", ",", "Emergence", ",", "Emission", ",", "Enso", ",", "Eos 2", ",", "Eternal v2", ",", "Eternal", ",", "Expanse", ",", "F-em", ",", "Fathoms", ",", "Faturator", ",", "Filterjam", ",", "FilterShaper3", ",", "Filterstation2", ",", "Filterstep", ",", "FIN-NEO", ",", "Fire Piano Bass", ",", "Flare", ",", "Flow II", ",", "Flux Pro", ",", "FM8 MFX", ",", "FM8", ",", "Fog Convolver 2", ",", "Fog Convolver", ",", "Fog", ",", "Foomph", ",", "Fosfat", ",", "Fraction", ",", "Fragment", ",", "FreeAMP", ",", "FRMS_Effect", ",", "FRMS_Synth", ",", "Frostbite 2", ",", "Frosting", ",", "Fusia", ",", "FuzzPlus3", ",", "Gaffel", ",", "Ghz Good Dither 3", ",", "Ghz Midside Matrix 3", ",", "Ghz Panpot 3", ",", "Ghz Tiltshift 3", ",", "Ghz Vulf Compressor 3", ",", "Ghz Wow Control 3", ",", "Glitch", ",", "GotoEQ", ",", "Grain Strain", ",", "Grain Streamer", ",", "GrainSpace", ",", "Grainstation-C", ",", "Grand Finale", ",", "Granule", ",", "Granulizer 2", ",", "Haaze 2", ",", "Halcyon", ",", "HalfTime", ",", "Hand Clapper", ",", "Harmonic Maximizer", ",", "Hats", ",", "Heavy Pedal", ",", "Helisert_5.0-beta.0", ",", "Helm", ",", "Hexonator", ",", "Hillman", ",", "Hive", ",", "Hollow", ",", "Hologram", ",", "HoRNet ChannelStrip MK3", ",", "HoRNetAngle", ",", "HoRNetAutoGainProMK2", ",", "HoRNetHarmonics", ",", "HoRNetMulticompPlusMK2", ",", "HoRNetSongKeyMK3", ",", "HoRNetThirtyOneMK2", ",", "HoRNetTrackUtilityMK2", ",", "HoRNetVUMeterMK4", ",", "HRTFPanner", ",", "Hyperion", ",", "I Wish", ",", "Idee Fixer", ",", "ImPerfect", ",", "Inertia", ",", "Infiltrator", ",", "Innervelt", ",", "Instinct", ",", "Irid", ",", "Jussi", ",", "K7D", ",", "Kaivo", ",", "kHs 3-Band EQ", ",", "kHs Bitcrush", ",", "kHs Chorus", ",", "kHs Comb Filter", ",", "kHs Compressor", ",", "kHs Convolver", ",", "kHs Delay", ",", "kHs Distortion", ",", "kHs Dynamics", ",", "kHs Ensemble", ",", "kHs Filter", ",", "kHs Flanger", ",", "kHs Formant Filter", ",", "kHs Frequency Shifter", ",", "kHs Gain", ",", "kHs Gate", ",", "kHs Haas", ",", "kHs Ladder Filter", ",", "kHs Limiter", ",", "kHs Nonlinear Filter", ",", "kHs ONE", ",", "kHs Phase Distortion", ",", "kHs Phaser", ",", "kHs Pitch Shifter", ",", "kHs Resonator", ",", "kHs Reverb", ",", "kHs Reverser", ",", "kHs Ring Mod", ",", "kHs Stereo", ",", "kHs Tape Stop", ",", "kHs Trance Gate", ",", "kHs Transient Shaper", ",", "Kleverb", ",", "Knif Audio Knifonium", ",", "Knorr", ",", "Korvpressor", ",", "Kristall", ",", "Kuvert", ",", "Latin Percussion", ",", "LDC2 Compander", ",", "Loom", ",", "Lore", ",", "Lounge Lizard EP-4", ",", "Low Filter", ",", "Luminance v2", ",", "Luminance", ",", "LUXE", ",", "Maag MAGNUM-K", ",", "MAGC", ",", "MagicDeathEye", ",", "MagicDeathEyeStereo", ",", "Malfunction II", ",", "MAmp", ",", "MAnalyzer", ",", "Markus 88 v151", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDrumReplacer", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MetaPiano", ",", "Metaplugin", ",", "MetapluginSynth", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFM2", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MGuitarArchitect", ",", "MHarmonizerMB", ",", "Microtonic Multi", ",", "Microtonic", ",", "Midi Madness 3", ",", "MidiShaper", ",", "MidSide", ",", "Mimik OD", ",", "Mimik", ",", "MiniMock", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMorphB", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MODALplugin", ",", "Model T", ",", "Modley", ",", "Molecule", ",", "Monique", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MSuperLooper16in16out", ",", "MSuperLooper16out", ",", "MSW2", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboAmp", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboFilter", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "Multipass", ",", "Multitude", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "MXXX6in6out", ",", "MXXX6out", ",", "Nebula", ",", "Nest", ",", "Nighthawk", ",", "Noises", ",", "Northern Boarder", ",", "Nouveau Mellow", ",", "Novum", ",", "Nuxx", ",", "OB-Xd_Generator", ",", "OB-Xd_Synth", ",", "Objeq Delay", ",", "Octavlord", ",", "oi grandad", ",", "opsix native", ",", "Oracle", ",", "Other Desert Cities", ",", "Outer Space", ",", "Pads", ",", "Pana", ",", "Panstation2", ",", "Paradigm", ",", "Parallax", ",", "Parallel Aggressor", ",", "Parsec", ",", "Partikl", ",", "Pastfabric", ",", "Pastoral Piano", ",", "Pastoral Tones", ",", "PaulXStretch", ",", "Pendulate", ",", "Phase Motion 2", ",", "Phase Plant", ",", "Phosphor3", ",", "Piantone 600", ",", "Pigments", ",", "Pipa", ",", "Plectrik", ",", "Polaris", ",", "PPG Wave 2.V", ",", "Pre X7", ",", "Presswerk", ",", "Pro-C 2", ",", "Pro-DS", ",", "Pro-G", ",", "Pro-L 2", ",", "Pro-MB", ",", "Pro-Q 3", ",", "Pro-R", ",", "Prophet REV2 PlugSE Control", ",", "Prophet REV2 PlugSE", ",", "Protoverb", ",", "Quanta 2", ",", "R0Verb", ",", "Radio", ",", "Rand", ",", "Raum", ",", "Re-Function", ",", "Reaktor 6 MFX", ",", "Reaktor 6", ",", "REAMP", ",", "Reed106", ",", "Reels", ",", "Regrader", ",", "Regressif", ",", "Regroover Pro", ",", "reMIDI", ",", "Remnant", ",", "Remote Control 64", ",", "Renoise Redux", ",", "Repro-1", ",", "Repro-5", ",", "Rerun v2", ",", "Reshuffle", ",", "Rev INTENSITY", ",", "Rev PLATE-140", ",", "Rhythmiq", ",", "Robotizer", ",", "Room Piano v2", ",", "Room Reverb", ",", "RoughRider3", ",", "Ruina", ",", "Rust", ",", "Satin", ",", "Saturn 2", ",", "Scaler 2", ",", "ScalerAudio 2", ",", "Schoeps Double MS", ",", "SendIt", ",", "Sequential", ",", "Serato Sample", ",", "Serum", ",", "SerumFX", ",", "SH-2", ",", "Shadow Hills Class A Mastering Comp", ",", "Shadow", ",", "Shaper2", ",", "ShaperBox 2", ",", "ShapeShifter", ",", "Shift", ",", "Shrike", ",", "Side Filter", ",", "Sinc Vereor", ",", "Singularity", ",", "Sinnah", ",", "Skaka", ",", "SketchCassette II", ",", "Skew", ",", "Slammer", ",", "Slice EQ", ",", "Smooth Operator", ",", "Snap Heap", ",", "Solveig", ",", "Space Strip", ",", "SpaceCraft", ",", "SpaceCraftFX", ",", "Spaced Out", ",", "Speakers", ",", "Spectral Averaging", ",", "Spectral Bin Shift", ",", "Spectral Blurring", ",", "Spectral DroneMaker", ",", "Spectral Emergence", ",", "Spectral Filterbank", ",", "Spectral Freezing", ",", "Spectral Gate And Hold", ",", "Spectral Gliding Filters", ",", "Spectral Granulation", ",", "Spectral Harmonizer", ",", "Spectral Partial Glide", ",", "Spectral Pitch Shift", ",", "Spectral Pulsing", ",", "Spectral Shimmer", ",", "Spectral Shuffle", ",", "Spectral Stretch", ",", "Spectral Tracing", ",", "Spectral Weave", ",", "Spectre", ",", "Speektra", ",", "Spinn", ",", "Spire-1.5", ",", "SPL Free Ranger", ",", "SPL IRON", ",", "Splitch", ",", "Springs", ",", "SR-88", ",", "STARK", ",", "Stator", ",", "Stranular_1.1.0", ",", "Strata", ",", "Stream_Effect", ",", "String Studio VS-3", ",", "Strokes", ",", "Strum GS-2", ",", "SUB Analog Drums", ",", "Suit73-V2", ",", "Suntron", ",", "Super Filterbank", ",", "Super VHS", ",", "Surge", ",", "SurgeEffectsBank", ",", "Svep", ",", "Swarm", ",", "Switch", ",", "Syndt", ",", "SyndtSphere", ",", "Synth1", ",", "SynthMaster 2.9 Effect", ",", "SynthMaster 2.9 Instrument", ",", "SynthMaster One Effect", ",", "SynthMaster One Instrument", ",", "TAIP", ",", "TAL Reverb 4 Plugin", ",", "TAL U-No-LX-V2", ",", "TAL-Drum", ",", "TAL-Filter-2", ",", "TAL-J-8", ",", "Tantrum", ",", "Tape Pro", ",", "Temper", ",", "Texture", ",", "The Abuser", ",", "The Barber", ",", "The Mangle", ",", "Things Motor", ",", "Things Texture", ",", "Timedream", ",", "Timeless 3", ",", "Tines", ",", "Ting", ",", "Torsion", ",", "Trackspacer 2.5", ",", "Transmutator", ",", "TS-1 Transient Shaper", ",", "TTAP", ",", "Turbo", ",", "Twangstrom", ",", "Ultra Analog VA-3", ",", "Unfiltered Audio Byome", ",", "Unfiltered Audio Dent 2", ",", "Unfiltered Audio Fault", ",", "Unfiltered Audio Indent 2", ",", "Unfiltered Audio Instant Delay", ",", "Unfiltered Audio LION", ",", "Unfiltered Audio lo-fi-af", ",", "Unfiltered Audio Sandman Pro", ",", "Unfiltered Audio Silo", ",", "Unfiltered Audio SpecOps", ",", "Unfiltered Audio Tails", ",", "Unfiltered Audio Triad", ",", "Union", ",", "ValhallaDelay", ",", "ValhallaFreqEcho", ",", "ValhallaPlate", ",", "ValhallaRoom", ",", "ValhallaShimmer", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaUberMod", ",", "ValhallaVintageVerb", ",", "Valves", ",", "Vanisher", ",", "Vaporwaves 2", ",", "Velvet Machine", ",", "Verv", ",", "Vinyl Strip", ",", "Virt Vereor", ",", "VirtualCZ", ",", "Vital", ",", "Volcano 3", ",", "Wade", ",", "Washout", ",", "Wave Box", ",", "Weave", ",", "Wet Reverb", ",", "Whirl v2", ",", "Whirl", ",", "Wires", ",", "WOV", ",", "XenoVerb", ",", "Xodoi", ",", "Zap", ",", "Zebra2", ",", "Zebralette", ",", "Zebrify", ",", "ZENOLOGY FX", ",", "ZENOLOGY", ",", "Zerone", ",", "Zone", ",", "ZRev" ],
+									"items" : [ "914 Mk 2", ",", "Aalto", ",", "Aaltoverb", ",", "Abyss", ",", "ACE", ",", "Acme Opticom XLA-3", ",", "Akoustic", ",", "Albedo", ",", "Alborosie Dub Station", ",", "AlmondOrgan", ",", "Alternator", ",", "Ampeg SVTVR Classic", ",", "Antoka", ",", "Aparillo", ",", "Arkinaut", ",", "Array", ",", "Artillery2", ",", "Atom", ",", "Attack", ",", "AUAudioFilePlayer", ",", "AUBandpass", ",", "AUDelay", ",", "AUDistortion", ",", "AUDynamicsProcessor", ",", "AUFilter", ",", "AUGraphicEQ", ",", "AUHighShelfFilter", ",", "AUHipass", ",", "AULowpass", ",", "AULowShelfFilter", ",", "AUMatrixReverb", ",", "AUMIDISynth", ",", "AUMultibandCompressor", ",", "AUNBandEQ", ",", "AUNetReceive", ",", "AUNetSend", ",", "AUNewPitch", ",", "AUParametricEQ", ",", "AUPeakLimiter", ",", "AUPitch", ",", "AUReverb2", ",", "AURogerBeep", ",", "AURoundTripAAC", ",", "AUSampleDelay", ",", "AUSampler", ",", "AUScheduledSoundPlayer", ",", "AUSoundFieldPanner", ",", "AUSpeechSynthesis", ",", "AUSphericalHeadPanner", ",", "AUVectorPanner", ",", "Axon 2", ",", "Babylon", ",", "Baervaag", ",", "Balloon", ",", "Basimilus Iteritas", ",", "Bazille", ",", "BC Chorus 4 (Mono)", ",", "BC Chorus 4 (Stereo)", ",", "BC Flanger 3 (Mono)", ",", "BC Flanger 3 (Stereo)", ",", "BC Free Amp", ",", "BC FreqAnalyst 2 (Mono)", ",", "BC FreqAnalyst 2 (Stereo)", ",", "BC FreqAnalyst Multi 2", ",", "BC Gain 3 (Dual)", ",", "BC Gain 3 (Mono)", ",", "BC Gain 3 (Stereo)", ",", "BC Late Replies", ",", "BC MB-7 Mixer 2 (Dual)", ",", "BC MB-7 Mixer 2 (Mono)", ",", "BC MB-7 Mixer 2 (Stereo)", ",", "BC Oscilloscope Multi 2", ",", "BC PatchWork Synth_Effect", ",", "BC PatchWork Synth_Synth", ",", "BC PatchWork", ",", "BC Phaser 3 (Mono)", ",", "BC Phaser 3 (Stereo)", ",", "BC StereoScope Multi 2", ",", "BC Triple EQ 4 (Dual)", ",", "BC Triple EQ 4 (Mono)", ",", "BC Triple EQ 4 (Stereo)", ",", "Beatformer", ",", "Bidule FX (sidechain)", ",", "Bidule FX", ",", "Bidule MFX", ",", "Bidule", ",", "Big Goat", ",", "Black Box Analog Design HG-2", ",", "Black Box Analog Design HG-2MS", ",", "Blend v2", ",", "Blend", ",", "Blindfold EQ", ",", "Blue Face", ",", "Bluejay", ",", "BM-VOID", ",", "Borsta", ",", "Brusfri", ",", "Bulgroz", ",", "bx_cleansweep V2", ",", "bx_console SSL 4000 G", ",", "bx_masterdesk", ",", "bx_rockrack V3 Player", ",", "bx_solo", ",", "bx_subfilter", ",", "CabbagePlugin   ", ",", "Canvas", ",", "Captain Beat Epic", ",", "Captain Chords Epic", ",", "Captain Deep Epic", ",", "Captain Melody Epic", ",", "Captain Play Epic", ",", "Carve EQ", ",", "Cassette", ",", "Castafiore", ",", "chipsynth MD", ",", "chipsynth OPS7", ",", "Chorus", ",", "Chromaphone 2", ",", "Chromaphone 3", ",", "Clonemeld", ",", "Cloud Machine", ",", "Cloudmaster", ",", "Cluster", ",", "CollaB3", ",", "ColourCopy", ",", "Comeback Kid", ",", "Comet", ",", "Continua", ",", "Corrosion v2", ",", "Cream", ",", "Crossover", ",", "Crystalline", ",", "Ctrlr-AU", ",", "Cursus Vereor", ",", "Curve2", ",", "D-Pole", ",", "Darklands", ",", "DAW Cassette", ",", "Degrader", ",", "Deleight", ",", "denise - Bad Tape 2", ",", "Denise - Bad Tape", ",", "denise - Bite Harder", ",", "denise - Dragon Fire", ",", "Denise - God Mode", ",", "Denise - Noize 2", ",", "Denise - Noize Retro", ",", "denise - Perfect Plate XL", ",", "Denise - Perfect Room", ",", "denise - poltergate", ",", "Denise - Slappy", ",", "Denise - The Sweeper", ",", "Desmodus", ",", "Dexed", ",", "Digitalis", ",", "Dipole v2", ",", "Dipole", ",", "Discord4", ",", "Disperser", ",", "Dispersion v2", ",", "Dispersion", ",", "Distortion 1", ",", "Diva", ",", "DLSMusicDevice", ",", "DLYM", ",", "DRC", ",", "Drift", ",", "Driftmaker", ",", "Drone Piano", ",", "Droplet v2", ",", "Droplet", ",", "DrumComputer", ",", "DS Tantra 2", ",", "Dubstation 2", ",", "Echo Cat", ",", "Echoes T7E", ",", "Effect Grid", ",", "Efx FRAGMENTS", ",", "Eidolon", ",", "Electrix", ",", "ElectroNylon", ",", "elysia alpha master", ",", "elysia alpha mix", ",", "elysia niveau filter", ",", "elysia phils cascade", ",", "Ember", ",", "Emergence", ",", "Emission", ",", "Enso", ",", "Eos 2", ",", "Eternal v2", ",", "Eternal", ",", "Expanse", ",", "F-em", ",", "Fathoms", ",", "Faturator", ",", "Filterjam", ",", "FilterShaper3", ",", "Filterstation2", ",", "Filterstep", ",", "FIN-NEO", ",", "Fire Piano Bass", ",", "Flare", ",", "Flow II", ",", "Flux Pro", ",", "FM8 MFX", ",", "FM8", ",", "Fog Convolver 2", ",", "Fog Convolver", ",", "Fog", ",", "Foomph", ",", "Fosfat", ",", "Fraction", ",", "Fragment", ",", "FreeAMP", ",", "FRMS_Effect", ",", "FRMS_Synth", ",", "Frostbite 2", ",", "Frosting", ",", "Fusia", ",", "FuzzPlus3", ",", "Gaffel", ",", "Ghz Good Dither 3", ",", "Ghz Midside Matrix 3", ",", "Ghz Panpot 3", ",", "Ghz Tiltshift 3", ",", "Ghz Vulf Compressor 3", ",", "Ghz Wow Control 3", ",", "Glitch", ",", "GotoEQ", ",", "Grain Strain", ",", "Grain Streamer", ",", "GrainSpace", ",", "Grainstation-C", ",", "Grand Finale", ",", "Granule", ",", "Granulizer 2", ",", "Haaze 2", ",", "Halcyon", ",", "HalfTime", ",", "Hand Clapper", ",", "Harmonic Maximizer", ",", "Hats", ",", "Heavy Pedal", ",", "Helisert_5.0-beta.0", ",", "Helm", ",", "Hexonator", ",", "Hillman", ",", "Hive", ",", "Hollow", ",", "Hologram", ",", "HoRNet ChannelStrip MK3", ",", "HoRNetAngle", ",", "HoRNetAutoGainProMK2", ",", "HoRNetHarmonics", ",", "HoRNetMulticompPlusMK2", ",", "HoRNetSongKeyMK3", ",", "HoRNetThirtyOneMK2", ",", "HoRNetTrackUtilityMK2", ",", "HoRNetVUMeterMK4", ",", "HRTFPanner", ",", "Hyperion", ",", "I Wish", ",", "Idee Fixer", ",", "ImPerfect", ",", "Inertia", ",", "Infiltrator", ",", "Innervelt", ",", "Instinct", ",", "Irid", ",", "Jussi", ",", "K7D", ",", "Kaivo", ",", "kHs 3-Band EQ", ",", "kHs Bitcrush", ",", "kHs Chorus", ",", "kHs Comb Filter", ",", "kHs Compressor", ",", "kHs Convolver", ",", "kHs Delay", ",", "kHs Distortion", ",", "kHs Dynamics", ",", "kHs Ensemble", ",", "kHs Filter", ",", "kHs Flanger", ",", "kHs Formant Filter", ",", "kHs Frequency Shifter", ",", "kHs Gain", ",", "kHs Gate", ",", "kHs Haas", ",", "kHs Ladder Filter", ",", "kHs Limiter", ",", "kHs Nonlinear Filter", ",", "kHs ONE", ",", "kHs Phase Distortion", ",", "kHs Phaser", ",", "kHs Pitch Shifter", ",", "kHs Resonator", ",", "kHs Reverb", ",", "kHs Reverser", ",", "kHs Ring Mod", ",", "kHs Stereo", ",", "kHs Tape Stop", ",", "kHs Trance Gate", ",", "kHs Transient Shaper", ",", "Kleverb", ",", "Knif Audio Knifonium", ",", "Knorr", ",", "Korvpressor", ",", "Kristall", ",", "Kuvert", ",", "Latin Percussion", ",", "LDC2 Compander", ",", "Loom", ",", "Lore", ",", "Lounge Lizard EP-4", ",", "Low Filter", ",", "Luminance v2", ",", "Luminance", ",", "LUXE", ",", "Maag MAGNUM-K", ",", "MAGC", ",", "MagicDeathEye", ",", "MagicDeathEyeStereo", ",", "Malfunction II", ",", "MAmp", ",", "MAnalyzer", ",", "Markus 88 v151", ",", "MAutoAlign", ",", "MAutoDynamicEq", ",", "MAutoEqualizer", ",", "MAutoEqualizerLP", ",", "MAutopan", ",", "MAutopanMB", ",", "MAutoPitch", ",", "MAutoStereoFix", ",", "MAutoVolume", ",", "MBandPass", ",", "MBassador", ",", "MBitFun", ",", "MBitFunMB", ",", "MCabinet", ",", "MCabinetMB", ",", "MCCGenerator", ",", "MChannelMatrix", ",", "MCharacter", ",", "MCharmVerb", ",", "MChorusMB", ",", "MComb", ",", "MCombMB", ",", "MCompare", ",", "MCompressor", ",", "MConvolutionEZ", ",", "MConvolutionMB", ",", "MDelayMB", ",", "MDistortionMB", ",", "MDoubleTracker", ",", "MDoubleTrackerMB", ",", "MDrumEnhancer", ",", "MDrumLeveler", ",", "MDrummer", ",", "MDrummer16out", ",", "MDrummer1out", ",", "MDrumReplacer", ",", "MDynamicEq", ",", "MDynamics", ",", "MDynamicsMB", ",", "MDynamicsMBLarge", ",", "MEqualizer", ",", "MEqualizerLP", ",", "MetaPiano", ",", "Metaplugin", ",", "MetapluginSynth", ",", "MFilter", ",", "MFlanger", ",", "MFlangerMB", ",", "MFM2", ",", "MFreeformAnalogEq", ",", "MFreeformEqualizer", ",", "MFreeformPhase", ",", "MFreqShifter", ",", "MFreqShifterMB", ",", "MGranularMB", ",", "MGuitarArchitect", ",", "MHarmonizerMB", ",", "Microtonic Multi", ",", "Microtonic", ",", "Midi Madness 3", ",", "MidiShaper", ",", "MidSide", ",", "Mimik OD", ",", "Mimik", ",", "MiniMock", ",", "MLimiterMB", ",", "MLimiterX", ",", "MLoudnessAnalyzer", ",", "MMetronome", ",", "MModernCompressor", ",", "MMorph", ",", "MMorphB", ",", "MMultiAnalyzer", ",", "MNoiseGenerator", ",", "MNotepad", ",", "MODALplugin", ",", "Model T", ",", "Modley", ",", "Molecule", ",", "Monique", ",", "MOscillator", ",", "MOscilloscope", ",", "MPhaser", ",", "MPhaserMB", ",", "MPhatik", ",", "MPolySaturator", ",", "MPowerSynth", ",", "MRatio", ",", "MRatioMB", ",", "MRecorder", ",", "MReverb", ",", "MReverbMB", ",", "MRhythmizer", ",", "MRhythmizerMB", ",", "MRingModulator", ",", "MRingModulatorMB", ",", "MRotary", ",", "MSaturator", ",", "MSaturatorMB", ",", "MSoundFactory", ",", "MSoundFactory6out", ",", "MSpectralDelay", ",", "MSpectralDynamics", ",", "MSpectralDynamicsMini", ",", "MSpectralPan", ",", "MStereoExpander", ",", "MStereoGenerator", ",", "MStereoProcessor", ",", "MStereoScope", ",", "MStereoSpread", ",", "MSuperLooper", ",", "MSuperLooper16in16out", ",", "MSuperLooper16out", ",", "MSW2", ",", "MTransformer", ",", "MTransient", ",", "MTransientMB", ",", "MTremolo", ",", "MTremoloMB", ",", "MTuner", ",", "MTurboAmp", ",", "MTurboComp", ",", "MTurboCompMB", ",", "MTurboDelay", ",", "MTurboDelayMB", ",", "MTurboEQ", ",", "MTurboFilter", ",", "MTurboReverb", ",", "MTurboReverbMB", ",", "Multipass", ",", "Multitude", ",", "MUltraMaximizer", ",", "MUnison", ",", "MUtility", ",", "MVibrato", ",", "MVibratoMB", ",", "MVintageRotary", ",", "MVocoder", ",", "MWaveFolder", ",", "MWaveFolderMB", ",", "MWaveShaper", ",", "MWaveShaperMB", ",", "MWobbler", ",", "MWobblerMB", ",", "MXXX", ",", "MXXX1", ",", "MXXX6in6out", ",", "MXXX6out", ",", "Nebula", ",", "Nest", ",", "Nighthawk", ",", "Noises", ",", "Northern Boarder", ",", "Nouveau Mellow", ",", "Novum", ",", "Nuxx", ",", "OB-Xd_Generator", ",", "OB-Xd_Synth", ",", "Objeq Delay", ",", "Octavlord", ",", "oi grandad", ",", "opsix native", ",", "Oracle", ",", "Other Desert Cities", ",", "Outer Space", ",", "Pads", ",", "Pana", ",", "Panstation2", ",", "Paradigm", ",", "Parallax", ",", "Parallel Aggressor", ",", "Parsec", ",", "Partikl", ",", "Pastfabric", ",", "Pastoral Piano", ",", "Pastoral Tones", ",", "PaulXStretch", ",", "Pendulate", ",", "Phase Motion 2", ",", "Phase Plant", ",", "Phosphor3", ",", "Piantone 600", ",", "Pigments", ",", "Pipa", ",", "Plectrik", ",", "Polaris", ",", "PPG Wave 2.V", ",", "Pre X7", ",", "Presswerk", ",", "Pro-C 2", ",", "Pro-DS", ",", "Pro-G", ",", "Pro-L 2", ",", "Pro-MB", ",", "Pro-Q 3", ",", "Pro-R", ",", "Prophet REV2 PlugSE Control", ",", "Prophet REV2 PlugSE", ",", "Protoverb", ",", "Quanta", ",", "R0Verb", ",", "Radio", ",", "Rand", ",", "Raum", ",", "Re-Function", ",", "Reaktor 6 MFX", ",", "Reaktor 6", ",", "REAMP", ",", "Reed106", ",", "Reels", ",", "Regrader", ",", "Regressif", ",", "Regroover Pro", ",", "reMIDI", ",", "Remnant", ",", "Remote Control 64", ",", "Renoise Redux", ",", "Repro-1", ",", "Repro-5", ",", "Rerun v2", ",", "Reshuffle", ",", "Rev INTENSITY", ",", "Rev PLATE-140", ",", "Rhythmiq", ",", "Robotizer", ",", "Room Piano v2", ",", "Room Reverb", ",", "RoughRider3", ",", "Ruina", ",", "Rust", ",", "Satin", ",", "Saturn 2", ",", "Scaler 2", ",", "ScalerAudio 2", ",", "Schoeps Double MS", ",", "SendIt", ",", "Sequential", ",", "Serato Sample", ",", "Serum", ",", "SerumFX", ",", "SH-2", ",", "Shadow Hills Class A Mastering Comp", ",", "Shadow", ",", "Shaper2", ",", "ShaperBox 2", ",", "ShapeShifter", ",", "Shift", ",", "Shrike", ",", "Side Filter", ",", "Sinc Vereor", ",", "Singularity", ",", "Sinnah", ",", "Skaka", ",", "SketchCassette II", ",", "Skew", ",", "Slammer", ",", "Slice EQ", ",", "Smooth Operator", ",", "Snap Heap", ",", "Solveig", ",", "Space Strip", ",", "SpaceCraft", ",", "SpaceCraftFX", ",", "Spaced Out", ",", "Speakers", ",", "Spectral Averaging", ",", "Spectral Bin Shift", ",", "Spectral Blurring", ",", "Spectral DroneMaker", ",", "Spectral Emergence", ",", "Spectral Filterbank", ",", "Spectral Freezing", ",", "Spectral Gate And Hold", ",", "Spectral Gliding Filters", ",", "Spectral Granulation", ",", "Spectral Harmonizer", ",", "Spectral Partial Glide", ",", "Spectral Pitch Shift", ",", "Spectral Pulsing", ",", "Spectral Shimmer", ",", "Spectral Shuffle", ",", "Spectral Stretch", ",", "Spectral Tracing", ",", "Spectral Weave", ",", "Spectre", ",", "Speektra", ",", "Spinn", ",", "Spire-1.5", ",", "SPL Free Ranger", ",", "SPL IRON", ",", "Splitch", ",", "Springs", ",", "SR-88", ",", "STARK", ",", "Stator", ",", "Stranular_1.1.0", ",", "Strata", ",", "Stream_Effect", ",", "String Studio VS-3", ",", "Strokes", ",", "Strum GS-2", ",", "SUB Analog Drums", ",", "Suit73-V2", ",", "Suntron", ",", "Super Filterbank", ",", "Super VHS", ",", "Surge", ",", "SurgeEffectsBank", ",", "Svep", ",", "Swarm", ",", "Switch", ",", "Syndt", ",", "SyndtSphere", ",", "Synth1", ",", "SynthMaster 2.9 Effect", ",", "SynthMaster 2.9 Instrument", ",", "SynthMaster One Effect", ",", "SynthMaster One Instrument", ",", "TAIP", ",", "TAL Reverb 4 Plugin", ",", "TAL U-No-LX-V2", ",", "TAL-Drum", ",", "TAL-Filter-2", ",", "TAL-J-8", ",", "Tantrum", ",", "Tape Pro", ",", "Temper", ",", "Texture", ",", "The Abuser", ",", "The Barber", ",", "The Mangle", ",", "Things Motor", ",", "Things Texture", ",", "Timedream", ",", "Timeless 3", ",", "Tines", ",", "Ting", ",", "Torsion", ",", "Trackspacer 2.5", ",", "Transmutator", ",", "TS-1 Transient Shaper", ",", "TTAP", ",", "Turbo", ",", "Twangstrom", ",", "Ultra Analog VA-3", ",", "Unfiltered Audio Byome", ",", "Unfiltered Audio Dent 2", ",", "Unfiltered Audio Fault", ",", "Unfiltered Audio Indent 2", ",", "Unfiltered Audio Instant Delay", ",", "Unfiltered Audio LION", ",", "Unfiltered Audio lo-fi-af", ",", "Unfiltered Audio Sandman Pro", ",", "Unfiltered Audio Silo", ",", "Unfiltered Audio SpecOps", ",", "Unfiltered Audio Tails", ",", "Unfiltered Audio Triad", ",", "Union", ",", "ValhallaDelay", ",", "ValhallaFreqEcho", ",", "ValhallaPlate", ",", "ValhallaRoom", ",", "ValhallaShimmer", ",", "ValhallaSpaceModulator", ",", "ValhallaSupermassive", ",", "ValhallaUberMod", ",", "ValhallaVintageVerb", ",", "Valves", ",", "Vanisher", ",", "Vaporwaves 2", ",", "Velvet Machine", ",", "Verv", ",", "Vinyl Strip", ",", "Virt Vereor", ",", "VirtualCZ", ",", "Vital", ",", "Volcano 3", ",", "Wade", ",", "Washout", ",", "Wave Box", ",", "Weave", ",", "Wet Reverb", ",", "Whirl v2", ",", "Whirl", ",", "Wires", ",", "WOV", ",", "XenoVerb", ",", "Xodoi", ",", "Zap", ",", "Zebra2", ",", "Zebralette", ",", "Zebrify", ",", "ZENOLOGY FX", ",", "ZENOLOGY", ",", "Zerone", ",", "Zone", ",", "ZRev" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1836,6 +1445,58 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 950.25, 684.0, 51.0, 22.0 ],
 					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 107.0, 805.5, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 107.0, 836.0, 125.0, 22.0 ],
+					"text" : "0 0 1 1 0 1 2 0 1 3 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"columns" : 4,
+					"id" : "obj-43",
+					"maxclass" : "matrixctrl",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "list", "list" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 107.0, 876.5, 66.0, 50.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 741.833333333333371, 8.0, 41.0, 31.0 ],
+					"rows" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "signal", "signal", "" ],
+					"patching_rect" : [ 12.0, 876.5, 68.0, 22.0 ],
+					"text" : "matrix~ 4 3"
 				}
 
 			}
@@ -2714,9 +2375,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 16.5, 1397.5, 129.0, 26.0 ],
+					"patching_rect" : [ 251.5, 894.5, 129.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.333333333333371, 709.5, 239.0, 26.0 ],
+					"presentation_rect" : [ 497.333333333333371, 709.5, 239.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : ""
@@ -2750,7 +2411,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 876.0, 824.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 692.5, 736.5, 49.0, 21.0 ],
+					"presentation_rect" : [ 686.5, 736.5, 49.0, 21.0 ],
 					"text" : "settings",
 					"texton" : "settings"
 				}
@@ -2762,9 +2423,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.5, 1558.5, 45.0, 45.0 ],
+					"patching_rect" : [ 329.5, 1055.5, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 746.333333333333371, 716.0, 38.5, 38.5 ]
+					"presentation_rect" : [ 740.333333333333371, 716.0, 38.5, 38.5 ]
 				}
 
 			}
@@ -2777,9 +2438,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 62.0, 1449.0, 45.0, 23.0 ],
+					"patching_rect" : [ 297.0, 946.0, 45.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 544.500000000000114, 736.5, 45.0, 23.0 ],
+					"presentation_rect" : [ 538.500000000000114, 736.5, 45.0, 23.0 ],
 					"text" : "REC",
 					"texton" : "REC",
 					"textoncolor" : [ 0.996078431372549, 0.388235294117647, 0.388235294117647, 1.0 ]
@@ -2794,9 +2455,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 1515.5, 76.0, 23.0 ],
+					"patching_rect" : [ 311.0, 1012.5, 76.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 591.500000000000114, 736.5, 99.0, 23.0 ],
+					"presentation_rect" : [ 585.500000000000114, 736.5, 99.0, 23.0 ],
 					"text" : "0 0 0 0",
 					"textjustification" : 1
 				}
@@ -2811,9 +2472,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.5, 1449.0, 38.0, 23.0 ],
+					"patching_rect" : [ 355.5, 946.0, 38.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.500000000000114, 736.5, 39.0, 23.0 ],
+					"presentation_rect" : [ 497.500000000000114, 736.5, 39.0, 23.0 ],
 					"text" : "open"
 				}
 
@@ -2830,8 +2491,55 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 566.0, 825.0, 291.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 495.91666666666697, 706.375, 293.08333333333303, 57.625 ],
+					"presentation_rect" : [ 489.91666666666697, 706.375, 293.08333333333303, 57.625 ],
 					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-11",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "grv_chan_karma_bp.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 36.0, 691.0, 779.0, 105.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 590.0, 782.0, 111.0 ],
+					"varname" : "mixer",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-9",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "grv_fx_reverb_bp.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 247.0, 824.0, 280.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 717.0, 438.0, 48.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -3100,7 +2808,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 58.0, 1485.5, 118.0, 22.0 ],
+					"patching_rect" : [ 293.0, 982.5, 118.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3141,7 +2849,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 36.0, 529.0, 779.0, 134.0 ],
+					"patching_rect" : [ 36.0, 529.0, 779.0, 149.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 448.0, 782.0, 135.0 ],
 					"varname" : "channel4",
@@ -3224,82 +2932,23 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 0 ],
+					"destination" : [ "obj-39", 0 ],
+					"midpoints" : [ 45.5, 180.0, 21.5, 180.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 3 ],
+					"destination" : [ "obj-39", 3 ],
+					"midpoints" : [ 45.5, 681.0, 21.0, 681.0, 21.0, 861.0, 70.5, 861.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-97", 0 ],
-					"source" : [ "obj-100", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
-					"source" : [ "obj-101", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"source" : [ "obj-102", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
-					"source" : [ "obj-103", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-100", 0 ],
-					"order" : 3,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-101", 0 ],
-					"order" : 2,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-102", 0 ],
-					"order" : 1,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
-					"order" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
-					"order" : 4,
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -3366,7 +3015,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 1 ],
+					"destination" : [ "obj-39", 1 ],
+					"midpoints" : [ 45.5, 348.0, 21.0, 348.0, 21.0, 861.0, 37.833333333333329, 861.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -3442,7 +3092,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
-					"midpoints" : [ 130.0, 1478.25, 117.0, 1478.25 ],
+					"midpoints" : [ 365.0, 975.25, 352.0, 975.25 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -3484,22 +3134,38 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"source" : [ "obj-39", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"order" : 0,
+					"source" : [ "obj-39", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
+					"source" : [ "obj-39", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-39", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-49", 1 ],
-					"midpoints" : [ 900.5, 1250.5, 872.25, 1250.5 ],
+					"midpoints" : [ 195.141666666666652, 1040.5, 166.891666666666652, 1040.5 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -3513,8 +3179,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-93", 4 ],
+					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -3527,7 +3200,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-87", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -3535,7 +3208,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 2 ],
-					"midpoints" : [ 53.5, 1439.75, 166.5, 1439.75 ],
+					"midpoints" : [ 288.5, 936.75, 401.5, 936.75 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -3543,7 +3216,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
-					"midpoints" : [ 26.0, 1477.75, 67.5, 1477.75 ],
+					"midpoints" : [ 261.0, 974.75, 302.5, 974.75 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -3602,7 +3275,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 166.5, 1547.5, 130.0, 1547.5 ],
+					"midpoints" : [ 401.5, 1044.5, 365.0, 1044.5 ],
 					"source" : [ "obj-57", 2 ]
 				}
 
@@ -3610,7 +3283,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 67.5, 1548.5, 104.0, 1548.5 ],
+					"midpoints" : [ 302.5, 1045.5, 339.0, 1045.5 ],
 					"source" : [ "obj-57", 0 ]
 				}
 
@@ -3631,15 +3304,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 2 ],
+					"destination" : [ "obj-39", 2 ],
+					"midpoints" : [ 45.5, 516.0, 21.0, 516.0, 21.0, 861.0, 54.166666666666664, 861.0 ],
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-92", 3 ],
-					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -3703,7 +3370,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
-					"midpoints" : [ 71.5, 1478.25, 117.0, 1478.25 ],
+					"midpoints" : [ 306.5, 975.25, 352.0, 975.25 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -3818,13 +3485,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-89", 0 ],
-					"source" : [ "obj-84", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-85", 0 ]
 				}
@@ -3832,145 +3492,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-87", 0 ],
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-88", 0 ],
-					"source" : [ "obj-87", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-88", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 3 ],
-					"source" : [ "obj-88", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 2 ],
-					"source" : [ "obj-88", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 1 ],
-					"source" : [ "obj-88", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"source" : [ "obj-88", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"source" : [ "obj-89", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"source" : [ "obj-89", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 1 ],
+					"destination" : [ "obj-5", 1 ],
 					"source" : [ "obj-9", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-94", 1 ],
-					"source" : [ "obj-92", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-94", 0 ],
-					"source" : [ "obj-93", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-94", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-92", 0 ],
-					"source" : [ "obj-95", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-92", 1 ],
-					"source" : [ "obj-97", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-92", 2 ],
-					"source" : [ "obj-98", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-92", 4 ],
-					"source" : [ "obj-99", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-100" : [ "slider[1]", "slider", 0 ],
-			"obj-101" : [ "slider[2]", "slider", 0 ],
-			"obj-102" : [ "slider[3]", "slider", 0 ],
-			"obj-103" : [ "slider[4]", "slider", 0 ],
 			"obj-5" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-96" : [ "slider", "slider", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -3983,6 +3519,10 @@
 				"bootpath" : "C74:/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "gigaverb~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "grv_chan_karma_bp.maxpat",
@@ -4020,7 +3560,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grv_fx_reverb2_bp.maxpat",
+				"name" : "grv_fx_reverb_bp.maxpat",
 				"bootpath" : "~/Downloads/projects/groovin/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -4081,6 +3621,10 @@
 			}
  ],
 		"autosave" : 0,
+		"boxgroups" : [ 			{
+				"boxes" : [ "obj-5", "obj-4", "obj-32", "obj-7", "obj-14", "obj-20", "obj-3" ]
+			}
+ ],
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
