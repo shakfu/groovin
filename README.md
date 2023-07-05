@@ -11,13 +11,13 @@ This project is/was an iterative product of my attempts over a summer to learn m
 
 Please note that it assumes that you have a set of samples files (..wav or .aif) in `~/Music/samples`. These can be of pretty much of any length subject to the constraints of the max/msp engine and your computer.
 
-Currently at v0.56 with VST/AU and external MIDI support. 
+Currently at v0.60 with VST/AU, external MIDI support, and stereo via `mc.` methods.
 
 A brief demo of the v0.4 features is available on [youtube](https://youtu.be/sKZO_4qYpj0)
 
-The current version has more features though and looks like this:
+The v0.6 version looks like this:
 
-![groovin_v0.5](media/groovin_v05_screenshot.png)
+![groovin_v0.6](media/groovin_v06_screenshot.png)
 
 
 ## Design Spec
