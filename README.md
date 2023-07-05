@@ -20,7 +20,10 @@ The v0.6 version looks like this:
 ![groovin_v0.6](media/groovin_v06_screenshot.png)
 
 
+
 ## Design Spec
+
+![overview](media/groovin.svg)
 
 see tests/test_layout.maxpat
 
