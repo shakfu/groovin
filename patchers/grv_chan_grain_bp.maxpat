@@ -445,7 +445,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spindrift~.mxo",
+				"name" : "mc.spindrift~.mxo",
 				"type" : "iLaX"
 			}
  ],

@@ -2,41 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 1,
-			"revision" : 0,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 882.0, 335.0, 416.0, 739.0 ],
-		"bglocked" : 0,
+		"rect" : [ 347.0, 127.0, 534.0, 739.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-6",
@@ -113,14 +89,14 @@
 					"autopopulate" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-3",
-					"items" : [ "Piano_01_Bpm80_KeyCminor.mid", ",", "Piano_01b_Bpm80_KeyCminor.mid", ",", "Piano_01c_Bpm80_KeyCminor.mid", ",", "Piano_02_Bpm90_KeyAminor.mid", ",", "Piano_02b_Bpm90_KeyAminor.mid", ",", "Piano_03_Bpm90_KeyBmajor.mid", ",", "Piano_03b_Bpm90_KeyBmajor.mid", ",", "Piano_04_Bpm100_KeyC#major.mid", ",", "Piano_04b_Bpm100_KeyC#major.mid", ",", "Piano_05_Bpm120_KeyDminor.mid", ",", "Piano_05b_Bpm120_KeyDminor.mid", ",", "Piano_06_Bpm130_KeyFminor.mid", ",", "Piano_06b_Bpm130_KeyFminor.mid", ",", "Piano_06c_Bpm130_KeyFminor.mid", ",", "Piano_07_Bpm125_KeyG#minor.mid", ",", "Piano_07b_Bpm125_KeyG#minor.mid", ",", "Piano_07c_Bpm125_KeyG#minor.mid", ",", "Piano_08_Bpm125_KeyC#major.mid", ",", "Piano_08b_Bpm125_KeyC#major.mid", ",", "Piano_08c_Bpm125_KeyC#major.mid", ",", "Piano_09_Bpm75_KeyF#minor.mid", ",", "Piano_09b_Bpm75_KeyF#minor.mid", ",", "Piano_10_Bpm130_KeyA#minor.mid", ",", "Piano_10b_Bpm130_KeyA#minor.mid", ",", "Piano_10c_Bpm130_KeyA#minor.mid", ",", "Piano_11_Bpm120_KeyFminor.mid", ",", "Piano_11b_Bpm120_KeyFminor.mid", ",", "Piano_11c_Bpm120_KeyFminor.mid", ",", "Piano_12_Bpm120_KeyCmajor.mid", ",", "Piano_12b_Bpm120_KeyCmajor.mid", ",", "Piano_13_Bpm80_KeyG#minor.mid", ",", "Piano_14_Bpm80_KeyA#major.mid", ",", "Piano_14b_Bpm80_KeyA#major.mid", ",", "Piano_14c_Bpm80_KeyA#major.mid", ",", "Piano_15_Bpm125_KeyD#minor.mid", ",", "Piano_15b_Bpm125_KeyD#minor.mid", ",", "Piano_16_Bpm85_KeyBmajor.mid", ",", "Piano_16b_Bpm85_KeyBmajor.mid", ",", "Piano_17_Bpm85_KeyAminor.mid", ",", "Piano_17b_Bpm85_KeyAminor.mid", ",", "Piano_18_Bpm90_KeyF#minor.mid", ",", "Piano_18b_Bpm90_KeyF#minor.mid", ",", "Piano_19_Bpm100_KeyG#minor.mid", ",", "Piano_19b_Bpm100_KeyG#minor.mid", ",", "Piano_20_Bpm125_KeyAminor.mid", ",", "Piano_20b_Bpm125_KeyAminor.mid", ",", "Piano_21_Bpm125_KeyDminor.mid", ",", "Piano_21b_Bpm125_KeyDminor.mid", ",", "Piano_22_Bpm125_KeyF#minor.mid", ",", "Piano_22b_Bpm125_KeyF#minor.mid" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 82.419365895508008, 168.0, 100.0, 20.0 ],
-					"prefix" : "Macintosh HD:/Users/sa/Music/midi/",
+					"prefix" : "C74:/packages/BEAP/clippings/BEAP/MIDI/",
 					"presentation" : 1,
 					"presentation_rect" : [ 1.419366, 1.0, 104.25, 20.0 ]
 				}
@@ -176,13 +152,13 @@
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-						"angle" : 270,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
@@ -203,13 +179,13 @@
 				"name" : "messageBlue",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.660494,
-						"autogradient" : 0
+						"type" : "gradient"
 					}
 
 				}

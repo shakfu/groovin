@@ -1727,62 +1727,6 @@
 						"prefer" : "AudioUnit"
 					}
 ,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "DLSMusicDevice.auinfo",
-							"plugindisplayname" : "DLSMusicDevice",
-							"pluginsavedname" : "DLSMusicDevice",
-							"pluginsaveduniqueid" : 1684828960,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"blob" : "904.hAGaoMGcv.S2AHv.DTfAGfPBJr.CM3vCPDADRLAEUXQFZrAViAWcsv1agQFUtEVakckckI2bo8laeAwD0MWYsjlazUlbtEFasHWY1Ulbh4EYoM2ZsLGcxUVXsklamQEc4AWYdIWYtQVYx0Rb0EFaoQWdTQVXzEFWsEla0YVXiQWcxUlbeAwClkFak0hbkYVYxUlaiU1bWMWchQWdvUFUBElaqwUYrUVak4Fcs3VXsUlH......ED..Q.RDVcsUGD+8DDj...............C...............A.........f......HQXvAGaQeAFaMmXsXVZrUVKxUlYeAAUuLUdyQWYs8BSoIlbgIWduLzasA2atUlazM2KC8lbkETcjk1atL1asA2atUlaz8xPu4Fck4Fcy8hTkM2a0I2XkM2KmM2Wo41bzIWcsUlazMmKjw1bRPFayAxSQD.p.....D.p.H...vPSgMVZtQ2aygFHHQD.........................BQD.A7++++uDmM2Wo41bzIWcsUlazMmKjw1b............................................................+++++C...............7++++O..n.HiUG.................IHUYy8VcxMVYyA..B.PUunyT4MGck0lNLklXxElb4oyPu0Fbu4VYtQ2b5LzaxUVP0QVZu4xXu0Fbu4VYtQmNC8lazUlazMmNRU1buUmbiU1b5b1beklayQmb00VYtQ2btPFayA..N.fI.HA.mAvb.7E.oAfa.LG.zAfb.TG.sAPY.3F.zAvb.3B.jA.a.LG.O.fF.v..MAPX.LF.oAfa.PG.uAvb.fF.f..R.PD.R.vTSk2bzUVauvTZhIWXxk2KC8Vav8lak4Fcy8xPuIWYAUGYo8lKi8Vav8lak4FcuLzatQWYtQ2buHUYy8VcxMVYy8xYy8UZtMGcxUWak4Fcy4BYrMG..LA.A7B.++O..DMGcDkLR6wGfDRTvDULZMGckIWYuARaogmU04VcyUFY.f..i..K.DC.4.vS.3E.iAfb.bG.DBfk.3I.iB.r.TK.1B.t.nK.+BPv.fN.sC.7.ve.SE.VCPv.GLPBC3v.PLfDCzA.......f.A.........fH..................v.j."
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "DLSMusicDevice",
-									"origin" : "DLSMusicDevice.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "Instrument",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "DLSMusicDevice.auinfo",
-										"plugindisplayname" : "DLSMusicDevice",
-										"pluginsavedname" : "DLSMusicDevice",
-										"pluginsaveduniqueid" : 1684828960,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "904.hAGaoMGcv.S2AHv.DTfAGfPBJr.CM3vCPDADRLAEUXQFZrAViAWcsv1agQFUtEVakckckI2bo8laeAwD0MWYsjlazUlbtEFasHWY1Ulbh4EYoM2ZsLGcxUVXsklamQEc4AWYdIWYtQVYx0Rb0EFaoQWdTQVXzEFWsEla0YVXiQWcxUlbeAwClkFak0hbkYVYxUlaiU1bWMWchQWdvUFUBElaqwUYrUVak4Fcs3VXsUlH......ED..Q.RDVcsUGD+8DDj...............C...............A.........f......HQXvAGaQeAFaMmXsXVZrUVKxUlYeAAUuLUdyQWYs8BSoIlbgIWduLzasA2atUlazM2KC8lbkETcjk1atL1asA2atUlaz8xPu4Fck4Fcy8hTkM2a0I2XkM2KmM2Wo41bzIWcsUlazMmKjw1bRPFayAxSQD.p.....D.p.H...vPSgMVZtQ2aygFHHQD.........................BQD.A7++++uDmM2Wo41bzIWcsUlazMmKjw1b............................................................+++++C...............7++++O..n.HiUG.................IHUYy8VcxMVYyA..B.PUunyT4MGck0lNLklXxElb4oyPu0Fbu4VYtQ2b5LzaxUVP0QVZu4xXu0Fbu4VYtQmNC8lazUlazMmNRU1buUmbiU1b5b1beklayQmb00VYtQ2btPFayA..N.fI.HA.mAvb.7E.oAfa.LG.zAfb.TG.sAPY.3F.zAvb.3B.jA.a.LG.O.fF.v..MAPX.LF.oAfa.PG.uAvb.fF.f..R.PD.R.vTSk2bzUVauvTZhIWXxk2KC8Vav8lak4Fcy8xPuIWYAUGYo8lKi8Vav8lak4FcuLzatQWYtQ2buHUYy8VcxMVYy8xYy8UZtMGcxUWak4Fcy4BYrMG..LA.A7B.++O..DMGcDkLR6wGfDRTvDULZMGckIWYuARaogmU04VcyUFY.f..i..K.DC.4.vS.3E.iAfb.bG.DBfk.3I.iB.r.TK.1B.t.nK.+BPv.fN.sC.7.ve.SE.VCPv.GLPBC3v.PLfDCzA.......f.A.........fH..................v.j."
-									}
-,
-									"fileref" : 									{
-										"name" : "DLSMusicDevice",
-										"filename" : "DLSMusicDevice.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "b11a3ac735640ef5866b01ecb7000ee7"
-									}
-
-								}
- ]
-						}
-
-					}
-,
 					"text" : "audiounit~",
 					"varname" : "vst~",
 					"viewvisibility" : 0

@@ -2,7 +2,7 @@
 	"name" : "Groovin",
 	"version" : 1,
 	"creationdate" : 3649883829,
-	"modificationdate" : 3744691629,
+	"modificationdate" : 3834911284,
 	"viewrect" : [ 41.0, 92.0, 236.0, 659.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -62,6 +62,11 @@
 			}
 ,
 			"sl.mute.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"grv_fx_reverb3_bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -150,11 +155,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"grv_fx_reverb3_bp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
@@ -169,6 +169,11 @@
 			}
 ,
 			"gigaverb~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"mc.spindrift~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -191,5 +196,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 1,
-	"viewmode" : 1
+	"viewmode" : 1,
+	"includepackages" : 0
 }
